@@ -1,0 +1,86 @@
+#introduction #video {
+  width: 100%;
+  min-width: 560px;
+  min-height: 350px;
+  display: block;
+  -webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1024px) {
+  #introduction #video {
+    width: 90vw;
+    min-width: auto;
+  }
+}
+
+section#about_us,
+section#blogs,
+section#officers {
+  padding: 35px;
+  min-height: 350px;
+}
+
+section#about_us {
+  background-color: #025187;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+section#about_us p {
+  text-align: center;
+  color: #ffffff;
+  padding: 25px 80px;
+  font-size: 18px;
+}
+
+section#about_us a {
+  padding: 15px 40px;
+  font-weight: normal;
+}
+
+section#blogs {
+  padding-top: 60px;
+}
+
+section#blogs a.ui.button {
+  padding: 15px 40px;
+  font-weight: normal;
+}
+
+section#blogs .ui.buttons.container {
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+}
+
+section#officers {
+  padding-top: 60px;
+  border-top: 5px solid #fbd11f;
+}
+
+section#officers .grid {
+  padding: 20px;
+}
+
+section#officers .column.officer {
+  text-align: center;
+  font-size: 16px;
+}
+
+section#officers .column.officer .name {
+  padding-top: 10px;
+  color: #025187;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif !important;
+}
+
+section#officers .ui.buttons.container {
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+}
+
+section#officers a {
+  padding: 15px 40px;
+  font-weight: normal;
+}
+

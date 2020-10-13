@@ -1,0 +1,58 @@
+div#officers {
+  margin: 30px 50px;
+  margin-top: calc(56px + 30px);
+}
+
+@media screen and (max-width: 767px) {
+  div#officers h3 {
+    text-align: center;
+    font-size: 24px !important;
+  }
+}
+
+div#officers .committee {
+  margin: 30px;
+  padding: 30px 0px;
+}
+
+div#officers .committee h3 span:nth-child(1) {
+  color: #fbd11f !important;
+}
+
+div#officers .committee h3 span:nth-child(2) {
+  color: #025187 !important;
+}
+
+div#officers .committee:nth-child(odd) {
+  border-top: 5px solid #025187;
+}
+
+div#officers .committee:nth-child(even) {
+  border-top: 5px solid #fbd11f;
+}
+
+div#officers .committee ul {
+  margin: 0;
+  padding: 0;
+}
+
+div#officers .committee ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px 0px;
+}
+
+div#officers .officer {
+  text-align: center;
+  font-size: 16px;
+  max-width: 300px;
+  padding: 20px 20px;
+}
+
+div#officers .officer .name {
+  padding-top: 10px;
+  color: #025187;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif !important;
+}
+

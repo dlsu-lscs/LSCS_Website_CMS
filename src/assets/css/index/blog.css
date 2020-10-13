@@ -1,0 +1,30 @@
+#blog {
+  margin: calc(50px + 50px) 50px 50px 50px;
+  min-height: calc(100vh - 150px);
+  padding: 20px 50px;
+}
+
+#blog .body {
+  margin: 30px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#blog .body img {
+  margin: 30px auto;
+  display: block;
+}
+
+#blog .metadata {
+  margin-top: 10px;
+}
+
+#blog .metadata .left {
+  text-align: left !important;
+}
+
+#blog .metadata .right {
+  text-align: right !important;
+}
+
