@@ -6,7 +6,6 @@ author: Caitlienne Diane Juan
 date: 2019-04-30.08:12:27
 update: 2019-04-30.08:12:27
 ---
-
 After three years, La Salle Computer Society has brought back its intercollegiate programming competition “Clash of Brains.” The Clash of Brains is an event wherein students gather together to promote friendly competition and camaraderie along with honing their competitive programming skillset. The participants composed of students from De La Salle University (DLSU), Ateneo De Manila University (ADMU), University of the Philippines Diliman (UPD), and Mapua University. This year’s Clash of Brains was held last March 9, 2019.
 
 **Competition mechanics**
