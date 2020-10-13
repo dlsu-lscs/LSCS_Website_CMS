@@ -14,8 +14,6 @@ query {
 }
 </static-query>
 
-<script src="~/assets/js/app.js"></script>
-
 <script>
 // CSS
 import 'semantic-ui-css/semantic.min.css'

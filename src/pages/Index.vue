@@ -14,10 +14,10 @@
             <h3 class="ui compact lscs_yellow header"> LSCS </h3>
         </header>
         <p class="wow fadeInUp">
-            La Salle Computer Society is the only professional organization in the College of Computer Studies accredited by
-            the Council of Student Organizations in De La Salle University for over 33 years.
+            La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 35th year of service for the Lasallian community.
+            Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.
         </p>
-        <g-link class="ui lscs_yellow button" href="/about-us">
+        <g-link class="ui lscs_yellow button" to="/about-us">
             <span>Read More</span>
         </g-link>
     </section>
@@ -70,36 +70,14 @@
             <span class="lscs_yellow">LSCS</span>
             <span class="lscs_blue">OFFICERS</span>
         </h3>
+        <!-- 
+            - Update the CORE list
+            - Change arrangement to Operations, Internals, President, Externals, Laguna
+            - Add CORE Photos
+        -->
         <div class="ui five column stackable grid">
             <div class="column officer">
-                <!-- <img class="ui image centered" src="{{ ('img/officers/Ngo%20(low-res).jpg') }}"> -->
-                <div class="name">
-                    Ivan Jason Dichaves
-                </div>
-                <div class="description">
-                    President
-                </div>
-            </div>
-            <div class="column officer">
-                <!-- <img class="ui image centered" src="{{ asset('img/officers/Go%20(low-res).jpg') }}"> -->
-                <div class="name">
-                    Jonathan Go
-                </div>
-                <div class="description">
-                    Executive Vice President for Internals
-                </div>
-            </div>
-            <div class="column officer">
-                <!-- <img class="ui image centered" src="{{ asset('img/officers/Dino%20(low-res).jpg') }}"> -->
-                <div class="name">
-                    Charles Stepven Lin
-                </div>
-                <div class="description">
-                    Executive Vice President for Externals
-                </div>
-            </div>
-            <div class="column officer">
-                <!-- <img class="ui image centered" src="{{ asset('img/officers/Paragas%20(low-res).jpg') }}"> -->
+                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Myles.png" />
                 <div class="name">
                     Myles Russel Chan
                 </div>
@@ -108,7 +86,34 @@
                 </div>
             </div>
             <div class="column officer">
-                <!-- <img class="ui image centered" src="{{ asset('img/officers/Gallega%20(low-res).jpg') }}"> -->
+                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Legs.png" />
+                <div class="name">
+                    John Gabriel Legaspi
+                </div>
+                <div class="description">
+                    Executive Vice President for Internals
+                </div>
+            </div>
+            <div class="column officer">
+                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Reb.png" />
+                <div class="name">
+                    Rebecalyn Lao
+                </div>
+                <div class="description">
+                    President
+                </div>
+            </div>
+            <div class="column officer">
+                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Noki.png" />
+                <div class="name">
+                    Noki Topacio
+                </div>
+                <div class="description">
+                    Executive Vice President for Externals
+                </div>
+            </div>
+            <div class="column officer">
+                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
                 <div class="name">
                     Gabriel Lorenzo Dela Cruz
                 </div>
@@ -127,7 +132,7 @@
 </template>
 
 <page-query>
-query { 
+query Blogs {
   allBlog: allBlog (limit: 4) {
     totalCount
     edges {
@@ -145,14 +150,12 @@ query {
 }
 </page-query>
 
-<script src="~/assets/js/particles.js"></script>
-
 <script>
+import '~/assets/css/index/welcome.css'
+
 import moment from 'moment'
 
 import Particles from '../components/particles'
-
-import '~/assets/css/index/welcome.css'
 
 export default {
     components: {

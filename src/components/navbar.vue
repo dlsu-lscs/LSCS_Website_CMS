@@ -1,5 +1,5 @@
 <template>
-  <nav id="navigation" class="ui secondary menu" :class="{ scroll: top }">
+    <nav id="navigation" class="ui secondary menu" :class="{ scroll: top }">
         <div class = "brand">
             <g-image src="~/assets/favicon/apple-touch-icon-152x152.png" alt="" width="40" />
             <span class = "text"> La Salle Computer Society </span>
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-  </nav>
+    </nav>
 </template>
 
 <script>
@@ -89,7 +89,7 @@ export default {
 
     destroyed () {
         if (!process.browser) return
-        
+
         window.removeEventListener('scroll', this.handleScroll)
     },
 

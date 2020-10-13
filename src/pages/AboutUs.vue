@@ -8,9 +8,10 @@
                 <span class="lscs_yellow"> LSCS </span> 
             </h3>
             <p class="information">
-                La Salle Computer Society is the only professional organization in the
-                College of Computer Studies accredited by the Council of Student Organizations in De La
-                Salle University for over 33 years.
+                La Salle Computer Society is the pioneering organization in the College
+                of Computer Studies now on its 35th year of service for the Lasallian community.
+                Developing members to become competent and well-rounded Lasallians who are
+                aware of the numerous advances in computer technology.
             </p>
             <div class="ui stackable grid">
                 <div class="eight wide column">

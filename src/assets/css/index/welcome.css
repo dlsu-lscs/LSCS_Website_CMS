@@ -17,6 +17,7 @@
 section#about_us,
 section#blogs,
 section#officers {
+  margin: 0;
   padding: 35px;
   min-height: 350px;
 }
