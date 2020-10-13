@@ -23,10 +23,10 @@ var dates_data = {
         next: "2017-2018",
         prev: "2009-2010"
     },
-    // "2017-2018": {
-    //     order: 6,
-    //     prev: "2013-2014"
-    // }
+    "2017-2018": {
+        order: 6,
+        prev: "2013-2014"
+    }
 }
 
 var selected = $("#dates div.date.selected")
