@@ -1,9 +1,11 @@
 <template>
     <nav id="navigation" class="ui secondary menu" :class="{ scroll: top }">
-        <div class = "brand">
-            <g-image src="~/assets/favicon/apple-touch-icon-152x152.png" alt="" width="40" />
-            <span class = "text"> La Salle Computer Society </span>
-        </div> 
+        <g-link to="/">
+            <div class="brand">
+                <g-image src="~/assets/favicon/apple-touch-icon-152x152.png" alt="" width="40" />
+                <span class="text"> La Salle Computer Society </span>
+            </div>
+        </g-link>
         <div class="desktop right menu">
             <g-link class="item"
                 to="/"
@@ -39,31 +41,37 @@
         
         <div class="right menu mobile">
             <div class="content">
-                <div class="ui inline dropdown" :class="{ inverted: top }"  tabindex="0">
+                <div class="ui inline dropdown"
+                    :class="{ inverted: !top }"
+                    tabindex="0"
+                    @click="show = !show"
+                >
                     <div v-if="path === '/'" class="text"> <i class="icon home"> </i> Home </div>
                     <div v-if="path === '/about-us'" class="text"> <i class="icon lightbulb"> </i> About LSCS </div>
                     <div v-if="path === '/blogs'" class="text"> <i class="icon pencil"> </i> Blogs </div>
                     <div v-if="path === '/officers'" class="text"> <i class="icon users"> </i> Officers </div>
                     <i class="icon dropdown"> </i>
-                    <div class="vertical menu">
-                        <g-link class="item"
-                            to="/"
-                            exact
-                        > <i class="icon home"> </i> Home </g-link>
-                        <g-link class="item"
-                            to="/about-us"
-                            exact
-                        > <i class="icon lightbulb"> </i> About LSCS</g-link>
-                        <g-link class="item"
-                            to="/blogs"
-                            exact
-                        > <i class="icon pencil"> </i> Blogs</g-link>
-                        <g-link class="item"
-                            to="/officers"
-                            exact
-                        > <i class="icon users"> </i> Officers</g-link>
-                        <g-link class="item contactus-button"><i class="icon phone"> </i> Contact Us</g-link>
-                    </div>
+                    <transition name="shrink">
+                        <div v-if="show" class="vertical menu transition visible">
+                            <g-link class="item"
+                                to="/"
+                                exact
+                            > <i class="icon home"> </i> Home </g-link>
+                            <g-link class="item"
+                                to="/about-us"
+                                exact
+                            > <i class="icon lightbulb"> </i> About LSCS</g-link>
+                            <g-link class="item"
+                                to="/blogs"
+                                exact
+                            > <i class="icon pencil"> </i> Blogs</g-link>
+                            <g-link class="item"
+                                to="/officers"
+                                exact
+                            > <i class="icon users"> </i> Officers</g-link>
+                            <g-link class="item contactus-button"><i class="icon phone"> </i> Contact Us</g-link>
+                        </div>
+                    </transition>
                 </div>
             </div>
         </div>
@@ -77,7 +85,7 @@ export default {
             if (!process.browser) return
 
             this.top = window.scrollY < 50
-        }
+        },
     },
 
     created() {
@@ -97,11 +105,29 @@ export default {
         return {
             top: true,
             path: this.$route.path,
+            show: false,
         }
     },
 }
 </script>
 
 <style>
+.shrink-enter-active {
+    animation: scale-y .25s;
+}
 
+.shrink-leave-active {
+    animation: scale-y .25s reverse;
+}
+
+@keyframes shrink {
+    0% {
+        transform: translate(0, -52%) scale(1, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0) scale(1, 1);
+        opacity: 1;
+    }
+}
 </style>

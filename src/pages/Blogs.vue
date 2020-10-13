@@ -8,8 +8,7 @@
                     <h4 class="ui lscs_yellow header">Stay tuned for more updates!</h4>
                 </div>
             </div>
-            <h3 class="lscs_blue"> 
-                <i class="icon newspaper outline"></i>        
+            <h3 class="lscs_blue">    
                 BLOGS 
             </h3>
             <div class="ui centered stackable cards">
@@ -53,6 +52,8 @@
                 />
             </div>
         </div>
+
+        <contact-model />
     </Layout>
 </template>
 

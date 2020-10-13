@@ -43,7 +43,7 @@
                     <h5 class="five wide column white">
                         Blogs
                     </h5>
-                    <ul v-if="$page.allBlog.totalCount === 0" class="eleven wide column">
+                    <ul v-if="$static.footerBlog.totalCount === 0" class="eleven wide column">
                         <li><g-link class="link lscs_lighter_gray"> Coming Soon </g-link></li>
                     </ul>
                     <ul v-else class="eleven wide column">
@@ -97,13 +97,3 @@ query Footer {
   }
 }
 </static-query>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>

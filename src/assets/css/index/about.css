@@ -160,24 +160,6 @@ div#affiliations #affiliations_images img {
   margin: 0 auto;
 }
 
-div#fun_facts {
-  padding: 30px;
-  background: #1c1c1c;
-}
-
-div#fun_facts div.column {
-  text-align: center;
-}
-
-div#fun_facts div.column h4 {
-  font-weight: normal;
-  letter-spacing: 1px;
-}
-
-div#fun_facts .ui.grid {
-  margin: 30px 0px;
-}
-
 div#sponsors_partners {
   padding: 40px 30px;
 }
