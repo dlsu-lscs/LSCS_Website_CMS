@@ -74,16 +74,22 @@
 export default {
     methods: {
         handleScroll (event) {
+            if (!process.browser) return
+
             this.top = window.scrollY < 50
         }
     },
 
-    created () {
+    created() {
+        if (!process.browser) return
+
         this.top = window.scrollY < 50
         window.addEventListener('scroll', this.handleScroll)
     },
 
     destroyed () {
+        if (!process.browser) return
+        
         window.removeEventListener('scroll', this.handleScroll)
     },
 
