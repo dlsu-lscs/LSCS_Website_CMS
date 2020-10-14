@@ -56,8 +56,8 @@
             </div>
         </div>
         <section v-for="committee in committees"
-            :key="committee.name.toLowerCase()"
-            :id="committee.name.toLowerCase()"
+            :key="committee.acronym"
+            :id="committee.acronym"
             class="committee"
         >
             <h3>
@@ -90,6 +90,7 @@
                         </li>
                     </ul>
                 </div>
+                <div v-else class="column center"></div>
             </div>
         </section>
         <section id="laguna_campus" class="committee">
@@ -134,6 +135,7 @@ export default {
             committees: [
                 {
                     name: 'Academics',
+                    acronym: 'acads',
                     vp: 'John Henry Cagaoan',
                     avp: [
                         'Zoe Avila',
@@ -149,7 +151,8 @@ export default {
                     // ct: []
                 },
                 {
-                    name: 'Human Reseource Development',
+                    name: 'Human Resource Development',
+                    acronym: 'hrd',
                     vp: 'Ricson Andrei Vergara',
                     avp: [
                         'Charlene Ang',
@@ -168,6 +171,7 @@ export default {
                 },
                 {
                     name: 'Research and Development',
+                    acronym: 'rnd',
                     vp: 'Gerald Dalan',
                     avp: [
                         'Lynux Ansay',
@@ -186,10 +190,11 @@ export default {
                     // ct: []
                 },
                 {
-                    name: 'Training and Development ',
+                    name: 'Training and Development',
+                    acronym: 'tnd',
                     vp: 'Melody Joy Go',
                     avp: [
-                        'Jeric Barazza',
+                        'Jeric Barraza',
                         'Nicholas Campos',
                         'Samantha De Leon',
                         'Keil Chritopher Finez',
@@ -204,6 +209,7 @@ export default {
                 },
                 {
                     name: 'Corporate Relations',
+                    acronym: 'corporel',
                     vp: 'Shannon Gail Ho',
                     avp: [
                         'Axel Alba',
@@ -221,6 +227,7 @@ export default {
                 },
                 {
                     name: 'Publicity and Creatives',
+                    acronym: 'pubs',
                     vp: 'Sharmaine Gaw',
                     avp: [
                         'Louis Allen Aboy',
@@ -238,6 +245,7 @@ export default {
                 },
                 {
                     name: 'Publications',
+                    acronym: 'publi',
                     vp: 'Jarrett Ethan Singian',
                     avp: [
                         'Gwyneth Ang',
@@ -254,6 +262,7 @@ export default {
                 },
                 {
                     name: 'Socio-civic',
+                    acronym: 'socio-civic',
                     vp: 'Danielle Quieng',
                     avp: [
                         'Beatrice Berenguer',
@@ -271,6 +280,7 @@ export default {
                 },
                 {
                     name: 'University Relations',
+                    acronym: 'unirel',
                     vp: 'Bryan Ethan Tio',
                     avp: [
                         'Pete Choi',
@@ -286,6 +296,7 @@ export default {
                 },
                 {
                     name: 'Documentation and Logistics',
+                    acronym: 'docu',
                     vp: 'Julia Patricia Estella',
                     avp: [
                         'Bianca Benedictos',
@@ -304,6 +315,7 @@ export default {
                 },
                 {
                     name: 'Finance',
+                    acronym: 'fin',
                     vp: 'Richard Alvin Zapanta',
                     avp: [
                         'Juliana Agulto',

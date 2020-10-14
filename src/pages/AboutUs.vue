@@ -233,9 +233,11 @@ export default {
                 },
                 {
                     year: 2007,
-                    html: `<span class="lscs_yellow"> HARVEST OF WINNERS: </span> <br> 
-                            OUTSTANDING SOCIO-CIVIC PROJECT<br>
-                            CLIP`
+                    html: `
+                        <span class="lscs_yellow"> HARVEST OF WINNERS: </span> <br> 
+                        OUTSTANDING SOCIO-CIVIC PROJECT<br>
+                        CLIP
+                    `
                 },
                 {
                     year: 2010,
@@ -261,24 +263,24 @@ export default {
                 {
                     year: 2019,
                     html: `
-                        <span class="lscs_yellow"> Lasallian Excellence Award: </span> <br>
-                        Outstanding Publication Award <br>
-                        (1st Place) Bits & Bytes <br>
-                        <span class="lscs_yellow"> Lasallian Excellence Award: </span> <br>
+                        <span class="lscs_yellow"> LASALLIAN EXCELLENCE AWARD: </span> <br>
+                        OUTSTANDING PUBLICATION AWARD <br>
+                        (1ST PLACE) BITS & BYTES <br>
+                        <span class="lscs_yellow"> LASALLIAN EXCELLENCE AWARD: </span> <br>
                         Outstanding Organizational Development <br>
-                        (1st Place) IGNITE <br>
-                        <span class="lscs_yellow"> CSO Top Organizations: </span> <br> Top 2 Overall
+                        (1ST PLACE) IGNITE <br>
+                        <span class="lscs_yellow"> CSO TOP ORGANIZATIONS: </span> <br> TOP 2 OVERALL
                     `
                 },
                 {
                     year: 2020,
                     html: `
-                        <span class="lscs_yellow"> CSO Top Organizations: </span> <br>
-                        Top 1 in Term 1 <br>
-                        <span class="lscs_yellow"> CSO Finance Accreditation: </span> <br>
-                        Top 1 in Term 1 <br>
-                        <span class="lscs_yellow"> CSO Internals Accreditation: </span> <br>
-                        Top 2  in Term 1
+                        <span class="lscs_yellow"> CSO TOP ORGANIZATIONS: </span> <br>
+                        TOP 1 IN TERM 1 <br>
+                        <span class="lscs_yellow"> CSO FINANCE ACCREDITATION: </span> <br>
+                        TOP 1 IN TERM 1 <br>
+                        <span class="lscs_yellow"> CSO INTERNALS ACCREDITATION: </span> <br>
+                        TOP 2  IN TERM 1
                     `
                 }
             ]

@@ -7,9 +7,9 @@
                         Home
                     </h5>
                     <ul class="ten wide column">
-                        <li><g-link class="link lscs_lighter_gray" to="/home#about_us"> About Us Section    </g-link></li>
-                        <li><g-link class="link lscs_lighter_gray" to="/home#blogs">    Blog Section        </g-link></li>
-                        <li><g-link class="link lscs_lighter_gray" to="/home#officers"> Officers Section    </g-link></li>
+                        <li><g-link class="link lscs_lighter_gray" to="/">          About Us Section    </g-link></li>
+                        <li><g-link class="link lscs_lighter_gray" to="/#blogs">    Blog Section        </g-link></li>
+                        <li><g-link class="link lscs_lighter_gray" to="/#officers"> Officers Section    </g-link></li>
                     </ul>
                 </div>
             </div>
@@ -19,9 +19,9 @@
                         About Us
                     </h5>
                     <ul class="ten wide column">
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about#">                 Details        </g-link></li>
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about#vision_mission">   Vision/Mission </g-link></li>
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about#recognitions">     More           </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us">               Details        </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us">               Vision/Mission </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us#recognitions">  More           </g-link></li>
                     </ul>
                 </div>
             </div>
@@ -32,9 +32,9 @@
                         Officers
                     </h5>
                     <ul class="eleven wide column">
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/officers#">          Core      </g-link></li>
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/officers#academics"> Commitees </g-link></li>
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/officers#hrd">       More      </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/officers">       Core      </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/officers#acads"> Commitees </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/officers#hrd">   More      </g-link></li>
                     </ul>
                 </div>
             </div>

@@ -9,7 +9,6 @@
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
-            <!-- <iframe  id="video" src="https://www.youtube.com/embed/v5Rxdtj1-jY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
         </div>
     </section>
     <section id="about_us">

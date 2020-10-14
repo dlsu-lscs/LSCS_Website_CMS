@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .markdown-body {
     box-sizing: border-box;
     min-width: 200px;
@@ -96,4 +96,7 @@ div > p > img {
     max-width: 500px;
 }
 
+div#logo > p > img {
+    width: 32px;
+}
 </style>
