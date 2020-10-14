@@ -3,8 +3,8 @@ title: Term 1 - General Assembly
 subtitle: Short Activity Report 
 featuredImage: /uploads/blog2_1.jpg
 author: Jilyan Dy
-date: 2018-12-16.15:32:00
-update: 2018-12-16.15:32:00
+date: 2018-12-16T15:32:00
+update: 2018-12-16T15:32:00
 ---
 To kick off the academic year for the LSCS Members and Officers alike, the first General Assembly was held on October 12, 2018 in Andrew 20th.
 

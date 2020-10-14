@@ -3,8 +3,8 @@ title: TechnoKids IT Cup 2019
 subtitle: Short Activity Report 
 featuredImage: /uploads/blog5_1.jpg
 author: Jilyan Dy
-date: 2019-03-05.00:00:00
-update: 2019-03-05.00:00:00
+date: 2019-03-05T00:00:00
+update: 2019-03-05T00:00:00
 ---
 In partnership with Technokids, La Salle Computer Society (LSCS) annually organizes the TechnoKids IT Cup. This event aims to give the participants a better idea of what Information Technology (IT) is all about and to encourage them to pursue a career in the field of IT. TechnoKids IT Cup 2019 was held on January 19 and 26 at the Teresa Yuchengco Auditorium and 5/F Multipurpose Hall, Henry Sy Sr. Hall, respectively. There were 5 types of competitions held, namely the IT Quiz Bee, Robotics Cup, Graphic Design Competition, Web Design Competition, and Animation Competition. A total of 75 schools participated for TechnoKids IT Cup 2019 .
 

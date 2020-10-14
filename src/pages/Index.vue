@@ -168,7 +168,7 @@ export default {
 
     methods: {
         dateString(date) {
-            return moment(date, 'YYYY-MM-DD.H:mm:s').format('MMMM DD, YYYY')
+            return moment(date).format('MMMM DD, YYYY')
         }
     }
 }
