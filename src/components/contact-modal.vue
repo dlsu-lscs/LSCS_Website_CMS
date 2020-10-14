@@ -61,7 +61,6 @@
                                     <i class="times icon"></i>
                                     Cancel
                                 </div>
-                                <div data-netlify-recaptcha="true"></div>
                                 <button type="submit" class="ui positive button">
                                     <i class="paper plane icon"></i>
                                     Submit
@@ -99,10 +98,10 @@ export default {
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                     body: this.encode({
                         'form-name': e.target.getAttribute('name'),
-                        'name': this.name,
-                        'subject': this.subject,
-                        'email': this.email,
-                        'message': this.message,
+                        name: this.name,
+                        subject: this.subject,
+                        email: this.email,
+                        message: this.message,
                     }),
                 })
                 .then((data) => {
