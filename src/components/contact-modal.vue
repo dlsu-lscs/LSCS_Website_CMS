@@ -1,6 +1,6 @@
 <template>
     <div id="contact_modal">
-        <modal name="contact-modal"
+        <modal v-show="showModal" name="contact-modal"
             height="auto"
             :minHeight="500"
             :maxHeight="700"
@@ -77,7 +77,7 @@
             </div>
         </modal>
 
-        <modal name="success" :shiftY="1" height="auto" :width="400">
+        <modal v-show="showSuccess" name="success" :shiftY="1" height="auto" :width="400">
             <div :style="{
                 textAlign: 'center',
                 padding: '1.5rem 2rem',
@@ -88,7 +88,7 @@
             </div>
         </modal>
 
-        <modal name="error" height="auto" :width="400">
+        <modal v-show="showError" name="error" height="auto" :width="400">
             <div :style="{
                 textAlign: 'center',
                 padding: '1.5rem 2rem',
@@ -112,11 +112,15 @@ export default {
             invalidEmail: false,
             message: '',
             invalidMessage: false,
+            showModal: false,
+            showSuccess: false,
+            showError: false,
         }
     },
 
     methods: {
         show() {
+            this.showModal = true
             this.$modal.show('contact-modal')
         },
 
@@ -125,10 +129,12 @@ export default {
         },
 
         alertSuccess() {
+            this.showSuccess = true
             this.$modal.show('success')
         },
 
         alertError() {
+            this.showError = true
             this.$modal.show('error')
         },
 

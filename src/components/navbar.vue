@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <contact-modal v-show="showModal" ref="contactModal" />
+        <contact-modal ref="contactModal" />
     </nav>
 </template>
 
@@ -93,7 +93,6 @@ export default {
             top: true,
             path: this.$route.path,
             show: false,
-            showModal: false,
         }
     },
 
@@ -105,7 +104,6 @@ export default {
         },
 
         modal() {
-            this.showModal = true
             this.$refs.contactModal.show()
         },
     },
