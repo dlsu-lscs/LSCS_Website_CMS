@@ -7,3 +7,5 @@ date: 2020-10-14T06:29:53.222Z
 update: 2020-10-14T06:29:53.248Z
 ---
 This is the **body**. I am testing the body
+
+![](/uploads/macky.png)
