@@ -41,19 +41,19 @@
                             </p>
                             <div class="field">
                                 <label>Name</label>
-                                <input type="text" name="name" />
+                                <input type="text" name="name" v-model="formData.name" />
                             </div>
                             <div class="field">
                                 <label>Subject</label>
-                                <input type="text" name="subject" />
+                                <input type="text" name="subject" v-model="formData.subject" />
                             </div>
                             <div class="field">
                                 <label>Email</label>
-                                <input type="text" name="email" />
+                                <input type="text" name="email" v-model="formData.email" />
                             </div>
                             <div class="field">
                                 <label>Message</label>
-                                <textarea class="opensans" name="message" rows="3"></textarea>
+                                <textarea class="opensans" name="message" rows="3" v-model="formData.message"></textarea>
                             </div>
 
                             <div class="ui header actions">
