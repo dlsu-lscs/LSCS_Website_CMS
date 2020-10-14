@@ -34,6 +34,9 @@ module.exports = {
         typeName: 'Blog',
         remark: {}
       }
+    },
+    {
+      use: 'gridsome-plugin-modal'
     }
   ]
 }

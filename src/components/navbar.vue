@@ -32,7 +32,7 @@
                 Officers
             </g-link>
             
-            <div class="item">
+            <div @click="modal" class="item">
                 <g-link class="ui blue button contact_us_button">
                     Contact Us
                 </g-link>
@@ -69,22 +69,34 @@
                                 to="/officers"
                                 exact
                             > <i class="icon users"> </i> Officers</g-link>
-                            <g-link class="item contactus-button"><i class="icon phone"> </i> Contact Us</g-link>
+                            <div @click="modal" class="item contactus-button"><i class="icon phone"> </i> Contact Us</div>
                         </div>
                     </transition>
                 </div>
             </div>
         </div>
+
+        <contact-modal ref="contactModal" />
     </nav>
 </template>
 
 <script>
+import ContactModal from './contact-modal'
+
 export default {
+    components: {
+        ContactModal
+    },
+
     methods: {
         handleScroll (event) {
             if (!process.browser) return
 
             this.top = window.scrollY < 50
+        },
+
+        modal() {
+            this.$refs.contactModal.show()
         },
     },
 
@@ -95,7 +107,7 @@ export default {
         window.addEventListener('scroll', this.handleScroll)
     },
 
-    destroyed () {
+    destroyed() {
         if (!process.browser) return
 
         window.removeEventListener('scroll', this.handleScroll)
@@ -111,13 +123,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .shrink-enter-active {
-    animation: scale-y .25s;
+    animation: shrink .25s;
 }
 
 .shrink-leave-active {
-    animation: scale-y .25s reverse;
+    animation: shrink .25s reverse;
 }
 
 @keyframes shrink {

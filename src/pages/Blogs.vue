@@ -12,7 +12,7 @@
                 BLOGS 
             </h3>
             <div class="ui centered stackable cards">
-                <div v-for="blog in $page.allBlog.edges" :key="blog.node.date" class="card">
+                <div v-for="blog in $page.allBlog.edges" :key="blog.node.path" class="card">
                     <div class="image">
                         <img :src="blog.node.featuredImage" class="ui image" />
                     </div>
@@ -44,16 +44,11 @@
                     class="ui pagination menu"
                     prevLabel="<"
                     nextLabel=">"
-                    range="6"
-                    :linkClass="{
-                        desktop: true,
-                        item: true,
-                    }"
+                    :range="6"
+                    linkClass="desktop item"
                 />
             </div>
         </div>
-
-        <contact-model />
     </Layout>
 </template>
 

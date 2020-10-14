@@ -1,137 +1,137 @@
 <template>
-  <Layout>
-    <Particles />
-    <section id="introduction" class="ui center slide">
-        <div id="particles" class="background"> </div>
-        <div class="content">
-            <iframe id="video"
-                src="https://www.youtube.com/embed/1RhUN5LkPCg"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-    </section>
-    <section id="about_us">
-        <header class="wow fadeInUp"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-            <h5 class="ui compact white header"> ABOUT </h5>
-            <h3 class="ui compact lscs_yellow header"> LSCS </h3>
-        </header>
-        <p class="wow fadeInUp">
-            La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 35th year of service for the Lasallian community.
-            Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.
-        </p>
-        <g-link class="ui lscs_yellow button" to="/about-us">
-            <span>Read More</span>
-        </g-link>
-    </section>
+    <Layout>
+        <Particles />
+        <section id="introduction" class="ui center slide">
+            <div id="particles" class="background"> </div>
+            <div class="content">
+                <iframe id="video"
+                    src="https://www.youtube.com/embed/1RhUN5LkPCg"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-    <section id="blogs">
-        <div class="wow fadeInUp">
-            <h3 class="ui lscs_blue header">
-                BLOGS
-            </h3>
-            
-            <div v-if="$page.allBlog.totalCount !== 0">
-                <div class="ui centered stackable cards">
-                    <div v-for="blog in $page.allBlog.edges"
-                        :key="blog.node.date"
-                        class="card"
-                    >
-                        <div class="image">
-                            <img :src="blog.node.featuredImage" />
-                        </div>
-                        <div class="content">
-                            <div class="header raleway">
-                                {{ blog.node.title }}</div>
-                            <div class="meta">
-                                {{ dateString(blog.node.date) }} <br>
-                                Posted by: {{ blog.node.author }}
+        <section id="about_us">
+            <header class="wow fadeInUp"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <h5 class="ui compact white header"> ABOUT </h5>
+                <h3 class="ui compact lscs_yellow header"> LSCS </h3>
+            </header>
+            <p class="wow fadeInUp">
+                La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 35th year of service for the Lasallian community.
+                Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.
+            </p>
+            <g-link class="ui lscs_yellow button" to="/about-us">
+                <span>Read More</span>
+            </g-link>
+        </section>
+
+        <section id="blogs">
+            <div class="wow fadeInUp">
+                <h3 class="ui lscs_blue header">
+                    BLOGS
+                </h3>
+                
+                <div v-if="$page.allBlog.totalCount !== 0">
+                    <div class="ui centered stackable cards">
+                        <div v-for="blog in $page.allBlog.edges"
+                            :key="blog.node.date"
+                            class="card"
+                        >
+                            <div class="image">
+                                <img :src="blog.node.featuredImage" />
                             </div>
-                            <div class="description">
-                                {{ blog.node.excerpt }}...
+                            <div class="content">
+                                <div class="header raleway">
+                                    {{ blog.node.title }}</div>
+                                <div class="meta">
+                                    {{ dateString(blog.node.date) }} <br>
+                                    Posted by: {{ blog.node.author }}
+                                </div>
+                                <div class="description">
+                                    {{ blog.node.excerpt }}...
+                                </div>
                             </div>
-                        </div>
-                        <div class="extra content">
-                            <g-link :to="blog.node.path" class="lscs_blue link right floated">Read More</g-link>
+                            <div class="extra content">
+                                <g-link :to="blog.node.path" class="lscs_blue link right floated">Read More</g-link>
+                            </div>
                         </div>
                     </div>
+                    <div class="ui buttons container">
+                        <g-link class="ui lscs_blue button" to="/blogs">
+                            <span>Read more Blogs</span>
+                        </g-link>
+                    </div>
                 </div>
-                <div class="ui buttons container">
-                    <g-link class="ui lscs_blue button" to="/blogs">
-                        <span>Read more Blogs</span>
-                    </g-link>
+                <div v-else class="ui buttons container">
+                    <h4 class="lscs_blue"> There are no blogs yet. Please wait for further announcements! </h4>
                 </div>
             </div>
-            <div v-else class="ui buttons container">
-                <h4 class="lscs_blue"> There are no blogs yet. Please wait for further announcements! </h4>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="officers">
-        <h3 class="wow fadeInUp ui lscs_blue header">
-            <span class="lscs_yellow">LSCS</span>
-            <span class="lscs_blue">OFFICERS</span>
-        </h3>
-        <!-- 
-            - Update the CORE list
-            - Change arrangement to Operations, Internals, President, Externals, Laguna
-            - Add CORE Photos
-        -->
-        <div class="ui five column stackable grid">
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Myles.png" />
-                <div class="name">
-                    Myles Russel Chan
+        <section id="officers">
+            <h3 class="wow fadeInUp ui lscs_blue header">
+                <span class="lscs_yellow">LSCS</span>
+                <span class="lscs_blue">OFFICERS</span>
+            </h3>
+            <!-- 
+                - Update the CORE list
+                - Change arrangement to Operations, Internals, President, Externals, Laguna
+                - Add CORE Photos
+            -->
+            <div class="ui five column stackable grid">
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Myles.png" />
+                    <div class="name">
+                        Myles Russel Chan
+                    </div>
+                    <div class="description">
+                        Executive Vice President for Operations
+                    </div>
                 </div>
-                <div class="description">
-                    Executive Vice President for Operations
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Legs.png" />
+                    <div class="name">
+                        John Gabriel Legaspi
+                    </div>
+                    <div class="description">
+                        Executive Vice President for Internals
+                    </div>
+                </div>
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Reb.png" />
+                    <div class="name">
+                        Rebecalyn Lao
+                    </div>
+                    <div class="description">
+                        President
+                    </div>
+                </div>
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Noki.png" />
+                    <div class="name">
+                        Noki Topacio
+                    </div>
+                    <div class="description">
+                        Executive Vice President for Externals
+                    </div>
+                </div>
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
+                    <div class="name">
+                        Gabriel Lorenzo Dela Cruz
+                    </div>
+                    <div class="description">
+                        Executive Vice President for Laguna Campus
+                    </div>
                 </div>
             </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Legs.png" />
-                <div class="name">
-                    John Gabriel Legaspi
-                </div>
-                <div class="description">
-                    Executive Vice President for Internals
-                </div>
+            <div class="ui buttons container">
+                <g-link class="ui lscs_blue button" to="/officers">
+                    <span>See the Rest</span>
+                </g-link>
             </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Reb.png" />
-                <div class="name">
-                    Rebecalyn Lao
-                </div>
-                <div class="description">
-                    President
-                </div>
-            </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Noki.png" />
-                <div class="name">
-                    Noki Topacio
-                </div>
-                <div class="description">
-                    Executive Vice President for Externals
-                </div>
-            </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
-                <div class="name">
-                    Gabriel Lorenzo Dela Cruz
-                </div>
-                <div class="description">
-                    Executive Vice President for Laguna Campus
-                </div>
-            </div>
-        </div>
-        <div class="ui buttons container">
-            <g-link class="ui lscs_blue button" to="/officers">
-                <span>See the Rest</span>
-            </g-link>
-        </div>
-    </section>
-  </Layout>
+        </section>
+    </Layout>
 </template>
 
 <page-query>
@@ -162,18 +162,17 @@ import Particles from '../components/particles'
 
 export default {
     components: {
-        Particles
+        Particles,
     },
 
     methods: {
         dateString(date) {
             return moment(date).format('MMMM DD, YYYY')
-        }
-    }
+        },
+    },
 }
 </script>
 
 <style>
-
 
 </style>
