@@ -28,9 +28,17 @@
                         <form id="contact_us_form" class="ui form"
                             name="contact"
                             method="POST"
+                            v-on:submit.prevent="handleSubmit"
+                            action="/success/"
                             data-netlify="true"
-                            data-netlify-recaptcha="true"
+                            data-netlify-honeypot="bot-field"
                         >
+                        <input type="hidden" name="form-name" value="contact" />
+                            <p hidden>
+                                <label>
+                                Don’t fill this out: <input name="bot-field" />
+                                </label>
+                            </p>
                             <div class="field">
                                 <label>Name</label>
                                 <input type="text" name="name" />
@@ -76,6 +84,35 @@ export default {
 
         hide() {
             this.$modal.hide('contact-modal')
+        },
+
+        // NETLIFY FORMS
+        encode(data) {
+            return Object.keys(data)
+                .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+                .join('&')
+        },
+
+        handleSubmit(e) {
+            fetch('/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: this.encode({
+                        'form-name': e.target.getAttribute('name'),
+                        ...this.formData,
+                    }),
+                })
+                .then((data) => {
+                    console.log(data)
+                    alert('GOOD')
+                })
+                .catch(error => alert(error))
+        },
+
+        data() {
+            return {
+                formData: {},
+            }
         }
     },
 }
