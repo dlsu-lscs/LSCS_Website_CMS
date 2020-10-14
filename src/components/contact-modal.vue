@@ -41,19 +41,19 @@
                             </p>
                             <div class="field">
                                 <label>Name</label>
-                                <input type="text" name="name" v-model="formData.name" />
+                                <input type="text" name="name" v-model="name" />
                             </div>
                             <div class="field">
                                 <label>Subject</label>
-                                <input type="text" name="subject" v-model="formData.subject" />
+                                <input type="text" name="subject" v-model="subject" />
                             </div>
                             <div class="field">
                                 <label>Email</label>
-                                <input type="text" name="email" v-model="formData.email" />
+                                <input type="text" name="email" v-model="email" />
                             </div>
                             <div class="field">
                                 <label>Message</label>
-                                <textarea class="opensans" name="message" rows="3" v-model="formData.message"></textarea>
+                                <textarea class="opensans" name="message" rows="3" v-model="message"></textarea>
                             </div>
 
                             <div class="ui header actions">
@@ -99,7 +99,10 @@ export default {
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                     body: this.encode({
                         'form-name': e.target.getAttribute('name'),
-                        ...this.formData,
+                        'name': this.name,
+                        'subject': this.subject,
+                        'email': this.email,
+                        'message': this.message,
                     }),
                 })
                 .then((data) => {
@@ -111,7 +114,10 @@ export default {
 
         data() {
             return {
-                formData: {},
+                name: '',
+                subject: '',
+                email: '',
+                message: '',
             }
         }
     },
