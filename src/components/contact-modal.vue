@@ -25,7 +25,7 @@
                         </b>
                     </div>
                     <div class="eight wide column">
-                        <form id="contact_us_form" class="ui form" name="contact" method="POST" netlify>
+                        <form id="contact_us_form" class="ui form" name="contact" method="POST"  netlify>
                             <div class="field">
                                 <label>Name</label>
                                 <input type="text" name="name" />
