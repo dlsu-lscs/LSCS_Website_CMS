@@ -165,15 +165,14 @@
                     <g-image src="~/assets/img/sponsors/navitaire.jpg" alt="" class="ui left image" width="300" />
                     <g-image src="~/assets/img/sponsors/ob.png" alt="" class="ui left image" width="450" />
                 </div>
+                <div class="two wide column" />
                 <div class="four wide column">
-                    <g-image src="~/assets/img/sponsors/jpmorgan_black.png" alt="" class="ui left image" width="300" />
                     <g-image src="~/assets/img/sponsors/Accenture.png" alt="" class="ui left image" width="450" />
+                    <g-image src="~/assets/img/sponsors/jpmorgan_black.png" alt="" class="ui left image" width="300" />
                 </div>
+                <div class="two wide column" />
                 <div class="four wide column">
                     <g-image src="~/assets/img/sponsors/SGV.png" alt="" class="ui left image" width="175" />
-                </div>
-                <div class="four wide column">
-                    <!-- <g-image src="~/assets/img/sponsors/<image>" alt="" class="ui left image" width="300px" /> -->
                 </div>
                 <!-- <div class="eight wide column">
                     <h3 class="center"> 
@@ -194,28 +193,7 @@ export default {
     metaInfo: {
         title: 'About us'
     },
-
-    methods: {
-        updateYear(index, year) {
-            this.selected = index
-            this.selectedYear = year
-        },
-
-        nextYear() {
-            if (this.selected < this.selectedYear - 1) {
-                this.selected++
-                this.selectedYear = this.awards[this.selected].year
-            }
-        },
-
-        prevYear() {
-            if (this.selected > -1) {
-                this.selected--
-                this.selectedYear = this.awards[this.selected].year
-            }
-        },
-    },
-
+    
     data() {
         return {
             selected: 0,
@@ -285,6 +263,27 @@ export default {
                 }
             ]
         }
-    }
+    },
+
+    methods: {
+        updateYear(index, year) {
+            this.selected = index
+            this.selectedYear = year
+        },
+
+        nextYear() {
+            if (this.selected < this.selectedYear - 1) {
+                this.selected++
+                this.selectedYear = this.awards[this.selected].year
+            }
+        },
+
+        prevYear() {
+            if (this.selected > -1) {
+                this.selected--
+                this.selectedYear = this.awards[this.selected].year
+            }
+        },
+    },
 }
 </script>

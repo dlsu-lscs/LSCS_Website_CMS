@@ -39,21 +39,26 @@
                                 Don’t fill this out: <input name="bot-field" />
                                 </label>
                             </p>
-                            <div class="field">
+                            <div class="ui field" :class="{ error: invalidName }">
                                 <label>Name</label>
-                                <input type="text" name="name" v-model="name" />
+                                <input type="text" name="name" v-model="name"
+                                    @keypress="invalidName = false"/>
                             </div>
-                            <div class="field">
+                            <div class="ui field" :class="{ error: invalidSubject }">
                                 <label>Subject</label>
-                                <input type="text" name="subject" v-model="subject" />
+                                <input type="text" name="subject" v-model="subject"
+                                    @keypress="invalidSubject = false"/>
                             </div>
-                            <div class="field">
+                            <div class="ui field" :class="{ error: invalidEmail }">
                                 <label>Email</label>
-                                <input type="text" name="email" v-model="email" />
+                                <input type="text" name="email" v-model="email"
+                                    @keypress="invalidEmail = false"/>
                             </div>
-                            <div class="field">
+                            <div class="ui field" :class="{ error: invalidMessage }">
                                 <label>Message</label>
-                                <textarea class="opensans" name="message" rows="3" v-model="message"></textarea>
+                                <textarea class="opensans" name="message" rows="3"
+                                    v-model="message"
+                                    @keypress="invalidMessage = false"></textarea>
                             </div>
 
                             <div class="ui header actions">
@@ -71,11 +76,45 @@
                 </div>
             </div>
         </modal>
+
+        <modal name="success" :shiftY="1" height="auto" :width="400">
+            <div :style="{
+                textAlign: 'center',
+                padding: '1.5rem 2rem',
+                fontSize: '20px',
+            }">
+                <p>Your message has been sent to us</p>
+                <!-- <span @click="$modal.hide('success')">close</span> -->
+            </div>
+        </modal>
+
+        <modal name="error" height="auto" :width="400">
+            <div :style="{
+                textAlign: 'center',
+                padding: '1.5rem 2rem',
+                fontSize: '20px',
+            }">
+                <p>Something went wrong</p>
+            </div>
+        </modal>
     </div>
 </template>
 
 <script>
 export default {
+    data() {
+        return {
+            name: '',
+            invalidName: false,
+            subject: '',
+            invalidSubject: false,
+            email: '',
+            invalidEmail: false,
+            message: '',
+            invalidMessage: false,
+        }
+    },
+
     methods: {
         show() {
             this.$modal.show('contact-modal')
@@ -83,6 +122,14 @@ export default {
 
         hide() {
             this.$modal.hide('contact-modal')
+        },
+
+        alertSuccess() {
+            this.$modal.show('success')
+        },
+
+        alertError() {
+            this.$modal.show('error')
         },
 
         // NETLIFY FORMS
@@ -93,6 +140,37 @@ export default {
         },
 
         handleSubmit(e) {
+            // Validation
+            let error = false
+
+            if (!this.name.trim()) {
+                this.invalidName = true
+                error = true
+            }
+
+            if (!this.subject.trim()) {
+                this.invalidSubject = true
+                error = true
+            }
+
+            let emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ig
+            if (!this.email.trim()) {
+                this.invalidEmail = true
+                error = true
+            } else if (!emailRegex.test(this.email)) {
+                this.invalidEmail = true
+                error = true
+            }
+
+            if (!this.message.trim()) {
+                this.invalidMessage = true
+                error = true
+            }
+
+            if (error) {
+                return
+            }
+
             fetch('/', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -104,25 +182,21 @@ export default {
                         message: this.message,
                     }),
                 })
-                .then((data) => {
-                    console.log(data)
-                    alert('GOOD')
+                .then(() => {
+                    this.alertSuccess()
+                    this.hide()
                 })
-                .catch(error => alert(error))
+                .catch(err => {
+                    this.alertError()
+                })
         },
-
-        data() {
-            return {
-                name: '',
-                subject: '',
-                email: '',
-                message: '',
-            }
-        }
     },
 }
 </script>
 
 <style scope>
-
+/* .alert {
+    width: 200px;
+    height: 200px;
+} */
 </style>

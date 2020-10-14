@@ -88,6 +88,15 @@ export default {
         ContactModal
     },
 
+    data() {
+        return {
+            top: true,
+            path: this.$route.path,
+            show: false,
+            showModal: false,
+        }
+    },
+
     methods: {
         handleScroll (event) {
             if (!process.browser) return
@@ -112,15 +121,6 @@ export default {
         if (!process.browser) return
 
         window.removeEventListener('scroll', this.handleScroll)
-    },
-
-    data() {
-        return {
-            top: true,
-            path: this.$route.path,
-            show: false,
-            showModal: false
-        }
     },
 }
 </script>
