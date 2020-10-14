@@ -4,7 +4,7 @@ subtitle: Short Activity Report
 featuredImage: /uploads/blog4_1.jpg
 author: Celina Iris Brito 
 date: 2019-03-04T00:00:00
-update: 2019-03-04T00:00:00
+edit: 2019-03-04T00:00:00
 ---
 Final Countdown is a programming contest that was held on January 28, 2018. The event was headed by Melody Go (AVP), Hanna Bumanlag (CT), Aaron Fajardo (CT), and the following Junior Officers: Leanne Angulo, Bernice Betito, Alexis Dela Cruz, Christine Deticio, Jason Evangelista, Darren Tan, Maria Carol Teope, and Shimei Zhang. Final Countdown was inspired by the game, “Keep Talking and Nobody Explodes.” The contest aimed not only to challenge the participants' programming capabilities, but also to put their communication skills to the test.
 

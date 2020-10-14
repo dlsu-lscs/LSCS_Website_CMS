@@ -4,7 +4,7 @@ subtitle: Short Activity Report
 featuredImage: /uploads/blog7_1.jpg
 author: Celina Iris Brito
 date: 2019-06-30T05:53:23
-update: 2019-06-30T05:53:23
+edit: 2019-06-30T05:53:23
 ---
 The Lasallian Enrichment Alternative Program (LEAP) is held annually during De La Salle University's university week. LEAP 2019 was held on June 20, 2019. The various LEAP classes being offered are organized by organizations under the CSO, college and batch governments under the USG, and some offices of the University. Every year, there are over a hundred classes that Lasallians can choose from. This year is no different and La Salle Computer Society (LSCS) handled 4 LEAP classes. The classes were: a workshop about 3D modelling, a trip to Manila Ocean Park, and watching the Heneral Luna and the Goyo: Ang Batang Heneral movies.
 
