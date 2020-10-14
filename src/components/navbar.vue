@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <contact-modal v-if="showModal" ref="contactModal" />
+        <contact-modal v-show="showModal" ref="contactModal" />
     </nav>
 </template>
 
