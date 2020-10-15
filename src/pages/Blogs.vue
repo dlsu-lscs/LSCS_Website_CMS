@@ -21,7 +21,7 @@
                             {{ blog.node.title }}
                         </div>
                         <div class="meta">
-                            {{ dateString(blog.node.date) }} <br>
+                            {{ blog.node.date }} <br>
                             Posted by: {{ blog.node.author }}
                         </div>
                         <div class="description">
@@ -63,7 +63,7 @@ query Blogs ($page: Int) {
     edges {
       node {
         title
-        date
+        date (format: "MMMM DD, YYYY")
         featuredImage
         excerpt
         author
@@ -76,8 +76,6 @@ query Blogs ($page: Int) {
 </page-query>
 
 <script>
-import moment from 'moment'
-
 import '~/assets/css/index/blogs.css'
 
 import { Pager } from 'gridsome'
@@ -89,12 +87,6 @@ export default {
 
     metaInfo: {
         title: 'Blogs'
-    },
-
-    methods: {
-        dateString(date) {
-            return moment(date).format('MMMM DD, YYYY')
-        },
     },
 }
 </script>

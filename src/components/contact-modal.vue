@@ -17,11 +17,35 @@
                             Contact us
                             <g-image class="ui image" src="~/assets/img/macky.png" width="50"/>
                         </div>
+
+                        <br>
+
+                        <div id="social_media" class="ui center">
+                            <g-link to="https://www.facebook.com/LaSalleComputerSociety" target="_blank">
+                                <i class="big icon facebook f blue"> </i>
+                            </g-link>
+
+                            <g-link to="https://twitter.com/dlsu_LSCS" target="_blank">
+                                <i class="big icon twitter blue"> </i>
+                            </g-link>
+
+                            <g-link to="https://www.instagram.com/dlsu_lscs/" target="_blank">
+                                <i class="big icon instagram violet"> </i>
+                            </g-link>
+
+                            <g-link to="https://www.youtube.com/c/LaSalleComputerSociety" target="_blank">
+                                <i class="big icon youtube red"> </i>
+                            </g-link>
+                        </div>
+
+                        <br>
+                        <br>
+
                         <b>
-                            <div><i class="icon facebook f blue"> </i> /LaSalleComputerSociety</div>
-                            <div><i class="icon twitter blue"> </i> /dlsu_LSCS</div>
-                            <div><i class="icon instagram violet"> </i> /dlsu_lscs</div>
-                            <div><i class="icon youtube red"> </i> /LaSalleComputerSociety</div>
+                            <div>FB: /LaSalleComputerSociety</div>
+                            <div>Twitter: /dlsu_LSCS</div>
+                            <div>IG: /dlsu_lscs</div>
+                            <div>YT: /LaSalleComputerSociety</div>
                         </b>
                     </div>
                     <div class="eight wide column">
@@ -199,10 +223,3 @@ export default {
     },
 }
 </script>
-
-<style scope>
-/* .alert {
-    width: 200px;
-    height: 200px;
-} */
-</style>

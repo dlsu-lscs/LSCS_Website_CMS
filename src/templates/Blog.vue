@@ -20,14 +20,14 @@
                 </div>
                 <div class="column">
                     <div class="right">
-                        {{ dateString($page.blog.date) }} 
+                        {{ $page.blog.date }} 
                     </div>
                 </div>
             </div>
             <div class="mobile metadata">
                 <div class="left">
                     by: {{ $page.blog.author }} <br>
-                    {{ dateString($page.blog.date) }} 
+                    {{ $page.blog.date }} 
                 </div>
             </div>
             <hr>
@@ -58,20 +58,12 @@ query Blog ($path: String!) {
 import '~/assets/css/index/blog.css'
 import 'github-markdown-css'
 
-import moment from 'moment'
-
 export default {
     metaInfo() {
         return {
             title: this.$page.blog.title
         }
     },
-
-    methods: {
-        dateString(date) {
-            return moment(date).format('MMMM DD, YYYY')
-        }
-    }
 }
 </script>
 

@@ -1,50 +1,122 @@
 <template>
     <Layout>
         <div id="about_us" class="ui page container">
-            <div id="vision_mission">
-                <h3> 
-                    <span class="lscs_blue"> ABOUT </span> 
-                    <span class="lscs_yellow"> LSCS </span> 
-                </h3>
-                <p class="information">
-                    La Salle Computer Society is the pioneering organization in the College
-                    of Computer Studies now on its 35th year of service for the Lasallian community.
-                    Developing members to become competent and well-rounded Lasallians who are
-                    aware of the numerous advances in computer technology.
-                </p>
-                <div class="ui stackable grid">
-                    <div class="eight wide column">
-                        <h3> 
-                            <span class="lscs_yellow"> LSCS </span>
-                            <span class="lscs_blue"> VISION </span>
-                        </h3>
-                        <p class="information">
-                            We envision the La Salle Computer Society to be an organization that, through quality assistance and activities, will mold its members academically, socially and spiritually in order for them to become competent Lasallian students and well-rounded individuals. We also see the organization to be the pioneering student organization of the De La Salle University Manila that strongly symbolizes the expertise of the College of Computer Studes (CCS) in the field of computer science.
-                        </p>
-                    </div>
-                    <div class="eight wide column">
-                        <h3>
-                            <span class="lscs_yellow"> LSCS </span>
-                            <span class="lscs_blue"> MISSION </span>
-                        </h3>
-                        <div class="information">
-                            The La Salle Computer Society shall serve as a venue for the 
-                            growth and development of its member through a three-step course of:
-                            <ul class="list">
-                                <li> <b>Purpose</b> </li>
-                                to know and understand the reason behind every act, decision, and endeavor pursued.
+            <h3>
+                <span class="lscs_blue"> ABOUT </span> 
+                <span class="lscs_yellow"> LSCS </span> 
+            </h3>
+            <p class="information">
+                La Salle Computer Society is the pioneering organization in the College
+                of Computer Studies now on its 35th year of service for the Lasallian community.
+                Developing members to become competent and well-rounded Lasallians who are
+                aware of the numerous advances in computer technology.
+            </p>
+        </div>
 
-                                <li> <b>Process</b>  </li>
-                                to organize and oversee the entire procedure of every project and make sure that each goes through very necessary step towards the purpose.
+        <div id="what_we_do" class="ui page container">
+            <h3>
+                <span class="lscs_blue"> WHAT WE </span>
+                <span class="lscs_yellow"> DO </span>
+            </h3>
+            <p class="information">
+                LSCS holds many on-campus and off-campus activities for the college.
+                Some of these on-campus activities include programming seminars, workshops, fund-raising programs, and bazaars.
+                For off-campus activities, these include outreach programs, company career talks, and many more.
+            </p>
+            <div id="what_we_do_images" class="ui stackable grid">
+                <!-- TODO: will change the images -->
+                <div class="image-text">
+                    <!-- <div :style="{
+                        position: 'absolute',
+                        top: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'blue',
+                    }" /> -->
 
-                                <li> <b>Excellence</b> </li>
-                                to accomplish our goals in the best way possible and in accordance with the ideals of the organization and of De La Salle University Manila.
-                            </ul>
-                        </div>
+                    <g-image src="~/assets/img/events/1.jpg" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
+                    
+                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">SPARK</div>
+                </div> 
+
+                <div class="image-text">
+                    <!-- <div :style="{
+                        position: 'absolute',
+                        top: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'yellow',
+                    }" /> -->
+
+                    <g-image src="~/assets/img/events/2.jpg" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
+                    
+                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">TECH SUMMIT</div>
+                </div> 
+
+                <div class="image-text">
+                    <!-- <div :style="{
+                        position: 'absolute',
+                        top: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'blue',
+
+                    }" /> -->
+
+                    <g-image src="~/assets/img/events/4.jpg" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
+                    
+                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">GOKS CUP</div>
+                </div> 
+
+                <div class="image-text">
+                    <g-image src="~/assets/img/events/5.png" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
+                    
+                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">GOKS CUP</div>
+                </div>
+
+                <!-- <image-text src="~/assets/img/events/5.png"
+                    imgClass="ui image"
+                    textColor="rgba(0, 0, 0, 0.87)"
+                >
+                    GENERAL ASSEMBLY
+                </image-text> -->
+            </div>
+        </div>
+
+        <div id="vision_mission" class="ui page container">
+            <div class="ui stackable grid">
+                <div class="eight wide column">
+                    <h3> 
+                        <span class="lscs_yellow"> LSCS </span>
+                        <span class="lscs_blue"> VISION </span>
+                    </h3>
+                    <p class="information">
+                        We envision the La Salle Computer Society to be an organization that, through quality assistance and activities, will mold its members academically, socially and spiritually in order for them to become competent Lasallian students and well-rounded individuals. We also see the organization to be the pioneering student organization of the De La Salle University Manila that strongly symbolizes the expertise of the College of Computer Studes (CCS) in the field of computer science.
+                    </p>
+                </div>
+                <div class="eight wide column">
+                    <h3>
+                        <span class="lscs_yellow"> LSCS </span>
+                        <span class="lscs_blue"> MISSION </span>
+                    </h3>
+                    <div class="information">
+                        The La Salle Computer Society shall serve as a venue for the 
+                        growth and development of its member through a three-step course of:
+                        <ul class="list">
+                            <li> <b>Purpose</b> </li>
+                            to know and understand the reason behind every act, decision, and endeavor pursued.
+
+                            <li> <b>Process</b>  </li>
+                            to organize and oversee the entire procedure of every project and make sure that each goes through very necessary step towards the purpose.
+
+                            <li> <b>Excellence</b> </li>
+                            to accomplish our goals in the best way possible and in accordance with the ideals of the organization and of De La Salle University Manila.
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+
         <div id="recognitions">
             <h3 class="center"> 
                 <span class="lscs_yellow"> LSCS </span>
@@ -84,30 +156,6 @@
                             <div class="opensans ui lscs_light_gray center header mobile"> {{ award.year - 1 }} - {{ award.year }} </div>            
                         </h3>
                     </div>  
-                </div>
-            </div>
-        </div>
-
-        <div id="what_we_do" class="ui page container">
-            <h3>
-                <span class="lscs_blue"> WHAT WE </span>
-                <span class="lscs_yellow"> DO </span>
-            </h3>
-            <p class="information">
-                LSCS holds many on-campus and off-campus activities for the college.
-                Some of these on-campus activities include programming seminars, workshops, fund-raising programs, and bazaars.
-                For off-campus activities, these include outreach programs, company career talks, and many more.
-            </p>
-            <div id="what_we_do_images" class="ui stackable grid">
-                <!-- TODO: will change the images -->
-                <div class="three wide column"> 
-                    <g-image src="~/assets/img/events/01.jpg" alt="image_1" width="320" class="ui image" />
-                </div>
-                <div class="four wide centered column"> 
-                    <g-image src="~/assets/img/events/02.jpg" alt="image_1" width="320" class="ui image" />
-                </div>
-                <div class="five wide column"> 
-                    <g-image src="~/assets/img/events/03.jpg" alt="image_1" width="320" class="ui image" />
                 </div>
             </div>
         </div>
@@ -189,7 +237,13 @@
 <script>
 import '~/assets/css/index/about.css'
 
+import ImageText from '../components/contact-modal'
+
 export default {
+    props: {
+        ImageText
+    },
+
     metaInfo: {
         title: 'About us'
     },
@@ -287,3 +341,33 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+.image-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.opacity {
+    opacity: 0.60;
+}
+
+.tint {
+    position: 'absolute';
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centered {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-weight: 600;
+}
+</style>

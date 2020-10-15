@@ -2,9 +2,23 @@
     <Layout>
         <div id="officers">
         <h3>
-            <span class="lscs_yellow">LSCS</span>
-            <span>CORE</span>
-            <span class="lscs_blue">OFFICERS</span>
+            <h3>
+                <div :style="{ display: 'flex', alignItems: 'center' }">
+                    <div :style="{ marginRight: '1rem' }">
+                        <img class="ui"
+                            src="/uploads/logos/core.png"
+                            :style="{
+                                width: '64px',
+                            }"
+                        />
+                    </div>
+                    <div>
+                        <span class="lscs_yellow">LSCS</span>
+                        <span>CORE</span>
+                        <span class="lscs_blue">OFFICERS</span>
+                    </div>
+                </div>
+            </h3>
         </h3>
         <div class="ui centered stackable grid">
             <div class="officer">
@@ -61,12 +75,23 @@
             class="committee"
         >
             <h3>
-                <span class="lscs_yellow"> {{ committee.name.toUpperCase() }} </span>
-                <span class="lscs_blue"> COMMITTEE </span>
+                <div :style="{ display: 'flex', alignItems: 'center' }">
+                    <div :style="{ marginRight: '1rem' }">
+                        <img class="ui"
+                            :src="`/uploads/logos/${committee.acronym}.png`"
+                            :style="{
+                                width: '64px',
+                            }"
+                        />
+                    </div>
+                    <div>
+                        <span class="lscs_yellow"> {{ committee.name.toUpperCase() }} </span>
+                        <span class="lscs_blue"> COMMITTEE </span>
+                    </div>
+                </div>
             </h3>
             <div class="ui three column centered stackable grid">
                 <div class="column officer">
-                    <!-- TODO: Image here -->
                     <div class="name">
                         {{ committee.vp }}
                     </div>
@@ -262,7 +287,7 @@ export default {
                 },
                 {
                     name: 'Socio-civic',
-                    acronym: 'socio-civic',
+                    acronym: 'socio',
                     vp: 'Danielle Quieng',
                     avp: [
                         'Beatrice Berenguer',
@@ -280,7 +305,7 @@ export default {
                 },
                 {
                     name: 'University Relations',
-                    acronym: 'unirel',
+                    acronym: 'univrel',
                     vp: 'Bryan Ethan Tio',
                     avp: [
                         'Pete Choi',
@@ -296,7 +321,7 @@ export default {
                 },
                 {
                     name: 'Documentation and Logistics',
-                    acronym: 'docu',
+                    acronym: 'doculog',
                     vp: 'Julia Patricia Estella',
                     avp: [
                         'Bianca Benedictos',

@@ -12,7 +12,6 @@
     "github-markdown-css": "^4.0.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-modal": "^0.1.1",
-    "moment": "^2.29.1",
     "particles.js": "^2.0.0",
     "semantic-ui-css": "^2.4.1"
   }

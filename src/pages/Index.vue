@@ -44,7 +44,7 @@
                                 <div class="header raleway">
                                     {{ blog.node.title }}</div>
                                 <div class="meta">
-                                    {{ dateString(blog.node.date) }} <br>
+                                    {{ blog.node.date }} <br>
                                     Posted by: {{ blog.node.author }}
                                 </div>
                                 <div class="description">
@@ -141,7 +141,7 @@ query Blogs {
     edges {
       node {
         title
-        date
+        date (format: "MMMM DD, YYYY")
         featuredImage
         excerpt
         author
@@ -156,19 +156,11 @@ query Blogs {
 <script>
 import '~/assets/css/index/welcome.css'
 
-import moment from 'moment'
-
 import Particles from '../components/particles'
 
 export default {
     components: {
         Particles,
-    },
-
-    methods: {
-        dateString(date) {
-            return moment(date).format('MMMM DD, YYYY')
-        },
     },
 }
 </script>
