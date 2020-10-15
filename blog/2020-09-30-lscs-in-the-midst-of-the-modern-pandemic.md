@@ -1,7 +1,7 @@
 ---
 title: LSCS in the Midst of the Modern Pandemic
 subtitle: Life in the Midst of Pandemic
-featuredImage: /uploads/midst_of_a_modern.png
+featuredImage: /uploads/night.png
 author: Robbie De Mesa
 date: 2020-09-30T11:55:27
 edit: 2020-09-30T11:55:27
