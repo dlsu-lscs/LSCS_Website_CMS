@@ -41,8 +41,13 @@ section#about_us a {
   font-weight: normal;
 }
 
+section#upcoming_events {
+  padding: 35px 0px; 
+}
+
 section#blogs {
   padding-top: 60px;
+  border-top: 5px solid #fbd11f;
 }
 
 section#blogs a.ui.button {
