@@ -14,6 +14,7 @@
         </div>
 
         <div id="what_we_do" class="ui page container">
+            <g-image src="~/assets/img/events/5.png" alt="image" height="400" position="bottom" class="ui image"/>
             <h3>
                 <span class="lscs_blue"> WHAT WE </span>
                 <span class="lscs_yellow"> DO </span>
@@ -24,62 +25,10 @@
                 For off-campus activities, these include outreach programs, company career talks, and many more.
             </p>
             <div id="what_we_do_images" class="ui stackable grid">
-                <!-- TODO: will change the images -->
-                <div class="image-text">
-                    <!-- <div :style="{
-                        position: 'absolute',
-                        top: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: 'blue',
-                    }" /> -->
-
-                    <g-image src="~/assets/img/events/1.jpg" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
-                    
-                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">SPARK</div>
-                </div> 
-
-                <div class="image-text">
-                    <!-- <div :style="{
-                        position: 'absolute',
-                        top: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: 'yellow',
-                    }" /> -->
-
-                    <g-image src="~/assets/img/events/2.jpg" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
-                    
-                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">TECH SUMMIT</div>
-                </div> 
-
-                <div class="image-text">
-                    <!-- <div :style="{
-                        position: 'absolute',
-                        top: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: 'blue',
-
-                    }" /> -->
-
-                    <g-image src="~/assets/img/events/4.jpg" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
-                    
-                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">GOKS CUP</div>
-                </div> 
-
-                <div class="image-text">
-                    <g-image src="~/assets/img/events/5.png" alt="image_1" height="700" class="ui image opacity" :quality="100"/>
-                    
-                    <div class="centered" :style="{ color: 'rgba(0, 0, 0, 0.87)' }">GOKS CUP</div>
-                </div>
-
-                <!-- <image-text src="~/assets/img/events/5.png"
-                    imgClass="ui image"
-                    textColor="rgba(0, 0, 0, 0.87)"
-                >
-                    GENERAL ASSEMBLY
-                </image-text> -->
+                <g-image src="~/assets/img/events/1.jpg" alt="image_3" width="200" height="200" quality="100"/>
+                <g-image src="~/assets/img/events/2.jpg" alt="image_3" width="200" height="200" quality="100"/>
+                <g-image src="~/assets/img/events/4.jpg" alt="image_3" width="200" height="200" quality="100"/>
+                <g-image src="~/assets/img/events/5.png" alt="image_1" width="200" height="200" quality="100"/>
             </div>
         </div>
 
@@ -343,31 +292,5 @@ export default {
 </script>
 
 <style scoped>
-.image-text {
-    position: relative;
-    text-align: center;
-    color: white;
-    overflow: hidden;
-}
 
-.opacity {
-    opacity: 0.60;
-}
-
-.tint {
-    position: 'absolute';
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.centered {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 72px;
-    font-weight: 600;
-}
 </style>
