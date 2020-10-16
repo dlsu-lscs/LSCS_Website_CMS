@@ -25,9 +25,18 @@
             </g-link>
         </section>
 
+        <section id="upcoming_events">
+            <div class="wow fadeInUp">
+                <h3 class="ui centered lscs_blue header">
+                    EVENTS
+                </h3>
+                <Carousel/> 
+            </div>
+        </section>
+
         <section id="blogs">
             <div class="wow fadeInUp">
-                <h3 class="ui lscs_blue header">
+                <h3 class="ui centered lscs_blue header">
                     BLOGS
                 </h3>
                 
@@ -69,7 +78,7 @@
         </section>
 
         <section id="officers">
-            <h3 class="wow fadeInUp ui lscs_blue header">
+            <h3 class="wow fadeInUp ui centered lscs_blue header">
                 <span class="lscs_yellow">LSCS</span>
                 <span class="lscs_blue">OFFICERS</span>
             </h3>
@@ -157,10 +166,12 @@ query Blogs {
 import '~/assets/css/index/welcome.css'
 
 import Particles from '../components/particles'
+import Carousel from '../components/carousel'
 
 export default {
     components: {
         Particles,
+        Carousel 
     },
 }
 </script>
