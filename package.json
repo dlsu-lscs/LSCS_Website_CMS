@@ -13,6 +13,8 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-modal": "^0.1.1",
     "particles.js": "^2.0.0",
-    "semantic-ui-css": "^2.4.1"
+    "semantic-ui-css": "^2.4.1",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1"
   }
 }
