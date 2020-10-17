@@ -12,14 +12,18 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+
 export default {
+    props: ["events"],
+
     components: {
         Swiper,
         SwiperSlide
     },
+
     data() {
         return {
             swiperOptions: {
@@ -38,29 +42,7 @@ export default {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev'
                 }
-            },
-            events: [
-                {
-                    name: "Event 1", 
-                    url: require("@/assets/img/events/1.jpg")
-                }, 
-                {
-                    name: "Event 2", 
-                    url: require("@/assets/img/events/2.jpg")
-                }, 
-                {
-                    name: "Event 3", 
-                    url: require("@/assets/img/events/3.jpg")
-                }, 
-                {
-                    name: "Event 4", 
-                    url: require("@/assets/img/events/4.jpg")
-                }, 
-                {
-                    name: "Event 5", 
-                    url: require("@/assets/img/events/5.png")
-                }, 
-            ]
+            }
         }
     }
 }

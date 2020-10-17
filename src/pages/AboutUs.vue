@@ -71,41 +71,8 @@
                 <span class="lscs_yellow"> LSCS </span>
                 <span class="lscs_blue"> RECOGNITIONS </span>
             </h3>
-            <div id="timeline">
-                <div class="mobile action">
-                    <div @click="prevYear()" class="white ui link prev-date"> 
-                        <i class="icon angle left"></i>
-                    </div>
-                    <div @click="nextYear()" class="white ui link next-date"> 
-                        <i class="icon angle right"></i>
-                    </div>
-                </div>
-                <div id="dates" class="desktop">
-                    <div v-for="(award, index) in awards"
-                        :key="index"
-                        :data-id="award.year"
-                        class="date"
-                        :class="{
-                            selected: award.year === selectedYear
-                        }"
-                    > 
-                        <a @click="updateYear(index, award.year)"> <h4 class="opensans"> {{ award.year - 1 }} - {{ award.year }} </h4></a> 
-                    </div>
-                </div>
-                <div id="events">
-                    <div v-for="award in awards"
-                        :key="award.year"
-                        :id="award.year"
-                        class="event"
-                        :class="{ selected: award.year === selectedYear }"
-                    >   
-                        <h3 class="ui opensans center aligned icon header white"> 
-                            <i class="icon trophy circular"></i>
-                            <div v-html="award.html"></div>
-                            <div class="opensans ui lscs_light_gray center header mobile"> {{ award.year - 1 }} - {{ award.year }} </div>            
-                        </h3>
-                    </div>  
-                </div>
+            <div id="events">
+                <AwardsCarousel :awards="awardsByYear"/> 
             </div>
         </div>
 
@@ -186,12 +153,12 @@
 <script>
 import '~/assets/css/index/about.css'
 
-import ImageText from '../components/contact-modal'
+import AwardsCarousel from '../components/awards-carousel'
 
 export default {
-    props: {
-        ImageText
-    },
+    components: {
+        AwardsCarousel
+    }, 
 
     metaInfo: {
         title: 'About us'
@@ -201,93 +168,98 @@ export default {
         return {
             selected: 0,
             selectedYear: 1998,
-            awards: [
+            awardsByYear: [
                 {
                     year: 1998,
-                    html: `AMONGST THE <span class="lscs_yellow"> TOP 5 </span> IN THE COUNCIL OF STUDENT ORGANIZATIONS`
+                    awards: [
+                        {
+                            title: "AMONGST THE TOP 5", 
+                            description: "IN THE COUNCIL OF STUDENT ORGANIZATIONS"
+                        }
+                    ]
                 },
                 {
                     year: 2003,
-                    html: `
-                        <span class="lscs_yellow"> ROTARACT CLUB: </span> PLAQUE OF APPRECIATION 
-                    `
+                    awards: [
+                        {
+                            title: "ROTARACT CLUB:", 
+                            description: "PLAQUE OF APPRECIATION"
+                        }
+                    ]
                 },
                 {
                     year: 2007,
-                    html: `
-                        <span class="lscs_yellow"> HARVEST OF WINNERS: </span> <br> 
-                        OUTSTANDING SOCIO-CIVIC PROJECT<br>
-                        CLIP
-                    `
+                    awards: [
+                        {
+                            title: "HARVEST OF WINNERS:", 
+                            description: "OUTSTANDING SOCIO-CIVIC PROJECT <br> CLIP"
+                        }
+                    ]
                 },
                 {
                     year: 2010,
-                    html: `
-                        <span class="lscs_yellow"> HARVEST OF WINNERS: </span> <br> 
-                        MOST EFFICIENT ORGANIZATION IN PROCESSING ACTIVITIES
-                    `
+                    awards: [
+                        {
+                            title: "HARVEST OF WINNERS:", 
+                            description: "MOST EFFICIENT ORGANIZATION IN PROCESSING ACTIVITIES"
+                        }
+                    ]
                 },
                 {
                     year: 2014,
-                    html: `
-                        <span class="lscs_yellow"> HARVEST OF WINNERS: </span> <br> 
-                        STUDENT DISCIPLINE OFFICE AWARD
-                    `
+                    awards: [
+                        {
+                            title: "HARVEST OF WINNERS:", 
+                            description: "STUDENT DISCIPLINE OFFICE AWARD"
+                        }
+                    ]
                 },
                 {
                     year: 2018,
-                    html: `
-                        <span class="lscs_yellow"> CSO INTERNALS ACCREDITATION: </span> <br> 
-                        TOP 1 IN TERM 3
-                    `
+                    awards: [
+                        {
+                            title: "CSO INTERNALS ACCREDITATION:", 
+                            description: "TOP 1 IN TERM 3"
+                        }
+                    ]
                 },
                 {
                     year: 2019,
-                    html: `
-                        <span class="lscs_yellow"> LASALLIAN EXCELLENCE AWARD: </span> <br>
-                        OUTSTANDING PUBLICATION AWARD <br>
-                        (1ST PLACE) BITS & BYTES <br>
-                        <span class="lscs_yellow"> LASALLIAN EXCELLENCE AWARD: </span> <br>
-                        Outstanding Organizational Development <br>
-                        (1ST PLACE) IGNITE <br>
-                        <span class="lscs_yellow"> CSO TOP ORGANIZATIONS: </span> <br> TOP 2 OVERALL
-                    `
+                    awards: [
+                        {
+                            title: "LASALLIAN EXCELLENCE AWARD:", 
+                            description: "OUTSTANDING PUBLICATION AWARD <br> (1ST PLACE) BITS & BYTES"
+                        },
+                        {
+                            title: "LASALLIAN EXCELLENCE AWARD:",
+                            description: "Outstanding Organizational Development <br> (1ST PLACE) IGNITE"
+                        },
+                        {
+                            title: "CSO TOP ORGANIZATIONS:",
+                            description: "TOP 2 OVERALL"
+                        }
+                    ]
                 },
                 {
                     year: 2020,
-                    html: `
-                        <span class="lscs_yellow"> CSO TOP ORGANIZATIONS: </span> <br>
-                        TOP 1 IN TERM 1 <br>
-                        <span class="lscs_yellow"> CSO FINANCE ACCREDITATION: </span> <br>
-                        TOP 1 IN TERM 1 <br>
-                        <span class="lscs_yellow"> CSO INTERNALS ACCREDITATION: </span> <br>
-                        TOP 2  IN TERM 1
-                    `
+                    awards: [
+                        {
+                            title: "CSO TOP ORGANIZATIONS:",
+                            description: "TOP 1 IN TERM 1"
+                        },
+                        {
+                            title: "CSO FINANCE ACCREDITATION:",
+                            description: "TOP 1 in TERM 1"
+                        },
+                        {
+                            title: "CSO INTERNALS ACCREDITATION:",
+                            description: "TOP 2 IN TERM 1"
+                        }
+                    ]
                 }
             ]
         }
-    },
-
-    methods: {
-        updateYear(index, year) {
-            this.selected = index
-            this.selectedYear = year
-        },
-
-        nextYear() {
-            if (this.selected < this.selectedYear - 1) {
-                this.selected++
-                this.selectedYear = this.awards[this.selected].year
-            }
-        },
-
-        prevYear() {
-            if (this.selected > -1) {
-                this.selected--
-                this.selectedYear = this.awards[this.selected].year
-            }
-        },
-    },
+    }
 }
 </script>
 
