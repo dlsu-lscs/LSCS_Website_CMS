@@ -30,7 +30,7 @@
                 <h3 class="ui centered lscs_blue header">
                     EVENTS
                 </h3>
-                <Carousel/> 
+                <EventsCarousel :events="events"/> 
             </div>
         </section>
 
@@ -166,13 +166,40 @@ query Blogs {
 import '~/assets/css/index/welcome.css'
 
 import Particles from '../components/particles'
-import Carousel from '../components/carousel'
+import EventsCarousel from '../components/events-carousel'
 
 export default {
     components: {
         Particles,
-        Carousel 
+        EventsCarousel 
     },
+    
+    data() {
+        return {
+            events: [
+                {
+                    name: "Event 1", 
+                    url: require("@/assets/img/events/1.jpg")
+                }, 
+                {
+                    name: "Event 2", 
+                    url: require("@/assets/img/events/2.jpg")
+                }, 
+                {
+                    name: "Event 3", 
+                    url: require("@/assets/img/events/3.jpg")
+                }, 
+                {
+                    name: "Event 4", 
+                    url: require("@/assets/img/events/4.jpg")
+                }, 
+                {
+                    name: "Event 5", 
+                    url: require("@/assets/img/events/5.png")
+                }
+            ]
+        }
+    }
 }
 </script>
 

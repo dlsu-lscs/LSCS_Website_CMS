@@ -25,7 +25,6 @@ div#recognitions {
   padding: 30px 20px;
   -webkit-transition: 175ms;
   transition: 175ms;
-  min-height: calc(100vh - 50px);
 }
 
 div#recognitions #timeline .times {

@@ -1,7 +1,11 @@
 <template>
     <Layout>
         <div id="officers">
-        <h3>
+        <h3 class="center aligned">
+            <span class="lscs_yellow">LSCS</span>
+            <span class="lscs_blue">OFFICERS</span>
+        </h3>    
+        <section class="committee" id="core">
             <h3>
                 <div :style="{ display: 'flex', alignItems: 'center' }">
                     <div :style="{ marginRight: '1rem' }">
@@ -13,62 +17,60 @@
                         />
                     </div>
                     <div>
-                        <span class="lscs_yellow">LSCS</span>
                         <span>CORE</span>
-                        <span class="lscs_blue">OFFICERS</span>
                     </div>
                 </div>
             </h3>
-        </h3>
-        <div class="ui centered stackable grid">
-            <div class="officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Reb.png" />
-                <div class="name">
-                    Rebecalyn Lao
+            <div class="ui centered stackable grid">
+                <div class="officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Reb.png" />
+                    <div class="name">
+                        Rebecalyn Lao
+                    </div>
+                    <div class="position">
+                        President
+                    </div>
+                </div>    
+            </div>
+            <div class="ui four column centered stackable grid">
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Legs.png" />
+                    <div class="name">
+                        John Gabriel Legaspi
+                    </div>
+                    <div class="position">
+                        Executive Vice President for Internals
+                    </div>
                 </div>
-                <div class="position">
-                    President
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Noki.png" />
+                    <div class="name">
+                        Noki Topacio
+                    </div>
+                    <div class="position">
+                        Executive Vice President for Externals
+                    </div>
                 </div>
-            </div>    
-        </div>
-        <div class="ui four column centered stackable grid">
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Legs.png" />
-                <div class="name">
-                    John Gabriel Legaspi
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Myles.png" />
+                    <div class="name">
+                        Myles Russel Chan
+                    </div>
+                    <div class="position">
+                        Executive Vice President for Operations
+                    </div>
                 </div>
-                <div class="position">
-                    Executive Vice President for Internals
+                <div class="column officer">
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
+                    <div class="name">
+                        Gabriel Lorenzo Dela Cruz
+                    </div>
+                    <div class="position">
+                        Executive Vice President for Laguna Campus
+                    </div>
                 </div>
             </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Noki.png" />
-                <div class="name">
-                    Noki Topacio
-                </div>
-                <div class="position">
-                    Executive Vice President for Externals
-                </div>
-            </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Myles.png" />
-                <div class="name">
-                    Myles Russel Chan
-                </div>
-                <div class="position">
-                    Executive Vice President for Operations
-                </div>
-            </div>
-            <div class="column officer">
-                <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
-                <div class="name">
-                    Gabriel Lorenzo Dela Cruz
-                </div>
-                <div class="position">
-                    Executive Vice President for Laguna Campus
-                </div>
-            </div>
-        </div>
+        </section>
         <section v-for="committee in committees"
             :key="committee.acronym"
             :id="committee.acronym"
