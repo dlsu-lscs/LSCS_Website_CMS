@@ -79,7 +79,7 @@
 
         <section id="officers">
             <h3 class="wow fadeInUp ui centered lscs_blue header">
-                <span class="lscs_yellow">LSCS</span>
+                <span class="lscs_yellow">LSCS </span>
                 <span class="lscs_blue">OFFICERS</span>
             </h3>
             <!-- 
