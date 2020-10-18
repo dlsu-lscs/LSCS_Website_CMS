@@ -14,7 +14,7 @@
         </div>
 
         <div id="what_we_do" class="ui page container">
-            <g-image src="~/assets/img/events/5.png" alt="image" height="400" position="bottom" class="ui image"/>
+            <g-image src="~/assets/img/events/GA_Pic.jpg" alt="image" class="ui image"/>
             <h3>
                 <span class="lscs_blue"> WHAT WE </span>
                 <span class="lscs_yellow"> DO </span>
@@ -25,10 +25,10 @@
                 For off-campus activities, these include outreach programs, company career talks, and many more.
             </p>
             <div id="what_we_do_images" class="ui stackable grid">
-                <g-image src="~/assets/img/events/1.jpg" alt="image_3" width="200" height="200" quality="100"/>
-                <g-image src="~/assets/img/events/2.jpg" alt="image_3" width="200" height="200" quality="100"/>
-                <g-image src="~/assets/img/events/4.jpg" alt="image_3" width="200" height="200" quality="100"/>
-                <g-image src="~/assets/img/events/5.png" alt="image_1" width="200" height="200" quality="100"/>
+                <!-- <g-image src="~/assets/img/events/SPARK.png" alt="image" width="250" quality="100"/> -->
+                <g-image src="~/assets/img/events/TS.png" alt="image" width="300" quality="100"/>
+                <g-image src="~/assets/img/events/Goks_Cup.png" alt="image" width="300" quality="100"/>
+                <g-image src="~/assets/img/events/Ubisoft.png" alt="image" width="300" quality="100"/>
             </div>
         </div>
 

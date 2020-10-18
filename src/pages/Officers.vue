@@ -2,7 +2,7 @@
     <Layout>
         <div id="officers">
         <h3 class="center aligned">
-            <span class="lscs_yellow">LSCS</span>
+            <span class="lscs_yellow">LSCS </span>
             <span class="lscs_blue">OFFICERS</span>
         </h3>    
         <section class="committee" id="core">
@@ -122,8 +122,19 @@
         </section>
         <section id="laguna_campus" class="committee">
             <h3>
-                <span class="lscs_yellow"> LAGUNA CAMPUS </span>
-                <span class="lscs_blue"> COMMITTEE </span>
+                <div :style="{ display: 'flex', alignItems: 'center' }">
+                    <div :style="{ marginRight: '1rem' }">
+                        <img class="ui"
+                            src="/uploads/logos/laguna.png"
+                            :style="{
+                                width: '64px',
+                            }"
+                        />
+                    </div>
+                    <div>
+                        <span> LAGUNA CAMPUS </span>
+                    </div>
+                </div>
             </h3>
             <div class="ui relaxed stackable centered grid">
                 <div v-for="(officers, index) in laguna"
