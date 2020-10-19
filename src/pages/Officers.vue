@@ -76,85 +76,95 @@
             :id="committee.acronym"
             class="committee"
         >
-            <h3>
-                <div :style="{ display: 'flex', alignItems: 'center' }">
-                    <div :style="{ marginRight: '1rem' }">
-                        <img class="ui"
-                            :src="`/uploads/logos/${committee.acronym}.png`"
-                            :style="{
-                                width: '64px',
-                            }"
-                        />
-                    </div>
-                    <div>
-                        <span class="lscs_yellow"> {{ committee.name.toUpperCase() }} </span>
-                        <span class="lscs_blue"> COMMITTEE </span>
+            <div v-waypoint="{ active: true, callback: value => committeeTrigger(value, committee.acronym), options: intersectionOptions }"></div>
+            <transition name="fade-up">
+                <div v-if="show[committee.acronym]">
+                    <h3>
+                        <div :style="{ display: 'flex', alignItems: 'center' }">
+                            <div :style="{ marginRight: '1rem' }">
+                                <img class="ui"
+                                    :src="`/uploads/logos/${committee.acronym}.png`"
+                                    :style="{
+                                        width: '64px',
+                                    }"
+                                />
+                            </div>
+                            <div>
+                                <span class="lscs_yellow"> {{ committee.name.toUpperCase() }} </span>
+                                <span class="lscs_blue"> COMMITTEE </span>
+                            </div>
+                        </div>
+                    </h3>
+                    <div class="ui three column centered stackable grid">
+                        <div class="column center officer">
+                            <div class="name">
+                                {{ committee.vp }}
+                            </div>
+                            <div class="position">
+                                Vice President for {{ committee.name }}
+                            </div>
+                        </div>
+                        <div class="column center">
+                            <h5 class="ui lscs_blue header center">Associate Vice Presidents</h5>
+                            <ul class ="center lscs_dark_gray">
+                                <li v-for="(name, index) in committee.avp" :key="index">
+                                    {{ name }}
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="committee.ct" class="column center">
+                            <h5 class="ui lscs_blue header center">Committee Trainees</h5>
+                            <ul class ="center lscs_dark_gray">
+                                <li v-for="(name, index) in committee.ct" :key="index">
+                                    {{ name }}
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-else class="column center"></div>
                     </div>
                 </div>
-            </h3>
-            <div class="ui three column centered stackable grid">
-                <div class="column center officer">
-                    <div class="name">
-                        {{ committee.vp }}
-                    </div>
-                    <div class="position">
-                        Vice President for {{ committee.name }}
-                    </div>
-                </div>
-                <div class="column center">
-                    <h5 class="ui lscs_blue header center">Associate Vice Presidents</h5>
-                    <ul class ="center lscs_dark_gray">
-                        <li v-for="(name, index) in committee.avp" :key="index">
-                            {{ name }}
-                        </li>
-                    </ul>
-                </div>
-                <div v-if="committee.ct" class="column center">
-                    <h5 class="ui lscs_blue header center">Committee Trainees</h5>
-                    <ul class ="center lscs_dark_gray">
-                        <li v-for="(name, index) in committee.ct" :key="index">
-                            {{ name }}
-                        </li>
-                    </ul>
-                </div>
-                <div v-else class="column center"></div>
-            </div>
+            </transition>
         </section>
         <section id="laguna_campus" class="committee">
-            <h3>
-                <div :style="{ display: 'flex', alignItems: 'center' }">
-                    <div :style="{ marginRight: '1rem' }">
-                        <img class="ui"
-                            src="/uploads/logos/laguna.png"
-                            :style="{
-                                width: '64px',
-                            }"
-                        />
-                    </div>
-                    <div>
-                        <span> LAGUNA CAMPUS </span>
+            <div v-waypoint="{ active: true, callback: value => committeeTrigger(value, 'laguna'), options: intersectionOptions }"></div>
+            <transition name="fade-up">
+                <div v-if="show.laguna">
+                    <h3>
+                        <div :style="{ display: 'flex', alignItems: 'center' }">
+                            <div :style="{ marginRight: '1rem' }">
+                                <img class="ui"
+                                    src="/uploads/logos/laguna.png"
+                                    :style="{
+                                        width: '64px',
+                                    }"
+                                />
+                            </div>
+                            <div>
+                                <span> LAGUNA CAMPUS </span>
+                            </div>
+                        </div>
+                    </h3>
+                    <div class="ui relaxed stackable centered grid">
+                        <div v-for="(officers, index) in laguna"
+                            :key="index"
+                            class="three column row"
+                        >      
+                            <div v-for="(officer, index) in officers"
+                                :key="index"
+                                class="column officer"
+                            >
+                                <div class="name">
+                                    {{ officer.position }} <br>
+                                    for {{ officer.committee }}
+                                </div>
+                                <div class="position">
+                                    {{ officer.name }}
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </h3>
-            <div class="ui relaxed stackable centered grid">
-                <div v-for="(officers, index) in laguna"
-                    :key="index"
-                    class="three column row"
-                >      
-                    <div v-for="(officer, index) in officers"
-                        :key="index"
-                        class="column officer"
-                    >
-                        <div class="name">
-                            {{ officer.position }} <br>
-                            for {{ officer.committee }}
-                        </div>
-                        <div class="position">
-                            {{ officer.name }}
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </transition>
         </section>
         </div>
     </Layout>
@@ -170,6 +180,25 @@ export default {
 
     data() {
         return {
+            show: {
+                acads: false,
+                hrd: false,
+                rnd: false,
+                tnd: false,
+                corporel: false,
+                pubs: false,
+                publi: false,
+                socio: false,
+                univrel: false,
+                doculog: false,
+                fin: false,
+                laguna: false,
+            },
+            intersectionOptions: {
+                root: null,
+                rootMargin: '0px 0px 0px 0px',
+                threshold: [ 0.25, 0.75 ] // [0.25, 0.75] if you want a 25% offset!
+            },
             committees: [
                 {
                     name: 'Academics',
@@ -422,6 +451,32 @@ export default {
                 ]
             ]
         }
+    },
+
+    methods: {
+        committeeTrigger({ going, direction }, committee) {
+            console.log('hello')
+            if (going === this.$waypointMap.GOING_IN && direction === this.$waypointMap.DIRECTION_TOP) {
+                this.show[committee] = true
+            }
+        }
     }
 }
 </script>
+
+<style scoped>
+.fade-up-enter-active {
+    animation: fade-up 0.5s;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>

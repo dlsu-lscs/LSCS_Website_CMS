@@ -13,7 +13,7 @@
 
         <section id="about_us" :style="{ overflow: 'hidden' }">
             <div v-waypoint="{ active: true, callback: aboutUsTrigger, options: intersectionOptions }"></div>
-            <transition name="fade-2000ms">
+            <transition name="fade-up-2000ms">
                 <div v-if="aboutUs">
                     <header><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                         <h5 class="ui compact white header"> ABOUT </h5>
@@ -50,8 +50,8 @@
                     <div v-if="blogs">
                         <div v-if="$page.allBlog.totalCount !== 0">
                             <div class="ui centered stackable cards">
-                                <div v-for="blog in $page.allBlog.edges"
-                                    :key="blog.node.date"
+                                <div v-for="(blog, index) in $page.allBlog.edges"
+                                    :key="index"
                                     class="card"
                                 >
                                     <div class="image">
@@ -99,7 +99,7 @@
                 - Add CORE Photos
             -->
             <div class="ui five column stackable grid">
-                <transition name="fade-1750ms">
+                <transition name="fade-up-1750ms">
                     <div v-if="operation" class="column officer">
                         <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Myles.png" />
                         <div class="name">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </transition>
-                <transition name="fade-1250ms">
+                <transition name="fade-up-1250ms">
                     <div v-if="internal" class="column officer">
                         <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Legs.png" />
                         <div class="name">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </transition>
-                <transition name="fade-1000ms">
+                <transition name="fade-up-1000ms">
                     <div v-if="president" class="column officer">
                         <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Reb.png" />
                         <div class="name">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </transition>
-                <transition name="fade-1500ms">
+                <transition name="fade-up-1500ms">
                     <div v-if="external" class="column officer">
                         <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Noki.png" />
                         <div class="name">
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                 </transition>
-                <transition name="fade-2000ms">
+                <transition name="fade-up-2000ms">
                     <div v-if="laguna" class="column officer">
                         <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
                         <div class="name">
@@ -261,23 +261,23 @@ export default {
 </script>
 
 <style scoped>
-.fade-2000ms-enter-active {
+.fade-up-2000ms-enter-active {
     animation: fade-up 2s;
 }
 
-.fade-1750ms-enter-active {
+.fade-up-1750ms-enter-active {
     animation: fade-up 1.75s;
 }
 
-.fade-1500ms-enter-active {
+.fade-up-1500ms-enter-active {
     animation: fade-up 1.5s;
 }
 
-.fade-1250ms-enter-active {
+.fade-up-1250ms-enter-active {
     animation: fade-up 1.25s;
 }
 
-.fade-1000ms-enter-active {
+.fade-up-1000ms-enter-active {
     animation: fade-up 1s;
 }
 
