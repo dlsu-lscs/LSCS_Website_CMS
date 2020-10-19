@@ -9,8 +9,8 @@
             <h3>
                 <div :style="{ display: 'flex', alignItems: 'center' }">
                     <div :style="{ marginRight: '1rem' }">
-                        <img class="ui"
-                            src="/uploads/logos/core.png"
+                        <g-image class="ui"
+                            src="~/assets/img/logos/core.png"
                             :style="{
                                 width: '64px',
                             }"
@@ -82,8 +82,8 @@
                     <h3>
                         <div :style="{ display: 'flex', alignItems: 'center' }">
                             <div :style="{ marginRight: '1rem' }">
-                                <img class="ui"
-                                    :src="`/uploads/logos/${committee.acronym}.png`"
+                                <g-image class="ui"
+                                    :src="require(`~/assets/img/logos/${committee.acronym}.png`)"
                                     :style="{
                                         width: '64px',
                                     }"
@@ -132,8 +132,8 @@
                     <h3>
                         <div :style="{ display: 'flex', alignItems: 'center' }">
                             <div :style="{ marginRight: '1rem' }">
-                                <img class="ui"
-                                    src="/uploads/logos/laguna.png"
+                                <g-image class="ui"
+                                    src="~/assets/img/logos/laguna.png"
                                     :style="{
                                         width: '64px',
                                     }"
@@ -455,7 +455,6 @@ export default {
 
     methods: {
         committeeTrigger({ going, direction }, committee) {
-            console.log('hello')
             if (going === this.$waypointMap.GOING_IN && direction === this.$waypointMap.DIRECTION_TOP) {
                 this.show[committee] = true
             }
