@@ -49,7 +49,7 @@ query Blog ($path: String!) {
         author
         featuredImage (width: 100, quality: 100)
         content
-        date
+        date (format: "MMMM DD, YYYY")
     }
 }
 </page-query>

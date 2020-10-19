@@ -30,6 +30,7 @@ export default {
                 spaceBetween: 30,
                 centeredSlides: true,
                 loop: true, 
+                // effect: 'fade', TODO: here
                 autoplay: {
                     delay: 3000,
                     disableOnInteraction: false

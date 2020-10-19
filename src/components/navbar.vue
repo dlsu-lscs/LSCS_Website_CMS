@@ -21,7 +21,6 @@
             </g-link>
             <g-link class="item"
                 to="/blogs"
-                exact
             >
                 Blogs
             </g-link>

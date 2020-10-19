@@ -93,7 +93,7 @@
                 </div>
             </h3>
             <div class="ui three column centered stackable grid">
-                <div class="column officer">
+                <div class="column center officer">
                     <div class="name">
                         {{ committee.vp }}
                     </div>

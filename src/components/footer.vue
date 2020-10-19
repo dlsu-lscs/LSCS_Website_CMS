@@ -20,7 +20,7 @@
                     </h5>
                     <ul class="ten wide column">
                         <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us">               Details        </g-link></li>
-                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us">               Vision/Mission </g-link></li>
+                        <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us#vision_mission">Vision/Mission </g-link></li>
                         <li><g-link class="scroll-spy link lscs_lighter_gray" to="/about-us#recognitions">  More           </g-link></li>
                     </ul>
                 </div>

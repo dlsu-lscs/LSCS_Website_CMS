@@ -32,7 +32,11 @@
             </div>
         </div>
 
-        <div id="vision_mission" class="ui page container">
+        <div id="vision_mission" class="ui page container"
+            :style="{
+                paddingTop: '48px',
+            }"
+        >
             <div class="ui stackable grid">
                 <div class="eight wide column">
                     <h3> 
@@ -68,7 +72,7 @@
 
         <div id="recognitions"
             :style="{
-                backgroundColor: '#025187'
+                backgroundColor: '#025187',
             }"
         >
             <h3 class="center"

@@ -1,7 +1,11 @@
 <template>
   <div class="layout">
     <Navbar />
-    <slot/>
+    <transition name="fade" appear>
+      <main>
+        <slot/>
+      </main>
+    </transition>
     <Footer />
   </div>
 </template>
@@ -35,5 +39,15 @@ export default {
 body {
   margin: 0;
   padding: 0;
+}
+</style>
+
+<style scoped>
+.fade-enter-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 </style>
