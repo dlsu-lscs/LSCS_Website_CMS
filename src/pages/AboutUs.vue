@@ -66,10 +66,17 @@
             </div>
         </div>
 
-        <div id="recognitions">
-            <h3 class="center"> 
-                <span class="lscs_yellow"> LSCS </span>
-                <span class="lscs_blue"> RECOGNITIONS </span>
+        <div id="recognitions"
+            :style="{
+                backgroundColor: '#025187'
+            }"
+        >
+            <h3 class="center"
+                :style="{
+                    color: '#fff'
+                }"
+            >
+                LSCS RECOGNITIONS
             </h3>
             <div id="events">
                 <AwardsCarousel :awards="awardsByYear"/> 

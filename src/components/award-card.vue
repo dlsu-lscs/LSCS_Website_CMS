@@ -1,10 +1,17 @@
 <template>
     <div class="content ui opensans">
-        <h5>
-            <div class="ui header opensans center"> {{ award.year - 1 }} - {{ award.year }} </div>
+        <h5 :style="{
+                color: 'white',
+            }"
+        >
+            <div class="ui header opensans center" 
+                :style="{
+                    color: 'white'
+                }"
+            > {{ award.year - 1 }} - {{ award.year }} </div>
             <div class="description center">
-                <div v-for="(item,index) in award.awards" :key="index">
-                    <div class="lscs_blue" v-html="item.title"></div>
+                <div v-for="(item, index) in award.awards" :key="index">
+                    <div class="lscs_yellow" v-html="item.title"></div>
                     <div v-html="item.description"></div>
                     <br>
                 </div>
@@ -15,7 +22,9 @@
 
 <script>
 export default {
-    props: ["award"] 
+    props: {
+        award: Array
+    } 
 }
 </script>
 

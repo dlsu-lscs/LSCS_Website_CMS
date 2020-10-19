@@ -1,32 +1,41 @@
 <template>
-<div>
-    <swiper id="awards-carousel" class="swiper desktop" :options="swiperOptions">
-        <swiper-slide v-for="award in awards"
-            :key="award.year"
-            :id="award.year"
-            class="ui card"
-            :style="cardHeight"
-        >   
-            <AwardCard :award="award"/>
-        </swiper-slide> 
-        <div class="swiper-pagination" slot="pagination"></div>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
-    </swiper>
-    <swiper id="awards-carousel" class="swiper mobile" :options="swiperOptionsMobile">
-        <swiper-slide v-for="award in awards"
-            :key="award.year"
-            :id="award.year"
-            class="ui card award-slide-mobile"
-            :style="cardHeight"
-        >   
-            <AwardCard :award="award"/>
-        </swiper-slide> 
-        <div class="swiper-pagination" slot="pagination"></div>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
-    </swiper>
-</div>
+    <div>
+        <swiper id="awards-carousel" class="swiper desktop" :options="swiperOptions">
+            <swiper-slide v-for="award in awards"
+                :key="award.year"
+                :id="award.year"
+                class="ui card"
+                :style="{
+                    ...cardHeight,
+                    boxShadow: '2px 2px 10px #000000',
+                    borderRadius: 0,
+                    backgroundColor: '#1c1c1c',
+                }"
+            >   
+                <AwardCard :award="award"/>
+            </swiper-slide> 
+            <div class="swiper-pagination" slot="pagination"></div>
+            <div class="swiper-button-prev" slot="button-prev"></div>
+            <div class="swiper-button-next" slot="button-next"></div>
+        </swiper>
+        <swiper id="awards-carousel" class="swiper mobile" :options="swiperOptionsMobile">
+            <swiper-slide v-for="award in awards"
+                :key="award.year"
+                :id="award.year"
+                class="ui card award-slide-mobile"
+                :style="{
+                    ...cardHeight,
+                    boxShadow: 'none',
+                    borderRadius: 0,
+                }"
+            >   
+                <AwardCard :award="award"/>
+            </swiper-slide> 
+            <div class="swiper-pagination" slot="pagination"></div>
+            <div class="swiper-button-prev" slot="button-prev"></div>
+            <div class="swiper-button-next" slot="button-next"></div>
+        </swiper>
+    </div>
 </template>
 
 <script>
@@ -36,7 +45,9 @@ import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import AwardCard from '../components/award-card'
 
 export default {
-    props: ["awards"], 
+    props: {
+        awards: Array
+    }, 
 
     components: {
         Swiper,
@@ -52,9 +63,9 @@ export default {
                 spaceBetween: 30,
                 slidesPerGroup: 3,
                 loop: true,
-                loopFillGroupWithBlank: false,
+                // loopFillGroupWithBlank: false,
                 spaceBetween: 30,
-                centeredSlides: true,
+                // centeredSlides: true,
                 autoplay: {
                     delay: 3000,
                     disableOnInteraction: false
