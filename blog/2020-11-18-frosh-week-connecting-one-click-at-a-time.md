@@ -1,6 +1,6 @@
 ---
-title: "Frosh Week: Connecting One Click at a Time"
-subtitle: " "
+title: Frosh Week 2020
+subtitle: " Connecting One Click at a Time"
 featuredImage: /uploads/frosh-week.png
 author: Jarrett Ethan Singian
 date: 2020-11-18T09:23:09.719Z
