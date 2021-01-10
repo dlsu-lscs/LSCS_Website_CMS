@@ -18,8 +18,7 @@ DLSU Technology Summit 2020 is co presented by:
 Is made possible by: 
 
 * Trend Micro Inc 
-* Jack ‘n Jill 
-* Magic 
+* Jack ‘n Jill Magic 
 * Jack ‘n Jill Cloud 9 
 * Granny Goose Tortillos 
 * Winmate Enterprise 
@@ -28,4 +27,5 @@ Is made possible by:
 Major Media Partner: 
 
 * When in Manila 
-* The LaSallian Archers Network
+* The LaSallian 
+* Archers Network
