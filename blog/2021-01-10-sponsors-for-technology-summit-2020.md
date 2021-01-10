@@ -1,5 +1,5 @@
 ---
-title: Sponsors for Technology Summit 2020
+title: Sponsors for DLSU Technology Summit 2020
 subtitle: " "
 featuredImage: /uploads/sponsor.png
 author: La Salle Computer Society
