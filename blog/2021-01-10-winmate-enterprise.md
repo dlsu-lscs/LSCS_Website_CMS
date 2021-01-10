@@ -1,7 +1,7 @@
 ---
 title: Winmate Enterprise
 subtitle: " "
-featuredImage: /uploads/winmate-enterprise.jpg
+featuredImage: /uploads/winmate.png
 author: La Salle Computer Society
 date: 2021-01-10T08:57:18.250Z
 edit: 2021-01-10T08:57:18.300Z
