@@ -299,6 +299,22 @@ export default {
                     // ct: []
                 },
                 {
+                    name: 'Publications',
+                    acronym: 'publi',
+                    vp: 'Jarrett Ethan Singian',
+                    avp: [
+                        'Gwyneth Ang',
+                        'Robi Banogon',
+                        'Jason Bueno',
+                        'Anna Catahan',
+                        'Robbie De Mesa',
+                        'Kate Magbitang',
+                        'Regina Masilang',
+                        'Denver Noveda',
+                    ],
+                    // ct: []
+                },
+                {
                     name: 'Publicity and Creatives',
                     acronym: 'pubs',
                     vp: 'Sharmaine Gaw',
@@ -312,22 +328,6 @@ export default {
                         'Rainer Sih',
                         'Kenneth Tan',
                         'Sophia Vista',
-                    ],
-                    // ct: []
-                },
-                {
-                    name: 'Publications',
-                    acronym: 'publi',
-                    vp: 'Jarrett Ethan Singian',
-                    avp: [
-                        'Gwyneth Ang',
-                        'Robi Banogon',
-                        'Jason Bueno',
-                        'Anna Catahan',
-                        'Robbie De Mesa',
-                        'Kate Magbitang',
-                        'Regina Masilang',
-                        'Denver Noveda',
                     ],
                     // ct: []
                 },
@@ -463,7 +463,7 @@ export default {
                     {
                         position: 'Associate Vice President',
                         committee: 'Externals',
-                        names: ['Joshua Jadie']
+                        names: ['Joshue Jadie']
                     },
                 ]
             ]
