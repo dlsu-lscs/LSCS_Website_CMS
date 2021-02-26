@@ -145,9 +145,9 @@
                 </transition>
                 <transition name="fade-up-2000ms">
                     <div v-if="laguna" class="column officer">
-                        <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
+                        <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Mich.png" />
                         <div class="name">
-                            Gabriel Lorenzo Dela Cruz
+                            Michele Gelvoleo
                         </div>
                         <div class="description">
                             Executive Vice President for Laguna Campus

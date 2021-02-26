@@ -61,9 +61,9 @@
                     </div>
                 </div>
                 <div class="column officer">
-                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Gab.png" />
+                    <g-image class="ui image centered" src="~/assets/img/CORE_20-21/Mich.png" />
                     <div class="name">
-                        Gabriel Lorenzo Dela Cruz
+                        Michele Gelvoleo
                     </div>
                     <div class="position">
                         Executive Vice President for Laguna Campus
@@ -158,7 +158,13 @@
                                     for {{ officer.committee }}
                                 </div>
                                 <div class="position">
-                                    {{ officer.name }}
+                                    <ul class ="center lscs_dark_gray">
+                                        <li v-for="(name, index) in officer.names"
+                                                :key="index"
+                                            >
+                                            {{ name }}
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -304,11 +310,10 @@ export default {
                         'Ralph Marquez',
                         'Elderwell Ramos',
                         'Rainer Sih',
+                        'Kenneth Tan',
                         'Sophia Vista',
                     ],
-                    ct: [
-                        'Kenneth Tan',
-                    ]
+                    // ct: []
                 },
                 {
                     name: 'Publications',
@@ -318,14 +323,13 @@ export default {
                         'Gwyneth Ang',
                         'Robi Banogon',
                         'Jason Bueno',
+                        'Anna Catahan',
                         'Robbie De Mesa',
                         'Kate Magbitang',
                         'Regina Masilang',
                         'Denver Noveda',
                     ],
-                    ct: [
-                        'Anna Catahan',
-                    ]
+                    // ct: []
                 },
                 {
                     name: 'Socio-civic',
@@ -334,16 +338,14 @@ export default {
                     avp: [
                         'Beatrice Berenguer',
                         'Sandra Berjamin',
-                        'Tom Bernardo',
+                        'Fildric Chu',
                         'Sofia Cuevas',
                         'Reynaldo Delima',
                         'Kathleen Flores',
                         'Jeymar Pe',
                         'Jester Ramos',
                     ],
-                    ct: [
-                        'Fildric Chu',
-                    ]
+                    // ct: []
                 },
                 {
                     name: 'University Relations',
@@ -369,16 +371,15 @@ export default {
                         'Bianca Benedictos',
                         'Jericho Dizon',
                         'Daniel Enriquez',
+                        'Matthew Neal Lim',
                         'Clarissa Mandadero',
+                        'Patrick Ong',
+                        'Eugene Quiambao',
                         'Ian Racoma',
                         'Mikayla Tejada',
                         'Jethro Tsai',
                     ],
-                    ct: [
-                        'Matthew Neal Lim',
-                        'Patrick Ong',
-                        'Eugene Quiambao',
-                    ]
+                    // ct: []
                 },
                 {
                     name: 'Finance',
@@ -404,49 +405,65 @@ export default {
                     {
                         position: 'Vice President',
                         committee: 'Academics',
-                        name: 'Beaverly Cuasi'
+                        names: ['Beaverly Cuasi']
                     },
                     {
                         position: 'Vice President',
                         committee: 'Membership and Training',
-                        name: 'Ira Villanueva'
+                        names: ['Ira Villanueva']
                     },
                     {
                         position: 'Vice President',
                         committee: 'Externals',
-                        name: 'Victor Andrei Tulabot'
+                        names: ['Victor Andrei Tulabot']
                     },
                 ], [
                     {
                         position: 'Vice President',
                         committee: 'Publicity and Creatives',
-                        name: 'Stephen Salamante'
+                        names: ['Stephen Salamante']
                     },
                     {
                         position: 'Vice President',
                         committee: 'Operations',
-                        name: 'Michele Gelvoleo'
+                        names: ['Gabriel Lorenzo Dela Cruz']
                     },
                     {
                         position: 'Associate Vice President',
                         committee: 'Academics',
-                        name: 'Angeline Maris Gubat'
+                        names: ['Angeline Maris Gubat']
                     },
                 ], [
                     {
                         position: 'Associate Vice President',
                         committee: 'Membership and Training',
-                        name: 'John Joseph Reyes'
+                        names: [
+                            'John Joseph Reyes',
+                            'Vince Rosete',
+                            'Jan Carlo San Juan',
+                        ]
                     },
                     {
                         position: 'Associate Vice President',
                         committee: 'Publicity and Creatives',
-                        name: 'Jacob Darvin'
+                        names: [
+                            'Jacob Darvin',
+                            'Andre Ponce'
+                        ]
                     },
                     {
                         position: 'Associate Vice President',
                         committee: 'Operations',
-                        name: 'Rethaniel Ramos'
+                        names: [
+                            'Rethaniel Ramos',
+                            'Pancho Villaroman'
+                        ]
+                    },
+                ], [
+                    {
+                        position: 'Associate Vice President',
+                        committee: 'Externals',
+                        names: ['Joshua Jadie']
                     },
                 ]
             ]

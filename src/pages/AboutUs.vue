@@ -44,7 +44,7 @@
                         <span class="lscs_blue"> VISION </span>
                     </h3>
                     <p class="information">
-                        We envision the La Salle Computer Society to be an organization that, through quality assistance and activities, will mold its members academically, socially and spiritually in order for them to become competent Lasallian students and well-rounded individuals. We also see the organization to be the pioneering student organization of the De La Salle University Manila that strongly symbolizes the expertise of the College of Computer Studes (CCS) in the field of computer science.
+                        We envision the La Salle Computer Society to be an organization that, through quality assistance and activities, will mold its members academically, socially and spiritually in order for them to become competent Lasallian students and well-rounded individuals. We also see the organization to be the pioneering student organization of the De La Salle University Manila that strongly symbolizes the expertise of the College of Computer Studies (CCS) in the field of computer science.
                     </p>
                 </div>
                 <div class="eight wide column">
@@ -263,8 +263,8 @@ export default {
                             description: "TOP 1 in TERM 1"
                         },
                         {
-                            title: "CSO INTERNALS ACCREDITATION:",
-                            description: "TOP 2 IN TERM 1"
+                            title: "CSO TOP ORGANIZATIONS:",
+                            description: "TOP 4 OVERALL"
                         }
                     ]
                 }
