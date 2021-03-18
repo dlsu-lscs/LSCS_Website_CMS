@@ -1,10 +1,10 @@
 ---
 title: Virtual Goks Tour
 subtitle: " "
-featuredImage: /uploads/virtual-goks.png-w-logo.png
+featuredImage: /uploads/virtual-goks.jpg
 author: Anna Catahan
-date: 2021-03-12T13:39:54.980Z
-edit: 2021-03-12T13:39:55.077Z
+date: 2021-03-13T13:39:54.980Z
+edit: 2021-03-13T13:39:55.077Z
 ---
 <!--StartFragment-->
 
