@@ -271,7 +271,6 @@ export default {
                         'Nicholas Campos',
                         'Samantha De Leon',
                         'Keil Chritopher Finez',
-                        'Abigail Gan',
                         'James Lemsic',
                         'Judge Manzano',
                         'Matt Ordonia',
@@ -295,6 +294,7 @@ export default {
                         'Nicolas Sy',
                         'Christian Tan',
                         'Lorene Uy',
+                        'Terel Crisotomo'
                     ],
                     // ct: []
                 },
@@ -309,7 +309,6 @@ export default {
                         'Anna Catahan',
                         'Robbie De Mesa',
                         'Kate Magbitang',
-                        'Regina Masilang',
                         'Denver Noveda',
                     ],
                     // ct: []

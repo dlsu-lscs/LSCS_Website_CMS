@@ -135,20 +135,34 @@
                 <span class="lscs_blue"> OUR </span>
                 <span class="lscs_yellow"> SPONSORS </span>
             </h3>
-            <div class="ui stackable left grid">
-                <div class="four wide column">
-                    <g-image src="~/assets/img/sponsors/navitaire.jpg" alt="" class="ui left image" width="300" />
-                    <g-image src="~/assets/img/sponsors/ob.png" alt="" class="ui left image" width="450" />
+            <div class="ui stackable three column vertically divided grid container centered middle align">
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/navitaire.jpg" alt="Navitaire" class="ui left image" width="300" />
                 </div>
-                <div class="two wide column" />
-                <div class="four wide column">
-                    <g-image src="~/assets/img/sponsors/Accenture.png" alt="" class="ui left image" width="450" />
-                    <g-image src="~/assets/img/sponsors/jpmorgan_black.png" alt="" class="ui left image" width="300" />
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/ob.png" alt="Orange&amp;Bronze" class="ui left image" width="300" />
                 </div>
-                <div class="two wide column" />
-                <div class="four wide column">
-                    <g-image src="~/assets/img/sponsors/SGV.png" alt="" class="ui left image" width="175" />
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/jpmorgan_black.png" alt="JPMorgan" class="ui left image" width="300" />
                 </div>
+
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/dxc_logo_hz_blk_rgb-XXSML.png" alt="SGV" class="ui left image" width="600" />
+                </div>
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/MSI (black).png" alt="" class="ui left image" width="175" />
+                </div>
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/clinkit-logo-horiontal-lightbg-sm.png" alt="ClinkIT" class="ui left image" width="300" />
+                </div>
+
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/Accenture.png" alt="Accenture" class="ui left image" width="300" />
+                </div>
+                <div class="column">
+                    <g-image src="~/assets/img/sponsors/SGV.png" alt="SGV" class="ui left image" width="175" />
+                </div>
+
                 <!-- <div class="eight wide column">
                     <h3 class="center"> 
                         <i class="icon users lscs_blue"></i>
