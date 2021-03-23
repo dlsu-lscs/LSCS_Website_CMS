@@ -1,6 +1,6 @@
 ---
 title: LSCS 2nd General Assembly
-subtitle: The Best Virtual Beach Party
+subtitle: A Virtual Beach Party
 featuredImage: /uploads/2nd-ga.jpg
 author: Jarrett Ethan Singian
 date: 2021-03-23T05:55:30.646Z
