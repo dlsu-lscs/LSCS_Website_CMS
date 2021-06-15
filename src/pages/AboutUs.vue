@@ -140,7 +140,7 @@
                     <g-image src="~/assets/img/sponsors/navitaire.jpg" alt="Navitaire" class="ui left image" width="300" />
                 </div>
                 <div class="column">
-                    <g-image src="~/assets/img/sponsors/ob.png" alt="Orange&amp;Bronze" class="ui left image" width="300" />
+                    <g-image src="~/assets/img/sponsors/o&b.png" alt="Orange&amp;Bronze" class="ui left image" width="300" />
                 </div>
                 <div class="column">
                     <g-image src="~/assets/img/sponsors/jpmorgan_black.png" alt="JPMorgan" class="ui left image" width="300" />
