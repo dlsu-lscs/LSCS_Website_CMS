@@ -305,7 +305,6 @@ export default {
                     avp: [
                         'Gwyneth Ang',
                         'Robi Banogon',
-                        'Jason Bueno',
                         'Anna Catahan',
                         'Robbie De Mesa',
                         'Kate Magbitang',

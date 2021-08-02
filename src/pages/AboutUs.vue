@@ -147,7 +147,7 @@
                 </div>
 
                 <div class="column">
-                    <g-image src="~/assets/img/sponsors/dxc_logo_hz_blk_rgb-XXSML.png" alt="SGV" class="ui left image" width="600" />
+                    <g-image src="~/assets/img/sponsors/dxc.png" alt="SGV" class="ui left image" width="200" />
                 </div>
                 <div class="column">
                     <g-image src="~/assets/img/sponsors/MSI (black).png" alt="" class="ui left image" width="175" />
