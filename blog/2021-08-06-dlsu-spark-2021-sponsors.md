@@ -40,22 +40,17 @@ With just a click of a button, you can conveniently gather [store credit](https:
 
 Make online learning interesting and fun with Switch! Send us an email at education@switch.com.ph if you’re interested to learn more about Switch, and about how your school can be our partner.
 
-SPARK 2021 is also co-presented by 
 
-Accenture 
 
-CLINKIT Solutions
+**SPARK 2021 is also co-presented by** 
 
-DXC technology
-
-JPMorgan Chase & Co.
-
-MSI
-
-SGV 
-
-Navitaire
-
-Orange & Bronze 
+* Accenture 
+* CLINKIT Solutions
+* DXC technology
+* JPMorgan Chase & Co.
+* MSI
+* SGV 
+* Navitaire
+* Orange & Bronze 
 
 SPARK 2021 would like to thank all the sponsors for supporting the event and helping ignite the young minds of our participants to further pursue an interest in technology as they continue to become more innovative and create new possibilities in the future to come. This event would not be possible without all your support, thank you once again.
