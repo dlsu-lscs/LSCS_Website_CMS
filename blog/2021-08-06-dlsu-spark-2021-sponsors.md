@@ -8,15 +8,11 @@ edit: 2021-08-06T12:05:31.046Z
 ---
 SPARK is an annual event held by De La Salle University’s La Salle Computer Society to introduce high school students to a variety of topics under the fields of informatics and computing through a series of short talks and a culminating case competition.  This year was the first-ever iteration of SPARK that was held online, wherein workshops on Game Development, Cybersecurity, Artificial Intelligence and Personal Informatics were tackled. This ended with an IT Solutions Case Challenge with the theme “How will you incorporate technological innovations to create a sustainable community?”. The participants showed how much they’ve learned in our workshops as seen on the solutions they presented during the ideathon. All of this would not be possible without the esteemed partners and co-presenters of SPARK 2021.
 
-
-
-# CIA-STA Philippines
+## CIA-STA Philippines
 
 CAI-STA is a purpose-driven, privately held business technology services firm committed to bringing innovation to our clients and making a positive impact on our employees and the wider community.
 
-
-
-# Forest Interactive’s Wallet Codes
+## Forest Interactive’s Wallet Codes
 
 Forest Interactive’s Wallet Codes is an e-commerce platform that offers gift cards and game credits at affordable prices for gamers. It leverages the growing prevalence of e-wallets on major digital gaming platforms.
 
@@ -24,11 +20,9 @@ Forest Interactive’s Wallet Codes is an e-commerce platform that offers gift c
 2. Available in Myanmar, Philippines, Thailand, Malaysia, Indonesia, Taiwan, and Cambodia.
 3. Customers can pay through a flexible range of methods
 
+## Studio84, Inc., Switch
 
-
-# Studio84, Inc., Switch
-
-## Power through remote learning with Switch
+### Power through remote learning with Switch
 
 The global pandemic has changed how we live, work and study, but that doesn’t mean change has to be difficult. With Switch, remote learning is easier than ever before.
 
@@ -45,8 +39,6 @@ Switch now offers [AppleCare Protection Plan](https://istore.ph/blogs/newsroom/a
 With just a click of a button, you can conveniently gather [store credit](https://istore.ph/blogs/newsroom/get-more-value-out-of-your-old-device-when-you-trade-in) by trading in your device with something of its value in Switch locations all over the Philippines. Whether it’s an upgrade or exchanging your device for something you really want, Switch gives you an opportunity of a lifetime. Learn how to trade in your device [here](https://istore.ph/pages/trade-in).
 
 Make online learning interesting and fun with Switch! Send us an email at education@switch.com.ph if you’re interested to learn more about Switch, and about how your school can be our partner.
-
-
 
 SPARK 2021 is also co-presented by 
 
@@ -65,7 +57,5 @@ SGV 
 Navitaire
 
 Orange & Bronze 
-
-
 
 SPARK 2021 would like to thank all the sponsors for supporting the event and helping ignite the young minds of our participants to further pursue an interest in technology as they continue to become more innovative and create new possibilities in the future to come. This event would not be possible without all your support, thank you once again.
