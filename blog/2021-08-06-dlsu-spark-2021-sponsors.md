@@ -22,7 +22,7 @@ Forest Interactive’s Wallet Codes is an e-commerce platform that offers gift c
 
 ## Studio84, Inc., Switch
 
-### Power through remote learning with Switch
+**Power through remote learning with Switch**
 
 The global pandemic has changed how we live, work and study, but that doesn’t mean change has to be difficult. With Switch, remote learning is easier than ever before.
 
