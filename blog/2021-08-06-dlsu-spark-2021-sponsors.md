@@ -42,9 +42,7 @@ Make online learning interesting and fun with Switch! Send us an email at educat
 
 
 
-
-
-SPARK 2021 is also co-presented by 
+**SPARK 2021 is also co-presented by** 
 
 * Accenture 
 * CLINKIT Solutions
