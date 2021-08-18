@@ -74,6 +74,10 @@
             <g-link class="white link" to="https://www.youtube.com/c/LaSalleComputerSociety" target="_blank">
                 <i class="icon youtube"> </i>
             </g-link>
+
+            <g-link class="white link" to="https://www.linkedin.com/company/la-salle-computer-society/" target="_blank">
+                <i class="icon linkedin"> </i>
+            </g-link>
         </div>
         <div id="logo" class="ui center">
             <p class="ui white center">
