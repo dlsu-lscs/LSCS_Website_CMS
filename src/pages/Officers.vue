@@ -398,7 +398,7 @@ export default {
         {
           name: 'Documentation and Logistics',
           acronym: 'doculog',
-          vp: 'Clarrisa Mae Mandadero',
+          vp: 'Clarissa Mae Mandadero',
           vpImg: 'Clar',
           avp: [
             'Melanie Aquino',
