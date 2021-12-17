@@ -262,7 +262,7 @@ export default {
           avp: [
             'Janina Mishi Bacay',
             'Daniel Enriquez',
-            'Nilo Jatico',
+            'Nilo Jatico II',
             'Julian Carlos Li',
             'Dustin Maceda',
             'James Matthew Sy',
@@ -328,6 +328,7 @@ export default {
             'Hannah Chen',
             'Shannon Ho',
             'John Marvic Mojica',
+            'Kenneth Edward Tan',
             'Mikayla Tejada',
             'Kenn Michael Villarama',
           ],
@@ -371,11 +372,11 @@ export default {
           vpImg: 'Marc',
           avp: [
             'Charlene Ang',
-            'Reynaldo Delima',
+            'Reynaldo Delima Jr.',
             'Misael Andrei Marin',
             'Danessa Mayuga',
             'Reynaldo Delima',
-            'Santos Jaira',
+            'Jaira Santos',
             'Lorene Uy',
           ],
           // ct: []
@@ -391,9 +392,8 @@ export default {
             'Neil Matthew Lua',
             'Criscela Ysabelle Racelis',
             'Bryan Ethan Tio',
-            'Jose Tristan Tan',
           ],
-          // ct: []
+          ct: ['Jose Tristan Tan'],
         },
         {
           name: 'Documentation and Logistics',
@@ -425,7 +425,7 @@ export default {
             'Jan Daniel Lee Ng',
             'Nathan Dominick Ngo',
           ],
-          ct: ['Jerick Kerby Chua', 'Stanley Vincent Lim '],
+          ct: ['Jeric Kerby Chua', 'Stanley Vincent Lim '],
         },
       ],
       laguna: [
