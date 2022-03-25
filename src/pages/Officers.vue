@@ -442,11 +442,6 @@ export default {
         [
           {
             position: 'Vice President',
-            committee: 'Academics',
-            names: ['Angeline Gubat'],
-          },
-          {
-            position: 'Vice President',
             committee: 'Membership and Training',
             names: ['Angel Lopez'],
           },
@@ -457,11 +452,6 @@ export default {
           },
         ],
         [
-          {
-            position: 'Vice President',
-            committee: 'Operations',
-            names: ['Gabriel Lorenzo Dela Cruz'],
-          },
           {
             position: 'Associate Vice President',
             committee: 'Academics',
