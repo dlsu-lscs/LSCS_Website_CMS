@@ -136,11 +136,22 @@
                     }"
                   />
                 </div>
-                <div class="name">
+                <div class="name" v-if="committee.vp">
                   {{ committee.vp }}
                 </div>
-                <div class="position">
+                <div
+                  class="name"
+                  v-else
+                  v-for="(name, index) in committee.vpOIC"
+                  :key="index"
+                >
+                  {{ name }}
+                </div>
+                <div class="position" v-if="committee.vp">
                   Vice President for {{ committee.name }}
+                </div>
+                <div class="position" v-else>
+                  Officer-In-Charge Vice President for {{ committee.name }}
                 </div>
               </div>
               <div class="column center">
@@ -274,14 +285,13 @@ export default {
         {
           name: 'Human Resource Development',
           acronym: 'hrd',
-          vp: 'Azriel Matthew Ortega',
-          vpImg: 'Azriel',
+          vp: null,
+          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'],
+          vpImg: null,
           avp: [
             'Terel Lean Crisostomo',
             'Sofia Bianca Cuevas',
-            'Louis Angelo De Guzman',
             'Joaquin Escarraga',
-            'Gabriel Angelo Gerardino',
             'Hyenne Audrey Lim',
           ],
           // ct: []
