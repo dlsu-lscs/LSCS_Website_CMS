@@ -429,13 +429,15 @@ export default {
           vpImg: 'Juliana',
           avp: [
             'Kurt Lewis Chiu',
+            'Jeric Kerby Chua', 
             'Jericho Dizon',
             'Jason Jan Jabanes',
+            'Stanley Vincent Lim',
             'Sophia Lin',
             'Jan Daniel Lee Ng',
             'Nathan Dominick Ngo',
           ],
-          ct: ['Jeric Kerby Chua', 'Stanley Vincent Lim '],
+          // ct: [],
         },
       ],
       laguna: [
