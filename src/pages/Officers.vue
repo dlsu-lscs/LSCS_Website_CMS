@@ -391,9 +391,10 @@ export default {
             'Ayisha Miara Dytoc',
             'Neil Matthew Lua',
             'Criscela Ysabelle Racelis',
+			'Jose Tristan Tan',
             'Bryan Ethan Tio',
           ],
-          ct: ['Jose Tristan Tan'],
+          //ct: [],
         },
         {
           name: 'Documentation and Logistics',
