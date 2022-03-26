@@ -373,8 +373,9 @@ export default {
             'Rainer Nielsen Sih',
             'Lance Griffin Tan',
             'Sophia Danielle Vista',
+            'Jahn Juhlia Lu',
           ],
-          ct: ['Leigh Arriane Buendia', 'Jahn Juhlia Lu'],
+          // ct: []
         },
         {
           name: 'Socio-civic',
