@@ -324,8 +324,9 @@ export default {
             'Ramon Alvaro Jardin',
             'Joshua Tan',
             'Samuel Jedidiah Uy',
+            'Jared Frenzer Tan',
           ],
-          ct: ['Jared Frenzer Tan'],
+          // ct: [],
         },
         {
           name: 'Corporate Relations',
@@ -429,7 +430,7 @@ export default {
           vpImg: 'Juliana',
           avp: [
             'Kurt Lewis Chiu',
-            'Jeric Kerby Chua', 
+            'Jeric Kerby Chua',
             'Jericho Dizon',
             'Jason Jan Jabanes',
             'Stanley Vincent Lim',
