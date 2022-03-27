@@ -136,11 +136,22 @@
                     }"
                   />
                 </div>
-                <div class="name">
+                <div class="name" v-if="committee.vp">
                   {{ committee.vp }}
                 </div>
-                <div class="position">
+                <div
+                  class="name"
+                  v-else
+                  v-for="(name, index) in committee.vpOIC"
+                  :key="index"
+                >
+                  {{ name }}
+                </div>
+                <div class="position" v-if="committee.vp">
                   Vice President for {{ committee.name }}
+                </div>
+                <div class="position" v-else>
+                  Officer-In-Charge Vice President for {{ committee.name }}
                 </div>
               </div>
               <div class="column center">
@@ -274,14 +285,13 @@ export default {
         {
           name: 'Human Resource Development',
           acronym: 'hrd',
-          vp: 'Azriel Matthew Ortega',
-          vpImg: 'Azriel',
+          vp: null,
+          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'],
+          vpImg: null,
           avp: [
             'Terel Lean Crisostomo',
             'Sofia Bianca Cuevas',
-            'Louis Angelo De Guzman',
             'Joaquin Escarraga',
-            'Gabriel Angelo Gerardino',
             'Hyenne Audrey Lim',
           ],
           // ct: []
@@ -298,8 +308,9 @@ export default {
             'Pierre Vincent Hernandez',
             'Maxine Angela Ileto',
             'Josh Uson',
+            'Jose Mari Genuino',
           ],
-          ct: ['Jose Mari Genuino'],
+          // ct: []
         },
         {
           name: 'Training and Development',
@@ -314,8 +325,9 @@ export default {
             'Ramon Alvaro Jardin',
             'Joshua Tan',
             'Samuel Jedidiah Uy',
+            'Jared Frenzer Tan',
           ],
-          ct: ['Jared Frenzer Tan'],
+          // ct: [],
         },
         {
           name: 'Corporate Relations',
@@ -362,8 +374,9 @@ export default {
             'Rainer Nielsen Sih',
             'Lance Griffin Tan',
             'Sophia Danielle Vista',
+            'Jahn Juhlia Lu',
           ],
-          ct: ['Leigh Arriane Buendia', 'Jahn Juhlia Lu'],
+          // ct: []
         },
         {
           name: 'Socio-civic',
@@ -391,9 +404,10 @@ export default {
             'Ayisha Miara Dytoc',
             'Neil Matthew Lua',
             'Criscela Ysabelle Racelis',
+			'Jose Tristan Tan',
             'Bryan Ethan Tio',
           ],
-          ct: ['Jose Tristan Tan'],
+          //ct: [],
         },
         {
           name: 'Documentation and Logistics',
@@ -419,22 +433,19 @@ export default {
           vpImg: 'Juliana',
           avp: [
             'Kurt Lewis Chiu',
+            'Jeric Kerby Chua',
             'Jericho Dizon',
             'Jason Jan Jabanes',
+            'Stanley Vincent Lim',
             'Sophia Lin',
             'Jan Daniel Lee Ng',
             'Nathan Dominick Ngo',
           ],
-          ct: ['Jeric Kerby Chua', 'Stanley Vincent Lim '],
+          // ct: [],
         },
       ],
       laguna: [
         [
-          {
-            position: 'Vice President',
-            committee: 'Academics',
-            names: ['Angeline Gubat'],
-          },
           {
             position: 'Vice President',
             committee: 'Membership and Training',
@@ -447,11 +458,6 @@ export default {
           },
         ],
         [
-          {
-            position: 'Vice President',
-            committee: 'Operations',
-            names: ['Gabriel Lorenzo Dela Cruz'],
-          },
           {
             position: 'Associate Vice President',
             committee: 'Academics',
