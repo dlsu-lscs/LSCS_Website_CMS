@@ -308,8 +308,9 @@ export default {
             'Pierre Vincent Hernandez',
             'Maxine Angela Ileto',
             'Josh Uson',
+            'Jose Mari Genuino',
           ],
-          ct: ['Jose Mari Genuino'],
+          // ct: []
         },
         {
           name: 'Training and Development',
