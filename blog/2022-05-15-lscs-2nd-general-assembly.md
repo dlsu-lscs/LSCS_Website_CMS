@@ -2,7 +2,7 @@
 title: LSCS 2nd General Assembly
 subtitle: Term 2 GA (AY 2021-2022)
 featuredImage: /uploads/lscs-2ndga.jpg
-author: Lauren Garcia
+author: Lauren Antoinette Garcia
 date: 2022-04-29T02:46:48.854Z
 edit: 2022-04-29T02:46:48.867Z
 ---
