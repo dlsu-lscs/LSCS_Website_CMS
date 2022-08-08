@@ -14,14 +14,12 @@ All of this would not be possible without the esteemed partners and co-presenter
 
 
 
-###### Motivo
+## Motivo
 
 ![](/uploads/motivo_logo_white.png)
 
 The humble beginnings of Motivo started during 2018, when the founders saw a potential of starting up an electronics and mobile accessories brand in the Philippines. Creating a brand under the name Motivo was one of our top priorities in order to differentiate our mobile accessories from all the other products available in flea markets. Our pursuit of providing top of the line products at an affordable price was strengthened after they saw the underserved market in the country. Motivo’s pioneer product line started with mini power bank that were sold through Facebook. 
 
 In 2019, Motivo has expanded by targeting different distribution channels, such as e-commerce platforms, electronics distributors, and more. Since then, Motivo has continuously been climbing up the mobile accessories industry and has partnered up with local distributors nationwide. They have also established several product lines and are consistently
-
-
 
 <!--EndFragment-->
