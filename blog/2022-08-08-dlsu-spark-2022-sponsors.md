@@ -8,11 +8,9 @@ edit: 2022-08-08T09:24:22.404Z
 ---
 <!--StartFragment-->
 
-SPARK is an annual event held by De La Salle University’s La Salle Computer Society to introduce high school students to a variety of topics under the fields of informatics and computing through a series of short talks and a culminating case competition.  
+SPARK is an annual event held by De La Salle University’s La Salle Computer Society to introduce high school students to a variety of topics under the fields of informatics and computing through a series of short talks and a culminating case competition. SPARK 2022 had the theme: How will you utilize technological advancements to improve quality of life of people?, highlighting the importance of improving quality of life and attaining development to solve real-world problems during the pandemic. The talks under the program discussed Prototype, Game Development, Artificial Intelligence, Cyber Security, and Ideation Workshop. SPARK 2022 was headed by Nicholas Scott Campos and Janina Mishi Bacay.
 
 All of this would not be possible without the esteemed partners and co-presenters of SPARK 2022.
-
-
 
 #### Motivo
 
