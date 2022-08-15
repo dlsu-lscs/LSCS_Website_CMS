@@ -28,8 +28,6 @@ Shopee Mall: @motivoph\
 Lazada Mall: @motivoofficialstore\
 Youtube: https://youtube.com/channel/UCje_h_Y2W1Vgau7zE5YCXoA 
 
-
-
 #### BreederDAO
 
 ![](/uploads/bdao-socmed-profile-pic-1.png)
@@ -40,7 +38,8 @@ Connect with BreederDAO through:\
 Discord: https://bit.ly/BreederDAODiscord\
 Twitter: https://bit.ly/BreederDAOTwitter
 
-\
+
+
 We would also like to thank the LSCS Yearlong Sponsors:
 
 * Accenture
@@ -50,7 +49,5 @@ We would also like to thank the LSCS Yearlong Sponsors:
 * MSI
 * ClinkIT Solutions
 * Seven Seven Global Services Inc.
-
-
 
 <!--EndFragment-->
