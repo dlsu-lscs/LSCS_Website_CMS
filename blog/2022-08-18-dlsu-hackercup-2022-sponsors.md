@@ -8,7 +8,9 @@ edit: 2022-08-18T13:00:59.164Z
 ---
 <!--StartFragment-->
 
-Hackercup 2022 is a two-day event consisting of insightful webinars and an overnight competition of creating a concept based on a given theme. The aim is to propose a feasible, technology-based solution to an identified problem. La Salle Computer Society held Hackercup 2022 last August 12 to 13, 2022 via Zoom and streamed on the DLSU Hackercup Facebook Page. The competition itself allowed participants to think of innovative and creative solutions to address problems grounded on the United Nations' Sustainable Development Goals (SDG). It is headed by Krischelle Cadao, Juhlia Lu, and Ayiana Romero.  
+La Salle Computer Society held Hackercup 2022 last August 12 to 13 at Zoom and streamed on DLSU Hackercup Facebook Page. The first day held the competition and three workshops where speakers discussed Design Thinking with Mr. Mark Yao, Microsoft Sustainability with Mr. Gerald Carlos and Mr. Sean Calma, and a Figma Workshop with Ms. Joanna Mae Javier. 
+
+This followed the competition proper showcasing the creativity and problem solving skills of the participants in ideating technological solutions towards problems gravitating around the United Nations’ 17 Sustainable Development Goals (SDGs). The participants had solutions focusing on the chosen three SDGs: good health and well-being, quality education, and industry, innovation, and infrastructure. Hackercup 2022 was headed by Krischelle Cadao, and Ayiana Romero.
 
 Hackercup 2022 would like to thank all year long and company sponsors for supporting and actualizing this event.
 
@@ -61,5 +63,45 @@ Franchise Manila was founded in 2012 by a young blogger by the name of Gello. Si
 **Facebook:** https://www.facebook.com/franchisemanila
 
 **Website:** https://franchisemanila.com/
+
+This event would not have been possible for our esteemed partners and sponsors.
+
+**CO PRESENTED BY**
+
+* Accenture
+* BreederDAO
+* Clink IT Solutions
+* Commune Picks
+* Indra
+* Kaya Founders
+* Locad
+* MSI
+* Motivo Philippines
+* Navitaire
+* SevenSeven
+* Orange & Bronze 
+* SGV
+
+**MEDIA PARTNERS**
+
+* Archers Network
+* Ang Pahayagang Plaridel
+* The Lasallian
+* Spotted Magazine
+
+**IN PARTNERSHIP WITH**
+
+* FranchiseManila.com
+
+**ALSO BROUGHT TO YOU BY**
+
+* BusinessWorld Spark Up
+* Polarix
+
+
+
+The participants were able to achieve greatly on highlighting the United Nations Sustainable DEvelopment Goals in ideating and creating their solution while also learning insights from professionals in the industry. All of this would not be possible without your support, thank you on behalf of the organizers. For those who missed out on the event, you may check the livestream replay through DLSU Hackercup on Facebook. For more information, please check out their website on <https://lscs-hackercup-2022.vercel.app>. 
+
+
 
 <!--EndFragment-->
