@@ -24,11 +24,13 @@
         </h3>
         <div class="ui centered stackable grid">
           <div class="officer">
+            <!-- TODO: Update President's image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Richard.png"
             />
             <div class="name">
+              <!-- TODO: Update President's officer name -->
               Richard Alvin Zapanta
             </div>
             <div class="position">
@@ -38,11 +40,13 @@
         </div>
         <div class="ui four column centered stackable grid">
           <div class="column officer">
+            <!-- TODO: Update EVP-Internals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Ricson.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Internals' officer name -->
               Ricson Andrei Vergara
             </div>
             <div class="position">
@@ -50,11 +54,13 @@
             </div>
           </div>
           <div class="column officer">
+            <!-- TODO: Update EVP-Externals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Jeric.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Externals' officer name -->
               Jeric Austin Barraza
             </div>
             <div class="position">
@@ -62,11 +68,13 @@
             </div>
           </div>
           <div class="column officer">
+            <!-- TODO: Update EVP-Operations' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Kenley.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Operations' officer name -->
               Kenley Lewis Chiu
             </div>
             <div class="position">
@@ -74,11 +82,13 @@
             </div>
           </div>
           <div class="column officer">
+            <!-- TODO: Update EVP-Laguna's image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Joshue.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Laguna's officer name -->
               Joshue Jadie
             </div>
             <div class="position">
@@ -268,8 +278,8 @@ export default {
         {
           name: 'Academics',
           acronym: 'acads',
-          vp: 'Czarina Faye Tiu',
-          vpImg: 'Czarina',
+          vp: 'Czarina Faye Tiu', // TODO: Update VP-Academics' officer name
+          vpImg: 'Czarina', // TODO: Update VP-Academics' image (in png format)
           avp: [
             'Janina Mishi Bacay',
             'Daniel Enriquez',

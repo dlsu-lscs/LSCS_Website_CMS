@@ -135,11 +135,13 @@
       <div class="ui five column stackable grid">
         <transition name="fade-up-1750ms">
           <div v-if="operation" class="column officer">
+            <!-- TODO: Update EVP-Operations' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Kenley.png"
             />
             <div class="name">
+              <!-- TODO: Update EVP-Operations' officer name -->
               Kenley Lewis Chiu
             </div>
             <div class="description">
@@ -149,11 +151,13 @@
         </transition>
         <transition name="fade-up-1250ms">
           <div v-if="internal" class="column officer">
+            <!-- TODO: Update EVP-Internals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Ricson.png"
             />
             <div class="name">
+              <!-- TODO: Update EVP-Internals' officer name -->
               Ricson Andrei Vergara
             </div>
             <div class="description">
@@ -163,11 +167,13 @@
         </transition>
         <transition name="fade-up-1000ms">
           <div v-if="president" class="column officer">
+            <!-- TODO: Update President's image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Richard.png"
             />
             <div class="name">
+              <!-- TODO: Update President's officer name -->
               Richard Alvin Zapanta
             </div>
             <div class="description">
@@ -177,11 +183,13 @@
         </transition>
         <transition name="fade-up-1500ms">
           <div v-if="external" class="column officer">
+            <!-- TODO: Update EVP-Externals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Jeric.png"
             />
             <div class="name">
+              <!-- TODO: Update EVP-Externals' officer name -->
               Jeric Austin Barraza
             </div>
             <div class="description">
@@ -191,11 +199,13 @@
         </transition>
         <transition name="fade-up-2000ms">
           <div v-if="laguna" class="column officer">
+            <!-- TODO: Update EVP-Laguna' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Joshue.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Laguna' officer name -->
               Joshue Jadie
             </div>
             <div class="description">
