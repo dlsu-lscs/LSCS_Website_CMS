@@ -279,7 +279,8 @@ export default {
           name: 'Academics',
           acronym: 'acads',
           vp: 'Czarina Faye Tiu', // TODO: Update VP-Academics' officer name
-          vpImg: 'Czarina', // TODO: Update VP-Academics' image (in png format)
+          vpImg: 'Czarina', // TODO: Update VP-Academics' image (in PNG format)
+          // TODO: Update Acads-AVPs
           avp: [
             'Janina Mishi Bacay',
             'Daniel Enriquez',
@@ -290,14 +291,16 @@ export default {
             'Miguel Tansingco',
             'Jacob Miguel Villa',
           ],
+          // TODO: Uncomment and add Acads-CT(s)
           // ct: []
         },
         {
           name: 'Human Resource Development',
           acronym: 'hrd',
           vp: null,
-          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'],
+          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'], // TODO: Update OIC-HRD
           vpImg: null,
+          // TODO: Update HRD-AVPs
           avp: [
             'Terel Lean Crisostomo',
             'Sofia Bianca Cuevas',
@@ -309,8 +312,9 @@ export default {
         {
           name: 'Research and Development',
           acronym: 'rnd',
-          vp: 'Heinze Kristian Moneda',
-          vpImg: 'Heinze',
+          vp: 'Heinze Kristian Moneda', // TODO: Update VP-RND's officer name
+          vpImg: 'Heinze', // TODO: Update VP-RND's image (in PNG format)
+          // TODO: Update RND-AVPs
           avp: [
             'John Vincent Chua',
             'Alfonso Miguel Cruz',
@@ -320,13 +324,15 @@ export default {
             'Josh Uson',
             'Jose Mari Genuino',
           ],
+          // TODO: Uncomment and add RND-CT(s)
           // ct: []
         },
         {
           name: 'Training and Development',
           acronym: 'tnd',
-          vp: 'Jordan Sibug',
-          vpImg: 'Jordan',
+          vp: 'Jordan Sibug', // TODO: Udpate VP-TND's officer name
+          vpImg: 'Jordan', // TODO: Update VP-TND's image (in PNG format)
+          // TODO: Update TND-AVPs
           avp: [
             'Krischelle Cadao',
             'Nicholas Scott Campos',
@@ -342,8 +348,9 @@ export default {
         {
           name: 'Corporate Relations',
           acronym: 'corporel',
-          vp: 'Hannah Regine Fong',
-          vpImg: 'Hannah',
+          vp: 'Hannah Regine Fong', // TODO: Update VP-CorpRel's officer name
+          vpImg: 'Hannah', // TODO: Udpate VP-Corprel's
+          // TODO: Update CorpRel-AVPs
           avp: [
             'Kate Ashley Anonuevo',
             'Camille Allyson Cay',
@@ -354,13 +361,15 @@ export default {
             'Mikayla Tejada',
             'Kenn Michael Villarama',
           ],
+          // TODO: Uncomment and add CorpRel-CT(s)
           // ct: []
         },
         {
           name: 'Publications',
           acronym: 'publi',
-          vp: 'Anna Kumiko Catahan',
-          vpImg: 'Kimi',
+          vp: 'Anna Kumiko Catahan', // TODO: Update VP-Publi's officer name
+          vpImg: 'Kimi', // TODO: Update VP-Publi's image (in PNG format)
+          // TODO: Update Publi-AVPs
           avp: [
             'Gwyneth Ang',
             'Robbie De Mesa',
@@ -369,13 +378,15 @@ export default {
             'Denver Noveda',
             'Franczeska Silvestre',
           ],
+          // TODO: Uncomment and add Publi-CT(s)
           // ct: []
         },
         {
           name: 'Publicity and Creatives',
           acronym: 'pubs',
-          vp: 'Louis Allen Aboy',
-          vpImg: 'Allen',
+          vp: 'Louis Allen Aboy', // TODO: Update VP-Pubs' officer name
+          vpImg: 'Allen', // TODO: Update VP-Pubs' image (in PNG format)
+          // TODO: Update Pubs-AVPs
           avp: [
             'Luciana Francesca Antonio',
             'Martin James Arellano',
@@ -386,13 +397,15 @@ export default {
             'Sophia Danielle Vista',
             'Jahn Juhlia Lu',
           ],
+          // TODO: Uncomment and add Pubs-CT(s)
           // ct: []
         },
         {
           name: 'Socio-civic',
           acronym: 'socio',
-          vp: 'Marc Angelo Caesar Gonzales',
-          vpImg: 'Marc',
+          vp: 'Marc Angelo Caesar Gonzales', // TODO: Update VP-Socio's officer name
+          vpImg: 'Marc', // TODO: Update VP-Socio's image
+          // TODO: Update Socio-AVPs
           avp: [
             'Charlene Ang',
             'Reynaldo Delima Jr.',
@@ -402,28 +415,32 @@ export default {
             'Jaira Santos',
             'Lorene Uy',
           ],
+          // TODO: Uncomment and add Socio-CTs
           // ct: []
         },
         {
           name: 'University Relations',
           acronym: 'univrel',
-          vp: 'Patrick Elijah Tan',
-          vpImg: 'Patrick',
+          vp: 'Patrick Elijah Tan', // TODO: Update VP-UnivRel's officer name
+          vpImg: 'Patrick', // TODO: Update VP-UnivRel's image (in PNG format)
+          // TODO: Update UnivRel-AVPs
           avp: [
             'Annika Ayesha Capada',
             'Ayisha Miara Dytoc',
             'Neil Matthew Lua',
             'Criscela Ysabelle Racelis',
-			'Jose Tristan Tan',
+            'Jose Tristan Tan',
             'Bryan Ethan Tio',
           ],
+          // TODO: Uncomment and add UnivRel-CT(s)
           //ct: [],
         },
         {
           name: 'Documentation and Logistics',
           acronym: 'doculog',
-          vp: 'Clarissa Mae Mandadero',
-          vpImg: 'Clar',
+          vp: 'Clarissa Mae Mandadero', // TODO: Update VP-DouLogi's officer name
+          vpImg: 'Clar', // TODO: Update VP-DocuLogi's image (in PNG format)
+          // TODO: Update DocuLogi-AVPs
           avp: [
             'Melanie Aquino',
             'Zoe Ann Avila',
@@ -434,13 +451,15 @@ export default {
             'Ayiana Louise Romero',
             'Ethan Angelo Yu',
           ],
+          // TODO: Uncomment and add DocuLogi-CT(s)
           // ct: []
         },
         {
           name: 'Finance',
           acronym: 'fin',
-          vp: 'Juliana Marie Agulto',
-          vpImg: 'Juliana',
+          vp: 'Juliana Marie Agulto', // TODO: Update VP-Fin's officer name
+          vpImg: 'Juliana', // TODO: Udpdate VP-Fin's image (in PNG format)
+          // TODO: Update Fin-AVPs
           avp: [
             'Kurt Lewis Chiu',
             'Jeric Kerby Chua',
@@ -451,6 +470,7 @@ export default {
             'Jan Daniel Lee Ng',
             'Nathan Dominick Ngo',
           ],
+          // TODO: Uncomment and add Fin-CT(s)
           // ct: [],
         },
       ],
