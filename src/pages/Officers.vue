@@ -349,17 +349,18 @@ export default {
         {
           name: 'Publications',
           acronym: 'publi',
-          vp: 'Anna Kumiko Catahan',
-          vpImg: 'Kimi',
+          vp: 'Franczeska Margaux Silvestre',
+          // vpImg: 'Kimi',
           avp: [
-            'Gwyneth Ang',
-            'Robbie De Mesa',
-            'William Dimaculangan',
+            'Regner Francis Atutubo',
+            'Julia Kirsten Singian',
+            'William Mitchell Dimaculangan',
             'Lauren Antoinette Garcia',
-            'Denver Noveda',
-            'Franczeska Silvestre',
+            'Hanz Patrick Yu',
           ],
-          // ct: []
+          ct: [
+            'Airon John Cruz'
+          ]
         },
         {
           name: 'Publicity and Creatives',
