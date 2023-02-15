@@ -2,7 +2,7 @@
 title: 2nd Junior Officer General Assembly
 subtitle: A fun and informative get-together for our future leaders
 featuredImage: /uploads/joga.png
-author: Re
+author: Regner Francis Atutubo
 date: 2023-02-15T00:03:25.793Z
 edit: 2023-02-15T00:03:25.812Z
 ---
