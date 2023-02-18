@@ -6,10 +6,6 @@ author: Regner Francis Atutubo
 date: 2023-02-15T00:03:25.793Z
 edit: 2023-02-15T00:03:25.812Z
 ---
-<meta property="og:image" content="https://www.dlsu-lscs.org/uploads/joga.png" />
-
-
-
 <!--StartFragment-->
 
 **The 2nd Junior Officer General Assembly (JOGA)** was held last February 8, 2023, mainly to showcase the JO Events that were meticulously planned and organized by the Junior Officers (JOs). This event also presented an excellent opportunity for the JOs to build camaraderie, show a sense of competitiveness, and hopefully make lasting friendships. This JOGA was special compared to the previous ones as it was on-site—a first for JOGAs since the pandemic!
