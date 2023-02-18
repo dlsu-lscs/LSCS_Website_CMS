@@ -6,6 +6,10 @@ author: Regner Francis Atutubo
 date: 2023-02-15T00:03:25.793Z
 edit: 2023-02-15T00:03:25.812Z
 ---
+<meta property="og:image" content="https://www.dlsu-lscs.org/uploads/joga.png" />
+
+
+
 <!--StartFragment-->
 
 **The 2nd Junior Officer General Assembly (JOGA)** was held last February 8, 2023, mainly to showcase the JO Events that were meticulously planned and organized by the Junior Officers (JOs). This event also presented an excellent opportunity for the JOs to build camaraderie, show a sense of competitiveness, and hopefully make lasting friendships. This JOGA was special compared to the previous ones as it was on-site—a first for JOGAs since the pandemic!
@@ -19,7 +23,5 @@ Overall, the event proved to be a success! The JOs were not only introduced to t
 > ***For the future leaders of LSCS, stay passionate, committed, and grounded. Serve the members out of love, not out of obligation. There will be challenging times, but always remember that you are not alone in continuing the legacy of the organization. If there’s one thing I want to ask from you, it is to continue making LSCS a family — the second home of, not only the CCS community but of any Lasallian who is interested and passionate about technology. Good luck!***
 >
 > ***~ Hannah Fong, President of La Salle Computer Society***
-
-
 
 <!--EndFragment-->
