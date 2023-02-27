@@ -1,14 +1,42 @@
-# Default starter for Gridsome
+# LSCS Website
 
-This is the project you get when you run `gridsome create new-project`.
+### 1. Install yarn package manager
 
-### 1. Install Gridsome CLI tool if you don't have
+```bash
+npm install --global yarn
+```
 
-`npm install --global @gridsome/cli`
+### 2. Clone the repository
 
-### 2. Create a Gridsome project
+```bash
+# Clone the `LSCS_Website_CMS`
+git clone <repository-https-clone-link>
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+# Move into the project directory
+cd LSCS_Website_CMS
+```
+
+### 3. Install the dependencies
+
+```bash
+# Install dependencies
+yarn install
+```
+
+### 4. Run in development mode
+
+```bash
+# Run Gridsome dev server
+yarn dev
+```
+
+Access the website at `http://localhost:8080`
+
+> **`NOTE:`** This might not work especially for the latest releases of Node.js.
+
+### 5. Build the project
+
+```bash
+# Generate static site inside the `dist` directory of the project
+yarn build
+```
