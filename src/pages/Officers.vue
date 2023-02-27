@@ -139,7 +139,7 @@
                   <g-image
                     class="ui image centered"
                     :src="
-                      require(`~/assets/img/EB_21-22/${committee.vpImg}.png`)
+                      require(`~/assets/img/EB_22-23/${committee.vpImg}.png`)
                     "
                     :style="{
                       width: '200px',
@@ -291,7 +291,6 @@ export default {
             'Miguel Tansingco',
             'Jacob Miguel Villa',
           ],
-          // TODO: Uncomment and add Acads-CT(s)
           // ct: []
         },
         {
@@ -324,7 +323,6 @@ export default {
             'Josh Uson',
             'Jose Mari Genuino',
           ],
-          // TODO: Uncomment and add RND-CT(s)
           // ct: []
         },
         {
@@ -361,7 +359,6 @@ export default {
             'Mikayla Tejada',
             'Kenn Michael Villarama',
           ],
-          // TODO: Uncomment and add CorpRel-CT(s)
           // ct: []
         },
         {
@@ -397,7 +394,6 @@ export default {
             'Sophia Danielle Vista',
             'Jahn Juhlia Lu',
           ],
-          // TODO: Uncomment and add Pubs-CT(s)
           // ct: []
         },
         {
@@ -415,7 +411,6 @@ export default {
             'Jaira Santos',
             'Lorene Uy',
           ],
-          // TODO: Uncomment and add Socio-CTs
           // ct: []
         },
         {
@@ -432,7 +427,6 @@ export default {
             'Jose Tristan Tan',
             'Bryan Ethan Tio',
           ],
-          // TODO: Uncomment and add UnivRel-CT(s)
           //ct: [],
         },
         {
@@ -451,7 +445,6 @@ export default {
             'Ayiana Louise Romero',
             'Ethan Angelo Yu',
           ],
-          // TODO: Uncomment and add DocuLogi-CT(s)
           // ct: []
         },
         {
@@ -470,11 +463,10 @@ export default {
             'Jan Daniel Lee Ng',
             'Nathan Dominick Ngo',
           ],
-          // TODO: Uncomment and add Fin-CT(s)
           // ct: [],
         },
       ],
-      laguna: [
+      laguna: [ // TODO: Update LSCS Laguna Campus officers
         [
           {
             position: 'Vice President',
@@ -487,7 +479,7 @@ export default {
             names: ['Andre Ponce'],
           },
         ],
-        [
+        [ // TODO: Comment out or remove AVP-Academics of Laguna Campus
           {
             position: 'Associate Vice President',
             committee: 'Academics',
