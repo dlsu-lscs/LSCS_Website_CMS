@@ -381,18 +381,20 @@ export default {
         {
           name: 'Publicity and Creatives',
           acronym: 'pubs',
-          vp: 'Louis Allen Aboy', // TODO: Update VP-Pubs' officer name
-          vpImg: 'Allen', // TODO: Update VP-Pubs' image (in PNG format)
+          vp: 'Kim Williame Lee', // TODO: Update VP-Pubs' officer name
+          vpImg: 'VP-Pubs', // TODO: Update VP-Pubs' image (in PNG format)
           // TODO: Update Pubs-AVPs
           avp: [
-            'Luciana Francesca Antonio',
-            'Martin James Arellano',
             'Lorane Bernadeth Fausto',
-            'Kim Williame Lee',
-            'Rainer Nielsen Sih',
             'Lance Griffin Tan',
-            'Sophia Danielle Vista',
-            'Jahn Juhlia Lu',
+            'Martin James Arellano',
+            'David, Airam Mumiah',
+            'Samuel Jedidiah Uy',
+            'Angelo Julius Nuque',
+            'Layne Ashley Vitan',
+            'Ricci Mariell Rivero',
+            'Janine Blair Chua Ching',
+            'Daniel Spencer Tan',
           ],
           // ct: []
         },
