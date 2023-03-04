@@ -282,16 +282,16 @@ export default {
           vpImg: 'VP-Acads', // TODO: Update VP-Academics' image (in PNG format)
           // TODO: Update Acads-AVPs
           avp: [
-          'Katrina Isabel Estrella',
-          'Jan Carlo Roleda',
-          'Ysobella Torio',
-          'Maria Monica Manlises',
-          'Jacob Miguel Villa',
-          'Richard John Pecson Jr.',
-          'Erica Bernardo',
-          'Jose Maria Angelo Guerra',
-          'Ciara Micaela Gutierrez',
-          'Robert Joachim Encinas',
+            'Katrina Isabel Estrella',
+            'Jan Carlo Roleda',
+            'Ysobella Torio',
+            'Maria Monica Manlises',
+            'Jacob Miguel Villa',
+            'Richard John Pecson Jr.',
+            'Erica Bernardo',
+            'Jose Maria Angelo Guerra',
+            'Ciara Micaela Gutierrez',
+            'Robert Joachim Encinas',
           ],
           // ct: []
         },
