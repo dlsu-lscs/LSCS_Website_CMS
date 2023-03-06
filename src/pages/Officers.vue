@@ -24,11 +24,13 @@
         </h3>
         <div class="ui centered stackable grid">
           <div class="officer">
+            <!-- TODO: Update President's image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Richard.png"
             />
             <div class="name">
+              <!-- TODO: Update President's officer name -->
               Richard Alvin Zapanta
             </div>
             <div class="position">
@@ -38,11 +40,13 @@
         </div>
         <div class="ui four column centered stackable grid">
           <div class="column officer">
+            <!-- TODO: Update EVP-Internals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Ricson.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Internals' officer name -->
               Ricson Andrei Vergara
             </div>
             <div class="position">
@@ -50,11 +54,13 @@
             </div>
           </div>
           <div class="column officer">
+            <!-- TODO: Update EVP-Externals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Jeric.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Externals' officer name -->
               Jeric Austin Barraza
             </div>
             <div class="position">
@@ -62,11 +68,13 @@
             </div>
           </div>
           <div class="column officer">
+            <!-- TODO: Update EVP-Operations' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Kenley.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Operations' officer name -->
               Kenley Lewis Chiu
             </div>
             <div class="position">
@@ -74,11 +82,13 @@
             </div>
           </div>
           <div class="column officer">
+            <!-- TODO: Update EVP-Laguna's image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_21-22/Joshue.png"
             />
             <div class="name">
+            <!-- TODO: Update EVP-Laguna's officer name -->
               Joshue Jadie
             </div>
             <div class="position">
@@ -129,7 +139,7 @@
                   <g-image
                     class="ui image centered"
                     :src="
-                      require(`~/assets/img/EB_21-22/${committee.vpImg}.png`)
+                      require(`~/assets/img/EB_22-23/${committee.vpImg}.png`)
                     "
                     :style="{
                       width: '200px',
@@ -268,8 +278,9 @@ export default {
         {
           name: 'Academics',
           acronym: 'acads',
-          vp: 'Czarina Faye Tiu',
-          vpImg: 'Czarina',
+          vp: 'Czarina Faye Tiu', // TODO: Update VP-Academics' officer name
+          vpImg: 'Czarina', // TODO: Update VP-Academics' image (in PNG format)
+          // TODO: Update Acads-AVPs
           avp: [
             'Janina Mishi Bacay',
             'Daniel Enriquez',
@@ -286,8 +297,9 @@ export default {
           name: 'Human Resource Development',
           acronym: 'hrd',
           vp: null,
-          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'],
+          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'], // TODO: Update OIC-HRD
           vpImg: null,
+          // TODO: Update HRD-AVPs
           avp: [
             'Terel Lean Crisostomo',
             'Sofia Bianca Cuevas',
@@ -299,8 +311,9 @@ export default {
         {
           name: 'Research and Development',
           acronym: 'rnd',
-          vp: 'Heinze Kristian Moneda',
-          vpImg: 'Heinze',
+          vp: 'Heinze Kristian Moneda', // TODO: Update VP-RND's officer name
+          vpImg: 'Heinze', // TODO: Update VP-RND's image (in PNG format)
+          // TODO: Update RND-AVPs
           avp: [
             'John Vincent Chua',
             'Alfonso Miguel Cruz',
@@ -315,8 +328,9 @@ export default {
         {
           name: 'Training and Development',
           acronym: 'tnd',
-          vp: 'Jordan Sibug',
-          vpImg: 'Jordan',
+          vp: 'Jordan Sibug', // TODO: Udpate VP-TND's officer name
+          vpImg: 'Jordan', // TODO: Update VP-TND's image (in PNG format)
+          // TODO: Update TND-AVPs
           avp: [
             'Krischelle Cadao',
             'Nicholas Scott Campos',
@@ -332,8 +346,9 @@ export default {
         {
           name: 'Corporate Relations',
           acronym: 'corporel',
-          vp: 'Hannah Regine Fong',
-          vpImg: 'Hannah',
+          vp: 'Hannah Regine Fong', // TODO: Update VP-CorpRel's officer name
+          vpImg: 'Hannah', // TODO: Udpate VP-Corprel's
+          // TODO: Update CorpRel-AVPs
           avp: [
             'Kate Ashley Anonuevo',
             'Camille Allyson Cay',
@@ -349,8 +364,9 @@ export default {
         {
           name: 'Publications',
           acronym: 'publi',
-          vp: 'Anna Kumiko Catahan',
-          vpImg: 'Kimi',
+          vp: 'Anna Kumiko Catahan', // TODO: Update VP-Publi's officer name
+          vpImg: 'Kimi', // TODO: Update VP-Publi's image (in PNG format)
+          // TODO: Update Publi-AVPs
           avp: [
             'Gwyneth Ang',
             'Robbie De Mesa',
@@ -359,13 +375,15 @@ export default {
             'Denver Noveda',
             'Franczeska Silvestre',
           ],
+          // TODO: Uncomment and add Publi-CT(s)
           // ct: []
         },
         {
           name: 'Publicity and Creatives',
           acronym: 'pubs',
-          vp: 'Louis Allen Aboy',
-          vpImg: 'Allen',
+          vp: 'Louis Allen Aboy', // TODO: Update VP-Pubs' officer name
+          vpImg: 'Allen', // TODO: Update VP-Pubs' image (in PNG format)
+          // TODO: Update Pubs-AVPs
           avp: [
             'Luciana Francesca Antonio',
             'Martin James Arellano',
@@ -381,8 +399,9 @@ export default {
         {
           name: 'Socio-civic',
           acronym: 'socio',
-          vp: 'Marc Angelo Caesar Gonzales',
-          vpImg: 'Marc',
+          vp: 'Marc Angelo Caesar Gonzales', // TODO: Update VP-Socio's officer name
+          vpImg: 'Marc', // TODO: Update VP-Socio's image
+          // TODO: Update Socio-AVPs
           avp: [
             'Charlene Ang',
             'Reynaldo Delima Jr.',
@@ -397,14 +416,15 @@ export default {
         {
           name: 'University Relations',
           acronym: 'univrel',
-          vp: 'Patrick Elijah Tan',
-          vpImg: 'Patrick',
+          vp: 'Patrick Elijah Tan', // TODO: Update VP-UnivRel's officer name
+          vpImg: 'Patrick', // TODO: Update VP-UnivRel's image (in PNG format)
+          // TODO: Update UnivRel-AVPs
           avp: [
             'Annika Ayesha Capada',
             'Ayisha Miara Dytoc',
             'Neil Matthew Lua',
             'Criscela Ysabelle Racelis',
-			'Jose Tristan Tan',
+            'Jose Tristan Tan',
             'Bryan Ethan Tio',
           ],
           //ct: [],
@@ -412,8 +432,9 @@ export default {
         {
           name: 'Documentation and Logistics',
           acronym: 'doculog',
-          vp: 'Clarissa Mae Mandadero',
-          vpImg: 'Clar',
+          vp: 'Clarissa Mae Mandadero', // TODO: Update VP-DouLogi's officer name
+          vpImg: 'Clar', // TODO: Update VP-DocuLogi's image (in PNG format)
+          // TODO: Update DocuLogi-AVPs
           avp: [
             'Melanie Aquino',
             'Zoe Ann Avila',
@@ -429,8 +450,9 @@ export default {
         {
           name: 'Finance',
           acronym: 'fin',
-          vp: 'Juliana Marie Agulto',
-          vpImg: 'Juliana',
+          vp: 'Juliana Marie Agulto', // TODO: Update VP-Fin's officer name
+          vpImg: 'Juliana', // TODO: Udpdate VP-Fin's image (in PNG format)
+          // TODO: Update Fin-AVPs
           avp: [
             'Kurt Lewis Chiu',
             'Jeric Kerby Chua',
@@ -444,7 +466,7 @@ export default {
           // ct: [],
         },
       ],
-      laguna: [
+      laguna: [ // TODO: Update LSCS Laguna Campus officers
         [
           {
             position: 'Vice President',
@@ -457,7 +479,7 @@ export default {
             names: ['Andre Ponce'],
           },
         ],
-        [
+        [ // TODO: Comment out or remove AVP-Academics of Laguna Campus
           {
             position: 'Associate Vice President',
             committee: 'Academics',
