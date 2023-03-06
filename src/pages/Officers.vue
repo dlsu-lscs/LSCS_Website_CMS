@@ -416,16 +416,17 @@ export default {
         {
           name: 'University Relations',
           acronym: 'univrel',
-          vp: 'Patrick Elijah Tan', // TODO: Update VP-UnivRel's officer name
-          vpImg: 'Patrick', // TODO: Update VP-UnivRel's image (in PNG format)
-          // TODO: Update UnivRel-AVPs
+          vp: 'Ayisha Miara Dytoc', 
+          vpImg: 'VP-UnivRel', 
           avp: [
             'Annika Ayesha Capada',
-            'Ayisha Miara Dytoc',
-            'Neil Matthew Lua',
-            'Criscela Ysabelle Racelis',
-            'Jose Tristan Tan',
-            'Bryan Ethan Tio',
+            'Mari Salvador Lapuz',
+            'Joshua Tan',
+            'Daphne Janelyn Go',
+            'Vince Victor Lim',
+            'Francis Zaccharie De Leon',
+            'Jason Jan Jabanes',
+            'Jasmine Gayamo',
           ],
           //ct: [],
         },
