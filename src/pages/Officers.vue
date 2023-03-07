@@ -328,18 +328,21 @@ export default {
         {
           name: 'Training and Development',
           acronym: 'tnd',
-          vp: 'Jordan Sibug', // TODO: Udpate VP-TND's officer name
-          vpImg: 'Jordan', // TODO: Update VP-TND's image (in PNG format)
+          vp: 'Darrell Kenji Hartigan-Go', // TODO: Udpate VP-TND's officer name
+          vpImg: 'VP-TND', // TODO: Update VP-TND's image (in PNG format)
           // TODO: Update TND-AVPs
           avp: [
-            'Krischelle Cadao',
-            'Nicholas Scott Campos',
-            'Jhervey Edric Cheng',
-            'Darrell Kenji Hartigan-Go',
-            'Ramon Alvaro Jardin',
-            'Joshua Tan',
-            'Samuel Jedidiah Uy',
-            'Jared Frenzer Tan',
+            'Merlot Josh Esteban',
+            'Aila Janelle Manlangit',
+            'Ryan Jay Deculawan',
+            'Ysabelle Laurena Puno Son',
+            'Marissa Ann Villaceran',
+            'Zhoe Aeris Gon Gon',
+            'Tyrone Angelo Uy',
+            'Cameron Kylie Mariazeta',
+            'Ramon Isidro Sabarre',
+            'Rey Vincent Inocencio',
+            'Clarrisa Mae Mandadero'
           ],
           // ct: [],
         },
