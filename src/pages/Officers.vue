@@ -432,18 +432,19 @@ export default {
         {
           name: 'Documentation and Logistics',
           acronym: 'doculog',
-          vp: 'Clarissa Mae Mandadero', // TODO: Update VP-DouLogi's officer name
-          vpImg: 'Clar', // TODO: Update VP-DocuLogi's image (in PNG format)
+          vp: 'Ayiana Louise Romero', // TODO: Update VP-DouLogi's officer name
+          vpImg: 'VP-DocuLogi', // TODO: Update VP-DocuLogi's image (in PNG format)
           // TODO: Update DocuLogi-AVPs
           avp: [
-            'Melanie Aquino',
-            'Zoe Ann Avila',
-            'Carissa Bartolome',
-            'Daphne Louise Ong',
-            'Patrick Ervin Ong',
+            'Rulet Fulo',
+            'Joseph Thomas Ano',
+            'Kenneth Clark Digno',
+            'Gwen Kathleen Roco',
+            'Antoinne Bryce R Salvador',
             'Shaun Vincent Ong',
-            'Ayiana Louise Romero',
             'Ethan Angelo Yu',
+            'Daphne Louise Ong',
+            'Matthew Cuaresma',
           ],
           // ct: []
         },
