@@ -33,9 +33,7 @@
               <!-- TODO: Update President's officer name -->
               Richard Alvin Zapanta
             </div>
-            <div class="position">
-              President
-            </div>
+            <div class="position">President</div>
           </div>
         </div>
         <div class="ui four column centered stackable grid">
@@ -46,12 +44,10 @@
               src="~/assets/img/CORE_21-22/Ricson.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Internals' officer name -->
+              <!-- TODO: Update EVP-Internals' officer name -->
               Ricson Andrei Vergara
             </div>
-            <div class="position">
-              Executive Vice President for Internals
-            </div>
+            <div class="position">Executive Vice President for Internals</div>
           </div>
           <div class="column officer">
             <!-- TODO: Update EVP-Externals' image -->
@@ -60,12 +56,10 @@
               src="~/assets/img/CORE_21-22/Jeric.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Externals' officer name -->
+              <!-- TODO: Update EVP-Externals' officer name -->
               Jeric Austin Barraza
             </div>
-            <div class="position">
-              Executive Vice President for Externals
-            </div>
+            <div class="position">Executive Vice President for Externals</div>
           </div>
           <div class="column officer">
             <!-- TODO: Update EVP-Operations' image -->
@@ -74,12 +68,10 @@
               src="~/assets/img/CORE_21-22/Kenley.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Operations' officer name -->
+              <!-- TODO: Update EVP-Operations' officer name -->
               Kenley Lewis Chiu
             </div>
-            <div class="position">
-              Executive Vice President for Operations
-            </div>
+            <div class="position">Executive Vice President for Operations</div>
           </div>
           <div class="column officer">
             <!-- TODO: Update EVP-Laguna's image -->
@@ -88,7 +80,7 @@
               src="~/assets/img/CORE_21-22/Joshue.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Laguna's officer name -->
+              <!-- TODO: Update EVP-Laguna's officer name -->
               Joshue Jadie
             </div>
             <div class="position">
@@ -246,11 +238,11 @@
 </template>
 
 <script>
-import '~/assets/css/index/officers.css';
+import "~/assets/css/index/officers.css";
 
 export default {
   metaInfo: {
-    title: 'Officers',
+    title: "Officers",
   },
 
   data() {
@@ -271,219 +263,225 @@ export default {
       },
       intersectionOptions: {
         root: null,
-        rootMargin: '0px 0px 0px 0px',
+        rootMargin: "0px 0px 0px 0px",
         threshold: [0.25, 0.75], // [0.25, 0.75] if you want a 25% offset!
       },
       committees: [
         {
-          name: 'Academics',
-          acronym: 'acads',
-          vp: 'Czarina Faye Tiu', // TODO: Update VP-Academics' officer name
-          vpImg: 'Czarina', // TODO: Update VP-Academics' image (in PNG format)
+          name: "Academics",
+          acronym: "acads",
+          vp: "Czarina Faye Tiu", // TODO: Update VP-Academics' officer name
+          vpImg: "Czarina", // TODO: Update VP-Academics' image (in PNG format)
           // TODO: Update Acads-AVPs
           avp: [
-            'Janina Mishi Bacay',
-            'Daniel Enriquez',
-            'Nilo Jatico II',
-            'Julian Carlos Li',
-            'Dustin Maceda',
-            'James Matthew Sy',
-            'Miguel Tansingco',
-            'Jacob Miguel Villa',
+            "Janina Mishi Bacay",
+            "Daniel Enriquez",
+            "Nilo Jatico II",
+            "Julian Carlos Li",
+            "Dustin Maceda",
+            "James Matthew Sy",
+            "Miguel Tansingco",
+            "Jacob Miguel Villa",
           ],
           // ct: []
         },
         {
-          name: 'Human Resource Development',
-          acronym: 'hrd',
+          name: "Human Resource Development",
+          acronym: "hrd",
           vp: null,
-          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'], // TODO: Update OIC-HRD
+          vpOIC: ["Louis Angelo De Guzman", "Gabriel Angelo Gerardino"], // TODO: Update OIC-HRD
           vpImg: null,
           // TODO: Update HRD-AVPs
           avp: [
-            'Terel Lean Crisostomo',
-            'Sofia Bianca Cuevas',
-            'Joaquin Escarraga',
-            'Hyenne Audrey Lim',
+            "Terel Lean Crisostomo",
+            "Sofia Bianca Cuevas",
+            "Joaquin Escarraga",
+            "Hyenne Audrey Lim",
           ],
           // ct: []
         },
         {
-          name: 'Research and Development',
-          acronym: 'rnd',
-          vp: 'Heinze Kristian Moneda', // TODO: Update VP-RND's officer name
-          vpImg: 'Heinze', // TODO: Update VP-RND's image (in PNG format)
+          name: "Research and Development",
+          acronym: "rnd",
+          vp: "Pierre Vincent Hernandez", // TODO: Update VP-RND's officer name
+          vpImg: "VP-RND", // TODO: Update VP-RND's image (in PNG format)
           // TODO: Update RND-AVPs
           avp: [
-            'John Vincent Chua',
-            'Alfonso Miguel Cruz',
-            'Gerald Dalan',
-            'Pierre Vincent Hernandez',
-            'Maxine Angela Ileto',
-            'Josh Uson',
-            'Jose Mari Genuino',
+            "Heinze Kristian Moneda",
+            "Josh Aaron Khyle Uson",
+            "John Vincent Chua",
+            "Jose Mari Victorio Genuino",
+            "Anne Gabrielle Sulit",
+            "Andrei David Ancheta",
+            "David Joshua Corpuz",
+            "Josh Darren Ang Ngo Ching",
+            "Jomar Delos Reyes",
+            "Patrick Angelo Aquino",
+            "Brendan Nathaniel Castillo",
           ],
           // ct: []
         },
         {
-          name: 'Training and Development',
-          acronym: 'tnd',
-          vp: 'Jordan Sibug', // TODO: Udpate VP-TND's officer name
-          vpImg: 'Jordan', // TODO: Update VP-TND's image (in PNG format)
+          name: "Training and Development",
+          acronym: "tnd",
+          vp: "Jordan Sibug", // TODO: Udpate VP-TND's officer name
+          vpImg: "Jordan", // TODO: Update VP-TND's image (in PNG format)
           // TODO: Update TND-AVPs
           avp: [
-            'Krischelle Cadao',
-            'Nicholas Scott Campos',
-            'Jhervey Edric Cheng',
-            'Darrell Kenji Hartigan-Go',
-            'Ramon Alvaro Jardin',
-            'Joshua Tan',
-            'Samuel Jedidiah Uy',
-            'Jared Frenzer Tan',
+            "Krischelle Cadao",
+            "Nicholas Scott Campos",
+            "Jhervey Edric Cheng",
+            "Darrell Kenji Hartigan-Go",
+            "Ramon Alvaro Jardin",
+            "Joshua Tan",
+            "Samuel Jedidiah Uy",
+            "Jared Frenzer Tan",
           ],
           // ct: [],
         },
         {
-          name: 'Corporate Relations',
-          acronym: 'corporel',
-          vp: 'Hannah Regine Fong', // TODO: Update VP-CorpRel's officer name
-          vpImg: 'Hannah', // TODO: Udpate VP-Corprel's
+          name: "Corporate Relations",
+          acronym: "corporel",
+          vp: "Hannah Regine Fong", // TODO: Update VP-CorpRel's officer name
+          vpImg: "Hannah", // TODO: Udpate VP-Corprel's
           // TODO: Update CorpRel-AVPs
           avp: [
-            'Kate Ashley Anonuevo',
-            'Camille Allyson Cay',
-            'Hannah Chen',
-            'Shannon Ho',
-            'John Marvic Mojica',
-            'Kenneth Edward Tan',
-            'Mikayla Tejada',
-            'Kenn Michael Villarama',
+            "Kate Ashley Anonuevo",
+            "Camille Allyson Cay",
+            "Hannah Chen",
+            "Shannon Ho",
+            "John Marvic Mojica",
+            "Kenneth Edward Tan",
+            "Mikayla Tejada",
+            "Kenn Michael Villarama",
           ],
           // ct: []
         },
         {
-          name: 'Publications',
-          acronym: 'publi',
-          vp: 'Anna Kumiko Catahan', // TODO: Update VP-Publi's officer name
-          vpImg: 'Kimi', // TODO: Update VP-Publi's image (in PNG format)
+          name: "Publications",
+          acronym: "publi",
+          vp: "Anna Kumiko Catahan", // TODO: Update VP-Publi's officer name
+          vpImg: "Kimi", // TODO: Update VP-Publi's image (in PNG format)
           // TODO: Update Publi-AVPs
           avp: [
-            'Gwyneth Ang',
-            'Robbie De Mesa',
-            'William Dimaculangan',
-            'Lauren Antoinette Garcia',
-            'Denver Noveda',
-            'Franczeska Silvestre',
+            "Gwyneth Ang",
+            "Robbie De Mesa",
+            "William Dimaculangan",
+            "Lauren Antoinette Garcia",
+            "Denver Noveda",
+            "Franczeska Silvestre",
           ],
           // TODO: Uncomment and add Publi-CT(s)
           // ct: []
         },
         {
-          name: 'Publicity and Creatives',
-          acronym: 'pubs',
-          vp: 'Louis Allen Aboy', // TODO: Update VP-Pubs' officer name
-          vpImg: 'Allen', // TODO: Update VP-Pubs' image (in PNG format)
+          name: "Publicity and Creatives",
+          acronym: "pubs",
+          vp: "Louis Allen Aboy", // TODO: Update VP-Pubs' officer name
+          vpImg: "Allen", // TODO: Update VP-Pubs' image (in PNG format)
           // TODO: Update Pubs-AVPs
           avp: [
-            'Luciana Francesca Antonio',
-            'Martin James Arellano',
-            'Lorane Bernadeth Fausto',
-            'Kim Williame Lee',
-            'Rainer Nielsen Sih',
-            'Lance Griffin Tan',
-            'Sophia Danielle Vista',
-            'Jahn Juhlia Lu',
+            "Luciana Francesca Antonio",
+            "Martin James Arellano",
+            "Lorane Bernadeth Fausto",
+            "Kim Williame Lee",
+            "Rainer Nielsen Sih",
+            "Lance Griffin Tan",
+            "Sophia Danielle Vista",
+            "Jahn Juhlia Lu",
           ],
           // ct: []
         },
         {
-          name: 'Socio-civic',
-          acronym: 'socio',
-          vp: 'Marc Angelo Caesar Gonzales', // TODO: Update VP-Socio's officer name
-          vpImg: 'Marc', // TODO: Update VP-Socio's image
+          name: "Socio-civic",
+          acronym: "socio",
+          vp: "Marc Angelo Caesar Gonzales", // TODO: Update VP-Socio's officer name
+          vpImg: "Marc", // TODO: Update VP-Socio's image
           // TODO: Update Socio-AVPs
           avp: [
-            'Charlene Ang',
-            'Reynaldo Delima Jr.',
-            'Misael Andrei Marin',
-            'Danessa Mayuga',
-            'Reynaldo Delima',
-            'Jaira Santos',
-            'Lorene Uy',
+            "Charlene Ang",
+            "Reynaldo Delima Jr.",
+            "Misael Andrei Marin",
+            "Danessa Mayuga",
+            "Reynaldo Delima",
+            "Jaira Santos",
+            "Lorene Uy",
           ],
           // ct: []
         },
         {
-          name: 'University Relations',
-          acronym: 'univrel',
-          vp: 'Patrick Elijah Tan', // TODO: Update VP-UnivRel's officer name
-          vpImg: 'Patrick', // TODO: Update VP-UnivRel's image (in PNG format)
+          name: "University Relations",
+          acronym: "univrel",
+          vp: "Patrick Elijah Tan", // TODO: Update VP-UnivRel's officer name
+          vpImg: "Patrick", // TODO: Update VP-UnivRel's image (in PNG format)
           // TODO: Update UnivRel-AVPs
           avp: [
-            'Annika Ayesha Capada',
-            'Ayisha Miara Dytoc',
-            'Neil Matthew Lua',
-            'Criscela Ysabelle Racelis',
-            'Jose Tristan Tan',
-            'Bryan Ethan Tio',
+            "Annika Ayesha Capada",
+            "Ayisha Miara Dytoc",
+            "Neil Matthew Lua",
+            "Criscela Ysabelle Racelis",
+            "Jose Tristan Tan",
+            "Bryan Ethan Tio",
           ],
           //ct: [],
         },
         {
-          name: 'Documentation and Logistics',
-          acronym: 'doculog',
-          vp: 'Clarissa Mae Mandadero', // TODO: Update VP-DouLogi's officer name
-          vpImg: 'Clar', // TODO: Update VP-DocuLogi's image (in PNG format)
+          name: "Documentation and Logistics",
+          acronym: "doculog",
+          vp: "Clarissa Mae Mandadero", // TODO: Update VP-DouLogi's officer name
+          vpImg: "Clar", // TODO: Update VP-DocuLogi's image (in PNG format)
           // TODO: Update DocuLogi-AVPs
           avp: [
-            'Melanie Aquino',
-            'Zoe Ann Avila',
-            'Carissa Bartolome',
-            'Daphne Louise Ong',
-            'Patrick Ervin Ong',
-            'Shaun Vincent Ong',
-            'Ayiana Louise Romero',
-            'Ethan Angelo Yu',
+            "Melanie Aquino",
+            "Zoe Ann Avila",
+            "Carissa Bartolome",
+            "Daphne Louise Ong",
+            "Patrick Ervin Ong",
+            "Shaun Vincent Ong",
+            "Ayiana Louise Romero",
+            "Ethan Angelo Yu",
           ],
           // ct: []
         },
         {
-          name: 'Finance',
-          acronym: 'fin',
-          vp: 'Juliana Marie Agulto', // TODO: Update VP-Fin's officer name
-          vpImg: 'Juliana', // TODO: Udpdate VP-Fin's image (in PNG format)
+          name: "Finance",
+          acronym: "fin",
+          vp: "Juliana Marie Agulto", // TODO: Update VP-Fin's officer name
+          vpImg: "Juliana", // TODO: Udpdate VP-Fin's image (in PNG format)
           // TODO: Update Fin-AVPs
           avp: [
-            'Kurt Lewis Chiu',
-            'Jeric Kerby Chua',
-            'Jericho Dizon',
-            'Jason Jan Jabanes',
-            'Stanley Vincent Lim',
-            'Sophia Lin',
-            'Jan Daniel Lee Ng',
-            'Nathan Dominick Ngo',
+            "Kurt Lewis Chiu",
+            "Jeric Kerby Chua",
+            "Jericho Dizon",
+            "Jason Jan Jabanes",
+            "Stanley Vincent Lim",
+            "Sophia Lin",
+            "Jan Daniel Lee Ng",
+            "Nathan Dominick Ngo",
           ],
           // ct: [],
         },
       ],
-      laguna: [ // TODO: Update LSCS Laguna Campus officers
+      laguna: [
+        // TODO: Update LSCS Laguna Campus officers
         [
           {
-            position: 'Vice President',
-            committee: 'Membership and Training',
-            names: ['Angel Lopez'],
+            position: "Vice President",
+            committee: "Membership and Training",
+            names: ["Angel Lopez"],
           },
           {
-            position: 'Vice President',
-            committee: 'Publicity and Creatives',
-            names: ['Andre Ponce'],
+            position: "Vice President",
+            committee: "Publicity and Creatives",
+            names: ["Andre Ponce"],
           },
         ],
-        [ // TODO: Comment out or remove AVP-Academics of Laguna Campus
+        [
+          // TODO: Comment out or remove AVP-Academics of Laguna Campus
           {
-            position: 'Associate Vice President',
-            committee: 'Academics',
-            names: ['Mark Burguillos'],
+            position: "Associate Vice President",
+            committee: "Academics",
+            names: ["Mark Burguillos"],
           },
         ],
       ],
