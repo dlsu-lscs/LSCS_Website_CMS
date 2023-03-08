@@ -46,7 +46,7 @@
               src="~/assets/img/CORE_21-22/Ricson.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Internals' officer name -->
+              <!-- TODO: Update EVP-Internals' officer name -->
               Ricson Andrei Vergara
             </div>
             <div class="position">
@@ -60,7 +60,7 @@
               src="~/assets/img/CORE_21-22/Jeric.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Externals' officer name -->
+              <!-- TODO: Update EVP-Externals' officer name -->
               Jeric Austin Barraza
             </div>
             <div class="position">
@@ -74,7 +74,7 @@
               src="~/assets/img/CORE_21-22/Kenley.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Operations' officer name -->
+              <!-- TODO: Update EVP-Operations' officer name -->
               Kenley Lewis Chiu
             </div>
             <div class="position">
@@ -88,7 +88,7 @@
               src="~/assets/img/CORE_21-22/Joshue.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Laguna's officer name -->
+              <!-- TODO: Update EVP-Laguna's officer name -->
               Joshue Jadie
             </div>
             <div class="position">
@@ -262,7 +262,7 @@ export default {
         tnd: false,
         corporel: false,
         pubs: false,
-        publi: false,
+        publi: true,
         socio: false,
         univrel: false,
         doculog: false,
@@ -364,19 +364,18 @@ export default {
         {
           name: 'Publications',
           acronym: 'publi',
-          vp: 'Anna Kumiko Catahan', // TODO: Update VP-Publi's officer name
-          vpImg: 'Kimi', // TODO: Update VP-Publi's image (in PNG format)
+          vp: 'Franczeska Margaux Silvestre', // TODO: Update VP-Publi's officer name
+          vpImg: 'VP-Publi', // TODO: Update VP-Publi's image (in PNG format)
           // TODO: Update Publi-AVPs
           avp: [
-            'Gwyneth Ang',
-            'Robbie De Mesa',
-            'William Dimaculangan',
+            'Regner Francis Atutubo',
+            'Julia Kirsten Singian',
+            'William Mitchell Dimaculangan',
             'Lauren Antoinette Garcia',
-            'Denver Noveda',
-            'Franczeska Silvestre',
+            'Hanz Patrick Yu',
           ],
           // TODO: Uncomment and add Publi-CT(s)
-          // ct: []
+          ct: ['Airon John Cruz'],
         },
         {
           name: 'Publicity and Creatives',
@@ -466,7 +465,8 @@ export default {
           // ct: [],
         },
       ],
-      laguna: [ // TODO: Update LSCS Laguna Campus officers
+      laguna: [
+        // TODO: Update LSCS Laguna Campus officers
         [
           {
             position: 'Vice President',
@@ -479,7 +479,8 @@ export default {
             names: ['Andre Ponce'],
           },
         ],
-        [ // TODO: Comment out or remove AVP-Academics of Laguna Campus
+        [
+          // TODO: Comment out or remove AVP-Academics of Laguna Campus
           {
             position: 'Associate Vice President',
             committee: 'Academics',
