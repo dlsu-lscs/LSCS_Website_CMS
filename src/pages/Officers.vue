@@ -252,7 +252,7 @@ export default {
         tnd: false,
         corporel: false,
         pubs: false,
-        publi: true,
+        publi: false,
         socio: false,
         univrel: false,
         doculog: false,
