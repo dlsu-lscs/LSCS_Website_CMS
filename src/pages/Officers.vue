@@ -268,18 +268,20 @@ export default {
         {
           name: 'Academics',
           acronym: 'acads',
-          vp: 'Czarina Faye Tiu', // TODO: Update VP-Academics' officer name
-          vpImg: 'Czarina', // TODO: Update VP-Academics' image (in PNG format)
+          vp: 'Janina Mishi Bacay', // TODO: Update VP-Academics' officer name
+          vpImg: 'VP-Acads', // TODO: Update VP-Academics' image (in PNG format)
           // TODO: Update Acads-AVPs
           avp: [
-            'Janina Mishi Bacay',
-            'Daniel Enriquez',
-            'Nilo Jatico II',
-            'Julian Carlos Li',
-            'Dustin Maceda',
-            'James Matthew Sy',
-            'Miguel Tansingco',
+            'Katrina Isabel Estrella',
+            'Jan Carlo Roleda',
+            'Ysobella Torio',
+            'Maria Monica Manlises',
             'Jacob Miguel Villa',
+            'Richard John Pecson Jr.',
+            'Erica Bernardo',
+            'Jose Maria Angelo Guerra',
+            'Ciara Micaela Gutierrez',
+            'Robert Joachim Encinas',
           ],
           // ct: []
         },
