@@ -459,18 +459,19 @@ export default {
         {
           name: 'Finance',
           acronym: 'fin',
-          vp: 'Juliana Marie Agulto', // TODO: Update VP-Fin's officer name
-          vpImg: "Juliana", // TODO: Udpdate VP-Fin's image (in PNG format)
+          vp: 'Kurt Lewis Chiu', // TODO: Update VP-Fin's officer name
+          vpImg: 'VP-Fin', // TODO: Udpdate VP-Fin's image (in PNG format)
           // TODO: Update Fin-AVPs
           avp: [
-            'Kurt Lewis Chiu',
-            'Jeric Kerby Chua',
-            'Jericho Dizon',
-            'Jason Jan Jabanes',
-            'Stanley Vincent Lim',
             'Sophia Lin',
-            'Jan Daniel Lee Ng',
-            'Nathan Dominick Ngo',
+            'Janielle Shane Enriquez',
+            'Juliana Marie Agulto',
+            'Way We Ngo',
+            'Jasmin Chua',
+            'Jan Daniel Ng',
+            'Melanie Aquino',
+            'Patrick James Marcellana',
+            'Hans Martin Rejano',
           ],
           // ct: [],
         },
