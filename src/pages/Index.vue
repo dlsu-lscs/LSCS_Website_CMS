@@ -137,10 +137,10 @@
           <div v-if="operation" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Kenley.png"
+              src="~/assets/img/CORE_22-23/EVP-O.png"
             />
             <div class="name">
-              Kenley Lewis Chiu
+              Nathan Dominick Ngo
             </div>
             <div class="description">
               Executive Vice President for Operations
@@ -151,10 +151,10 @@
           <div v-if="internal" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Ricson.png"
+              src="~/assets/img/CORE_22-23/EVP-I.png"
             />
             <div class="name">
-              Ricson Andrei Vergara
+              Gabriel Angelo Gerardino
             </div>
             <div class="description">
               Executive Vice President for Internals
@@ -165,10 +165,10 @@
           <div v-if="president" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Richard.png"
+              src="~/assets/img/CORE_22-23/President.png"
             />
             <div class="name">
-              Richard Alvin Zapanta
+              Hannah Regine Fong
             </div>
             <div class="description">
               President
@@ -179,10 +179,10 @@
           <div v-if="external" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Jeric.png"
+              src="~/assets/img/CORE_22-23/EVP-E.png"
             />
             <div class="name">
-              Jeric Austin Barraza
+              Criscela Ysabelle Racelis
             </div>
             <div class="description">
               Executive Vice President for Externals
@@ -193,10 +193,10 @@
           <div v-if="laguna" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Joshue.png"
+              src="~/assets/img/CORE_22-23/EVP-L.png"
             />
             <div class="name">
-              Joshue Jadie
+              Leon Pavino
             </div>
             <div class="description">
               Executive Vice President for Laguna Campus
