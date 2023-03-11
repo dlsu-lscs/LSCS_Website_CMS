@@ -392,7 +392,7 @@ export default {
             'Lorane Bernadeth Fausto',
             'Lance Griffin Tan',
             'Martin James Arellano',
-            'David, Airam Mumiah',
+            'Airam Mumiah David',
             'Samuel Jedidiah Uy',
             'Angelo Julius Nuque',
             'Layne Ashley Vitan',
@@ -405,17 +405,18 @@ export default {
         {
           name: 'Socio-civic',
           acronym: 'socio',
-          vp: 'Marc Angelo Caesar Gonzales', // TODO: Update VP-Socio's officer name
-          vpImg: 'Marc', // TODO: Update VP-Socio's image
+          vp: 'Jaira Santos', // TODO: Update VP-Socio's officer name
+          vpImg: 'VP-Socio', // TODO: Update VP-Socio's image
           // TODO: Update Socio-AVPs
           avp: [
-            'Charlene Ang',
-            'Reynaldo Delima Jr.',
-            'Misael Andrei Marin',
-            'Danessa Mayuga',
-            'Reynaldo Delima',
-            'Jaira Santos',
-            'Lorene Uy',
+            'Micheal Hamza Mustapha',
+            'Tean Jeremy Concio',
+            'Louis Gabriel Coloma',
+            'Jared Ethan Limjoco',
+            'Joseph Miguel Maristela',
+            'Ashley Hannah Cosing',
+            'Kate Ashley Anonuevo',
+            'Shanky de Garcia',
           ],
           // ct: []
         },
