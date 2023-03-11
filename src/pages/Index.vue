@@ -138,11 +138,11 @@
             <!-- TODO: Update EVP-Operations' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Kenley.png"
+              src="~/assets/img/CORE_22-23/EVP-O.png"
             />
             <div class="name">
               <!-- TODO: Update EVP-Operations' officer name -->
-              Kenley Lewis Chiu
+              Nathan Dominick Ngo
             </div>
             <div class="description">
               Executive Vice President for Operations
@@ -154,11 +154,11 @@
             <!-- TODO: Update EVP-Internals' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Ricson.png"
+              src="~/assets/img/CORE_22-23/EVP-I.png"
             />
             <div class="name">
               <!-- TODO: Update EVP-Internals' officer name -->
-              Ricson Andrei Vergara
+              Gabriel Angelo Gerardino
             </div>
             <div class="description">
               Executive Vice President for Internals
@@ -170,11 +170,11 @@
             <!-- TODO: Update President's image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Richard.png"
+              src="~/assets/img/CORE_22-23/President.png"
             />
             <div class="name">
               <!-- TODO: Update President's officer name -->
-              Richard Alvin Zapanta
+              Hannah Regine Fong
             </div>
             <div class="description">
               President
@@ -186,11 +186,11 @@
             <!-- TODO: Update EVP-Externals' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Jeric.png"
+              src="~/assets/img/CORE_22-23/EVP-E.png"
             />
             <div class="name">
               <!-- TODO: Update EVP-Externals' officer name -->
-              Jeric Austin Barraza
+              Criscela Ysabelle Racelis
             </div>
             <div class="description">
               Executive Vice President for Externals
@@ -202,11 +202,11 @@
             <!-- TODO: Update EVP-Laguna' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Joshue.png"
+              src="~/assets/img/CORE_22-23/EVP-L.png"
             />
             <div class="name">
             <!-- TODO: Update EVP-Laguna' officer name -->
-              Joshue Jadie
+              Leon Pavino
             </div>
             <div class="description">
               Executive Vice President for Laguna Campus
