@@ -252,7 +252,7 @@ export default {
         tnd: false,
         corporel: false,
         pubs: false,
-        publi: false,
+        publi: true,
         socio: false,
         univrel: false,
         doculog: false,
@@ -369,19 +369,18 @@ export default {
         {
           name: 'Publications',
           acronym: 'publi',
-          vp: 'Anna Kumiko Catahan', // TODO: Update VP-Publi's officer name
-          vpImg: 'Kimi', // TODO: Update VP-Publi's image (in PNG format)
+          vp: 'Franczeska Margaux Silvestre', // TODO: Update VP-Publi's officer name
+          vpImg: 'VP-Publi', // TODO: Update VP-Publi's image (in PNG format)
           // TODO: Update Publi-AVPs
           avp: [
-            'Gwyneth Ang',
-            'Robbie De Mesa',
-            'William Dimaculangan',
+            'Regner Francis Atutubo',
+            'Julia Kirsten Singian',
+            'William Mitchell Dimaculangan',
             'Lauren Antoinette Garcia',
-            'Denver Noveda',
-            'Franczeska Silvestre',
+            'Hanz Patrick Yu',
           ],
           // TODO: Uncomment and add Publi-CT(s)
-          // ct: []
+          ct: ['Airon John Cruz'],
         },
         {
           name: 'Publicity and Creatives',
