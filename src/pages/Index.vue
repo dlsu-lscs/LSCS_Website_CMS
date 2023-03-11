@@ -135,13 +135,11 @@
       <div class="ui five column stackable grid">
         <transition name="fade-up-1750ms">
           <div v-if="operation" class="column officer">
-            <!-- TODO: Update EVP-Operations' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_22-23/EVP-O.png"
             />
             <div class="name">
-              <!-- TODO: Update EVP-Operations' officer name -->
               Nathan Dominick Ngo
             </div>
             <div class="description">
@@ -151,13 +149,11 @@
         </transition>
         <transition name="fade-up-1250ms">
           <div v-if="internal" class="column officer">
-            <!-- TODO: Update EVP-Internals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_22-23/EVP-I.png"
             />
             <div class="name">
-              <!-- TODO: Update EVP-Internals' officer name -->
               Gabriel Angelo Gerardino
             </div>
             <div class="description">
@@ -167,13 +163,11 @@
         </transition>
         <transition name="fade-up-1000ms">
           <div v-if="president" class="column officer">
-            <!-- TODO: Update President's image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_22-23/President.png"
             />
             <div class="name">
-              <!-- TODO: Update President's officer name -->
               Hannah Regine Fong
             </div>
             <div class="description">
@@ -183,13 +177,11 @@
         </transition>
         <transition name="fade-up-1500ms">
           <div v-if="external" class="column officer">
-            <!-- TODO: Update EVP-Externals' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_22-23/EVP-E.png"
             />
             <div class="name">
-              <!-- TODO: Update EVP-Externals' officer name -->
               Criscela Ysabelle Racelis
             </div>
             <div class="description">
@@ -199,13 +191,11 @@
         </transition>
         <transition name="fade-up-2000ms">
           <div v-if="laguna" class="column officer">
-            <!-- TODO: Update EVP-Laguna' image -->
             <g-image
               class="ui image centered"
               src="~/assets/img/CORE_22-23/EVP-L.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Laguna' officer name -->
               Leon Pavino
             </div>
             <div class="description">
