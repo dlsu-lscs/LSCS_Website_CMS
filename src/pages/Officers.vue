@@ -308,17 +308,21 @@ export default {
         {
           name: 'Research and Development',
           acronym: 'rnd',
-          vp: 'Heinze Kristian Moneda', // TODO: Update VP-RND's officer name
-          vpImg: 'Heinze', // TODO: Update VP-RND's image (in PNG format)
+          vp: 'Pierre Vincent Hernandez', // TODO: Update VP-RND's officer name
+          vpImg: 'VP-RND', // TODO: Update VP-RND's image (in PNG format)
           // TODO: Update RND-AVPs
           avp: [
+            'Heinze Kristian Moneda',
+            'Josh Aaron Khyle Uson',
             'John Vincent Chua',
-            'Alfonso Miguel Cruz',
-            'Gerald Dalan',
-            'Pierre Vincent Hernandez',
-            'Maxine Angela Ileto',
-            'Josh Uson',
-            'Jose Mari Genuino',
+            'Jose Mari Victorio Genuino',
+            'Anne Gabrielle Sulit',
+            'Andrei David Ancheta',
+            'David Joshua Corpuz',
+            'Josh Darren Ang Ngo Ching',
+            'Jomar Delos Reyes',
+            'Patrick Angelo Aquino',
+            'Brendan Nathaniel Castillo',
           ],
           // ct: []
         },
@@ -456,7 +460,7 @@ export default {
           name: 'Finance',
           acronym: 'fin',
           vp: 'Juliana Marie Agulto', // TODO: Update VP-Fin's officer name
-          vpImg: 'Juliana', // TODO: Udpdate VP-Fin's image (in PNG format)
+          vpImg: "Juliana", // TODO: Udpdate VP-Fin's image (in PNG format)
           // TODO: Update Fin-AVPs
           avp: [
             'Kurt Lewis Chiu',
@@ -471,7 +475,8 @@ export default {
           // ct: [],
         },
       ],
-      laguna: [ // TODO: Update LSCS Laguna Campus officers
+      laguna: [
+        // TODO: Update LSCS Laguna Campus officers
         [
           {
             position: 'Vice President',
@@ -484,7 +489,8 @@ export default {
             names: ['Andre Ponce'],
           },
         ],
-        [ // TODO: Comment out or remove AVP-Academics of Laguna Campus
+        [
+          // TODO: Comment out or remove AVP-Academics of Laguna Campus
           {
             position: 'Associate Vice President',
             committee: 'Academics',
