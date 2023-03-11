@@ -24,14 +24,12 @@
         </h3>
         <div class="ui centered stackable grid">
           <div class="officer">
-            <!-- TODO: Update President's image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Richard.png"
+              src="~/assets/img/CORE_22-23/President.png"
             />
             <div class="name">
-              <!-- TODO: Update President's officer name -->
-              Richard Alvin Zapanta
+              Hannah Regine Fong
             </div>
             <div class="position">
               President
@@ -40,56 +38,48 @@
         </div>
         <div class="ui four column centered stackable grid">
           <div class="column officer">
-            <!-- TODO: Update EVP-Internals' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Ricson.png"
+              src="~/assets/img/CORE_22-23/EVP-I.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Internals' officer name -->
-              Ricson Andrei Vergara
+              Gabriel Angelo Gerardino
             </div>
             <div class="position">
               Executive Vice President for Internals
             </div>
           </div>
           <div class="column officer">
-            <!-- TODO: Update EVP-Externals' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Jeric.png"
+              src="~/assets/img/CORE_22-23/EVP-E.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Externals' officer name -->
-              Jeric Austin Barraza
+              Criscela Ysabelle Racelis
             </div>
             <div class="position">
               Executive Vice President for Externals
             </div>
           </div>
           <div class="column officer">
-            <!-- TODO: Update EVP-Operations' image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Kenley.png"
+              src="~/assets/img/CORE_22-23/EVP-O.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Operations' officer name -->
-              Kenley Lewis Chiu
+              Nathan Dominick Ngo
             </div>
             <div class="position">
               Executive Vice President for Operations
             </div>
           </div>
           <div class="column officer">
-            <!-- TODO: Update EVP-Laguna's image -->
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_21-22/Joshue.png"
+              src="~/assets/img/CORE_22-23/EVP-L.png"
             />
             <div class="name">
-            <!-- TODO: Update EVP-Laguna's officer name -->
-              Joshue Jadie
+              Leon Pavino
             </div>
             <div class="position">
               Executive Vice President for Laguna Campus
