@@ -477,26 +477,24 @@ export default {
         },
       ],
       laguna: [
-        // TODO: Update LSCS Laguna Campus officers
         [
           {
             position: 'Vice President',
             committee: 'Membership and Training',
-            names: ['Angel Lopez'],
+            names: ['Joshua Tipon'],
           },
           {
             position: 'Vice President',
             committee: 'Publicity and Creatives',
-            names: ['Andre Ponce'],
+            names: ['Maui Lopez'],
           },
         ],
         [
-          // TODO: Comment out or remove AVP-Academics of Laguna Campus
-          {
-            position: 'Associate Vice President',
-            committee: 'Academics',
-            names: ['Mark Burguillos'],
-          },
+          // {
+          //   position: 'Associate Vice President',
+          //   committee: 'Academics',
+          //   names: ['Mark Burguillos'],
+          // },
         ],
       ],
     };
