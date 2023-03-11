@@ -346,18 +346,19 @@ export default {
         {
           name: 'Corporate Relations',
           acronym: 'corporel',
-          vp: 'Hannah Regine Fong', // TODO: Update VP-CorpRel's officer name
-          vpImg: 'Hannah', // TODO: Udpate VP-Corprel's
+          vp: 'Kirschelle Cadao', // TODO: Update VP-CorpRel's officer name
+          vpImg: 'VP-CorpoRel', // TODO: Udpate VP-Corprel's
           // TODO: Update CorpRel-AVPs
           avp: [
-            'Kate Ashley Anonuevo',
-            'Camille Allyson Cay',
-            'Hannah Chen',
-            'Shannon Ho',
+            'Piolo Jose Francisco',
+            'Kendrick Mikhael Pua',
+            'Nicholas Scott Campos',
             'John Marvic Mojica',
-            'Kenneth Edward Tan',
-            'Mikayla Tejada',
-            'Kenn Michael Villarama',
+            'Jack Elinzano',
+            'Isiah Reuben Exconde',
+            'Lander Gabriel Fulcher',
+            'Mezen Lababidi',
+            'Harvey Justin Wang'
           ],
           // ct: []
         },
