@@ -289,14 +289,19 @@ export default {
           name: 'Human Resource Development',
           acronym: 'hrd',
           vp: null,
-          vpOIC: ['Louis Angelo De Guzman', 'Gabriel Angelo Gerardino'], // TODO: Update OIC-HRD
+          vpOIC: ['Andrei Marin', 'Hyenne Audrey Lim'], // TODO: Update OIC-HRD
           vpImg: null,
           // TODO: Update HRD-AVPs
           avp: [
-            'Terel Lean Crisostomo',
-            'Sofia Bianca Cuevas',
-            'Joaquin Escarraga',
-            'Hyenne Audrey Lim',
+            'Cedric Leopold Yu',
+            'Chelsea Anne Fernandez',
+            'Zachary Gomez',
+            'Annika Posadas',
+            'Zoe Ann Avila',
+            'Czarina Faye Tiu',
+            'Mark Daniel Gutierrez',
+            'Paolo Miguel Flores',
+            'Donnielle Andres',
           ],
           // ct: []
         },
