@@ -3,7 +3,7 @@ title: TechZania
 subtitle: An enlightening look at what’s to come for CCS students
 featuredImage: /uploads/unnamed.png
 author: Regner Francis Atutubo
-date: 2023-03-23T12:00:00.000Z
+date: 2023-03-23T10:00:00.000Z
 edit: 2023-03-23T05:11:44.325Z
 ---
 **TechZania** was an online Junior Officer (JO) event held last March 15, 2023. It  provided College of Computer Studies (CCS) students with a brief overview of some career paths that they may be able to pursue in the future. There were four occupational fields showcased at the event namely, Software Development, Cybersecurity, Data Science, and UI/UX Research with each showcase being led by a knowledgeable and insightful guest speaker.
