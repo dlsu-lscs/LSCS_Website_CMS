@@ -10,15 +10,15 @@ COPY package.json yarn.lock ./
 # [CACHED] Install yarn globally
 RUN npm install --global yarn
 
-# Copy the current directory contents into the container at `/lscs_website_cms`
-COPY . .
-
-# Install Gridsome globally
+# [CACHED] Install Gridsome globally
 RUN yarn global add @gridsome/cli
 # or use npm: npm install --global @gridsome/cli
 
-# Install dependencies
+# [CACHED] Install dependencies
 RUN yarn install
+
+# Copy the current directory contents into the container at `/lscs_website_cms`
+COPY . .
 
 # Expose port 8080
 EXPOSE 8080
