@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  lscs_website_cms:
+    build: .
+    container_name: lscswebsite_container
+    ports:
+      - 8080:8080
+    # NOTE: Uncomment volumes if you want to check if files will persist
+    volumes:
+      # For Windows users:
+      # - project:/mnt/c/Users/<username>/<path-to-project-folder>
+      # - project:/lscs_website_cms
+      # For Unix-like OS users:
+      # - .:/lscs_website_cms
+      - /lscs_website_cms/node_modules
+    stdin_open: true
+    tty: true
+# For windows users
+# # NOTE: uncomment the follwing lines if volume paths for windows are used
+# volumes:
+#   project:
+#     external: true
