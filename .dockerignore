@@ -10,6 +10,9 @@
 # Node modules
 node_modules
 
+# yarn lock file
+# yarn.lock
+
 # Compiled files
 dist
 src/.temp
