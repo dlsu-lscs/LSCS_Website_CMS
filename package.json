@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "dev": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "dev:docker": "yarn docker-reset && docker volume create project && docker-compose up",
+    "docker-reset": "docker-compose down --rmi all -v"
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
