@@ -10,8 +10,9 @@
 # Node modules
 node_modules
 
-# yarn lock file
-# yarn.lock
+# non-yarn lock files
+package-lock.json
+pnpm-lock.yaml
 
 # Compiled files
 dist

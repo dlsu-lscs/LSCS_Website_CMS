@@ -1,22 +1,17 @@
 version: "3.8"
 services:
-  lscs_website_cms:
+  dev:
     build: .
-    container_name: lscswebsite_container
+    container_name: lscswebsite_dev
     ports:
       - 8080:8080
-    # NOTE: Uncomment volumes if you want to check if files will persist
+    # NOTE: Bind-mount is meant to aid in hot-reloading gridsome in the container 
+    #       if there are changes to the source code in your local file system.
+    #       For this to work in Windows, clone this project inside the file system
+    #       of the WSL2 Linux distribution you are using, preferrably Ubuntu.  
     volumes:
-      # For Windows users:
-      # - project:/mnt/c/Users/<username>/<path-to-project-folder>
-      # - project:/lscs_website_cms
-      # For Unix-like OS users:
-      # - .:/lscs_website_cms
-      - /lscs_website_cms/node_modules
+      - type: bind
+        source: ./
+        target: /lscs_website_cms
     stdin_open: true
     tty: true
-# For windows users
-# # NOTE: uncomment the follwing lines if volume paths for windows are used
-# volumes:
-#   project:
-#     external: true

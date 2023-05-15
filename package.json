@@ -5,7 +5,8 @@
     "build": "gridsome build",
     "dev": "gridsome develop",
     "explore": "gridsome explore",
-    "dev:docker": "yarn docker-reset && docker volume create project && docker-compose up",
+    "build:docker": "docker-compose up",
+    "dev:docker": "docker container start -a -i lscswebsite_dev",
     "docker-reset": "docker-compose down --rmi all -v"
   },
   "dependencies": {
