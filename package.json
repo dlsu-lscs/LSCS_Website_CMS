@@ -5,8 +5,8 @@
     "build": "gridsome build",
     "dev": "gridsome develop",
     "explore": "gridsome explore",
-    "build:docker": "docker-compose up",
-    "dev:docker": "docker container start -a -i lscswebsite_dev",
+    "build:docker": "docker-compose up --build",
+    "dev:docker": "docker-compose up",
     "docker-reset": "docker-compose down --rmi all -v"
   },
   "dependencies": {
