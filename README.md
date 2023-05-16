@@ -96,6 +96,7 @@ and softwares that are going to be used in the project.
 ### WSL 2 (Windows Subsystem for Linux v2)
 
 - **WSL 2: Getting Started** [*[YouTube](https://www.youtube.com/watch?v=_fntjriRe48)*]
+- **Manual Installation Steps for Older Versions of WSL** [*[Installation][WSL2]*]
 
 ## Local Development
 
