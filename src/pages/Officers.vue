@@ -76,7 +76,7 @@
           <div class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_23-24/EVP-L.png"
+              src="~/assets/img/CORE_22-23/EVP-L.png"
             />
             <div class="name">
               Joshua Tipon
@@ -129,7 +129,7 @@
                   <g-image
                     class="ui image centered"
                     :src="
-                      require(`~/assets/img/EB_22-23/${committee.vpImg}.png`)
+                      require(`~/assets/img/EB_23-24/${committee.vpImg}.png`)
                     "
                     :style="{
                       width: '200px',
@@ -273,14 +273,14 @@ export default {
           avp: [
             'Airelle Loumel Maagma',
             'Erica Bernardo',
-            'Chrysille So',
-            'Lorenzo Aivin Ambrosio',
             'Jose Maria Angelo Guerra',
-            'Ken Ivan Cheng'
+            'Ken Ivan Cheng',
           ],
            ct: [
-            'Joel Ethan Batac'
-          ]
+            'Joel Ethan Batac',
+            'Chrysille So',
+            'Lorenzo Aivin Ambrosio',
+          ],
         },
         {
           name: 'Human Resource Development',
@@ -291,12 +291,12 @@ export default {
             'Joshua Emmanuel Policarpio',
             'Ghee Kaye Lopez',
             'Nicolas Miguel Ching',
-            'Nathaniel Christian Portez'
+            'Nathaniel Christian Portez',
+            'Mikaela Hermoso',
           ],
           ct: [
             'Wilbert Shawn Villagarcia',
-            'Mikaela Hermoso'
-          ]
+          ],
         },
         {
           name: 'Research and Development',
@@ -310,7 +310,7 @@ export default {
             'Justin Nathaniel Lim',
             'John Kieffer Recato Dy',
             'Annika Posadas',
-            'Rydel Ridley Lim'
+            'Rydel Ridley Lim',
           ],
           // ct: []
         },
@@ -325,7 +325,7 @@ export default {
             'Andrea Eliza Dulin',
             'Ricardo Luis Vicerra',
             'Ramon Isidro Sabarre',
-            'Aaron Jardenil'
+            'Aaron Jardenil',
           ],
           // ct: [],
         },
@@ -340,7 +340,7 @@ export default {
             'Timothy Joshua Tan',
             'Brenda Minette Armada',
             'Gabrielle Mae Arco',
-            'Joseph Dean Enriquez'
+            'Joseph Dean Enriquez',
           ],
           // ct: []
         },
@@ -352,10 +352,11 @@ export default {
           avp: [
             'Patrick James Marcellana',
             'Fiona Amaia Tano',
-            'Joaquin Lorenzo Sitoy',
-            'Anjelo Patrick Atanacio'
+            'Anjelo Patrick Atanacio',
           ],
-          // ct: []
+           ct: [
+           'Joaquin Lorenzo Sitoy',
+           ],
         },
         {
           name: 'Publicity and Creatives',
@@ -368,7 +369,7 @@ export default {
             'Jan Anthony Murillo',
             'Reese Chantal Calucag',
             'Charlize Villaflores',
-            'Airam Mumiah David'
+            'Airam Mumiah David',
           ],
           // ct: []
         },
@@ -378,14 +379,15 @@ export default {
           vp: 'Shanky de Gracia',
           vpImg: 'VP-SOC',
           avp: [
-            'Lucas Antonio Tujan',
             'Ysobella Torio',
-            'Izabella Imperial',
             'Joel Miguel Leysa',
             'Jared Ethan Limjoco',
-            'Ashley Hannah Cosing'
+            'Ashley Hannah Cosing',
           ],
-          // ct: []
+           ct: [
+            'Izabella Imperial',
+            'Lucas Antonio Tujan',
+           ],
         },
         {
           name: 'University Relations',
@@ -393,15 +395,15 @@ export default {
           vp: 'Mari Salvador Lapuz', 
           vpImg: 'VP-UNIVREL', 
           avp: [
-            'Miko Santos',
-            'Elaine Riz Martin',
             'Jasmine Gayamo',
             'Marian Ricci Ariaga',
-            'Dana Louise Guillarte'
+            'Dana Louise Guillarte',
           ],
           ct: [
             'John Isaac Zuñiga',
-            'Wesly Samson'
+            'Wesly Samson',
+            'Miko Santos',
+            'Elaine Riz Martin',
           ]
         },
         {
@@ -413,11 +415,11 @@ export default {
             'Tristan Neo Mercado',
             'Roger Canayon',
             'Valiant Lance Dionela',
-            'Samantha Erica O\'Neil'
+            'Samantha Erica O\'Neil',
           ],
           ct: [
               'Manuel Carlos Tanchiao',
-              'Eric Johann Garcia'
+              'Eric Johann Garcia',
             ]
         },
         {
@@ -431,7 +433,7 @@ export default {
             'Nicole Kate Uy',
             'Samantha Breanne Sanchez',
             'Kurt Lewis Chiu',
-            'Julianne Chrystel Ong'
+            'Julianne Chrystel Ong',
           ],
           // ct: [],
         },
