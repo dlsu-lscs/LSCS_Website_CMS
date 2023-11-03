@@ -252,6 +252,14 @@
             width="175"
           />
         </div>
+        <div class="column">
+          <g-image
+            src="~/assets/img/sponsors/IMES_LOGO.png"
+            alt="IMES"
+            class="ui left image"
+            width="175"
+          />
+        </div>
 
         <!-- <div class="eight wide column">
                     <h3 class="center"> 
