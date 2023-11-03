@@ -26,10 +26,10 @@
           <div class="officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/President.png"
+              src="~/assets/img/CORE_23-24/PRESIDENT-MISHI.png"
             />
             <div class="name">
-              Hannah Regine Fong
+              Janina Mishi Bacay
             </div>
             <div class="position">
               President
@@ -40,10 +40,10 @@
           <div class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-I.png"
+              src="~/assets/img/CORE_23-24/EVP-INTERNALS-VINNIE.png"
             />
             <div class="name">
-              Gabriel Angelo Gerardino
+              Rey Vincent Inocencio
             </div>
             <div class="position">
               Executive Vice President for Internals
@@ -52,10 +52,10 @@
           <div class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-E.png"
+              src="~/assets/img/CORE_23-24/EVP-EXTERNALS-JACK.png"
             />
             <div class="name">
-              Criscela Ysabelle Racelis
+              Jack Elinzano
             </div>
             <div class="position">
               Executive Vice President for Externals
@@ -64,10 +64,10 @@
           <div class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-O.png"
+              src="~/assets/img/CORE_23-24/EVP-OPS-ETHAN.png"
             />
             <div class="name">
-              Nathan Dominick Ngo
+              Ethan Angelo Yu
             </div>
             <div class="position">
               Executive Vice President for Operations
@@ -76,10 +76,10 @@
           <div class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-L.png"
+              src="~/assets/img/CORE_23-24/EVP-L.png"
             />
             <div class="name">
-              Leon Pavino
+              Joshua Tipon
             </div>
             <div class="position">
               Executive Vice President for Laguna Campus
@@ -268,199 +268,170 @@ export default {
         {
           name: 'Academics',
           acronym: 'acads',
-          vp: 'Janina Mishi Bacay',
-          vpImg: 'VP-Acads',
+          vp: 'Robert Joachim Encinas',
+          vpImg: 'VP-ACADS',
           avp: [
-            'Katrina Isabel Estrella',
-            'Jan Carlo Roleda',
-            'Ysobella Torio',
-            'Maria Monica Manlises',
-            'Jacob Miguel Villa',
-            'Richard John Pecson Jr.',
+            'Airelle Loumel Maagma',
             'Erica Bernardo',
+            'Chrysille So',
+            'Lorenzo Aivin Ambrosio',
             'Jose Maria Angelo Guerra',
-            'Ciara Micaela Gutierrez',
-            'Robert Joachim Encinas',
+            'Ken Ivan Cheng'
           ],
-          // ct: []
+           ct: [
+            'Joel Ethan Batac'
+          ]
         },
         {
           name: 'Human Resource Development',
           acronym: 'hrd',
-          vp: null,
-          vpOIC: ['Andrei Marin', 'Hyenne Audrey Lim'],
-          vpImg: null,
+          vp: 'Zachary Gomez',
+          vpImg: 'VP-HRD',
           avp: [
-            'Cedric Leopold Yu',
-            'Chelsea Anne Fernandez',
-            'Zachary Gomez',
-            'Annika Posadas',
-            'Zoe Ann Avila',
-            'Czarina Faye Tiu',
-            'Mark Daniel Gutierrez',
-            'Paolo Miguel Flores',
-            'Donnielle Andres',
+            'Joshua Emmanuel Policarpio',
+            'Ghee Kaye Lopez',
+            'Nicolas Miguel Ching',
+            'Nathaniel Christian Portez'
           ],
-          // ct: []
+          ct: [
+            'Wilbert Shawn Villagarcia',
+            'Mikaela Hermoso'
+          ]
         },
         {
           name: 'Research and Development',
           acronym: 'rnd',
-          vp: 'Pierre Vincent Hernandez',
+          vp: 'Richard John Pecson Jr.',
           vpImg: 'VP-RND',
           avp: [
-            'Heinze Kristian Moneda',
-            'Josh Aaron Khyle Uson',
-            'John Vincent Chua',
-            'Jose Mari Victorio Genuino',
-            'Anne Gabrielle Sulit',
-            'Andrei David Ancheta',
-            'David Joshua Corpuz',
-            'Josh Darren Ang Ngo Ching',
-            'Jomar Delos Reyes',
+            'Orrin Landon Uy',
             'Patrick Angelo Aquino',
-            'Brendan Nathaniel Castillo',
+            'Aila Janelle Manlangit',
+            'Justin Nathaniel Lim',
+            'John Kieffer Recato Dy',
+            'Annika Posadas',
+            'Rydel Ridley Lim'
           ],
           // ct: []
         },
         {
           name: 'Training and Development',
           acronym: 'tnd',
-          vp: 'Darrell Kenji Hartigan-Go',
+          vp: 'Ysabelle Laurena Son',
           vpImg: 'VP-TND',
           avp: [
-            'Merlot Josh Esteban',
-            'Aila Janelle Manlangit',
-            'Ryan Jay Deculawan',
-            'Ysabelle Laurena Puno Son',
-            'Marissa Ann Villaceran',
-            'Zhoe Aeris Gon Gon',
-            'Tyrone Angelo Uy',
-            'Cameron Kylie Mariazeta',
+            'Andrea Li Santos',
+            'Dylan Andrei Rodriguez',
+            'Andrea Eliza Dulin',
+            'Ricardo Luis Vicerra',
             'Ramon Isidro Sabarre',
-            'Rey Vincent Inocencio',
-            'Clarrisa Mae Mandadero'
+            'Aaron Jardenil'
           ],
           // ct: [],
         },
         {
           name: 'Corporate Relations',
           acronym: 'corporel',
-          vp: 'Kirschelle Cadao',
-          vpImg: 'VP-CorpoRel',
+          vp: 'Francis Isip Bawa',
+          vpImg: 'VP-CORP',
           avp: [
-            'Piolo Jose Francisco',
-            'Kendrick Mikhael Pua',
-            'Nicholas Scott Campos',
-            'John Marvic Mojica',
-            'Jack Elinzano',
-            'Isiah Reuben Exconde',
-            'Lander Gabriel Fulcher',
-            'Mezen Lababidi',
-            'Harvey Justin Wang'
+            'Ma. China Ortiz',
+            'Joseph Miguel Maristela',
+            'Timothy Joshua Tan',
+            'Brenda Minette Armada',
+            'Gabrielle Mae Arco',
+            'Joseph Dean Enriquez'
           ],
           // ct: []
         },
         {
           name: 'Publications',
           acronym: 'publi',
-          vp: 'Franczeska Margaux Silvestre',
-          vpImg: 'VP-Publi',
+          vp: 'Regner Francis Atutubo',
+          vpImg: 'VP-PUBLI',
           avp: [
-            'Regner Francis Atutubo',
-            'Julia Kirsten Singian',
-            'William Mitchell Dimaculangan',
-            'Lauren Antoinette Garcia',
-            'Hanz Patrick Yu',
+            'Patrick James Marcellana',
+            'Fiona Amaia Tano',
+            'Joaquin Lorenzo Sitoy',
+            'Anjelo Patrick Atanacio'
           ],
-          ct: ['Airon John Cruz'],
+          // ct: []
         },
         {
           name: 'Publicity and Creatives',
           acronym: 'pubs',
-          vp: 'Kim Williame Lee',
-          vpImg: 'VP-Pubs',
+          vp: 'Angelo Julius Nuque',
+          vpImg: 'VP-PUBS',
           avp: [
-            'Lorane Bernadeth Fausto',
-            'Lance Griffin Tan',
-            'Martin James Arellano',
-            'Airam Mumiah David',
-            'Samuel Jedidiah Uy',
-            'Angelo Julius Nuque',
-            'Layne Ashley Vitan',
-            'Ricci Mariell Rivero',
-            'Janine Blair Chua Ching',
-            'Daniel Spencer Tan',
+            'Kathryn Leigh Pulido',
+            'Vincent Alvin Marquez',
+            'Jan Anthony Murillo',
+            'Reese Chantal Calucag',
+            'Charlize Villaflores',
+            'Airam Mumiah David'
           ],
           // ct: []
         },
         {
           name: 'Socio-civic',
           acronym: 'socio',
-          vp: 'Jaira Santos',
-          vpImg: 'VP-Socio',
+          vp: 'Shanky de Gracia',
+          vpImg: 'VP-SOC',
           avp: [
-            'Micheal Hamza Mustapha',
-            'Tean Jeremy Concio',
-            'Louis Gabriel Coloma',
+            'Lucas Antonio Tujan',
+            'Ysobella Torio',
+            'Izabella Imperial',
+            'Joel Miguel Leysa',
             'Jared Ethan Limjoco',
-            'Joseph Miguel Maristela',
-            'Ashley Hannah Cosing',
-            'Kate Ashley Anonuevo',
-            'Shanky de Garcia',
+            'Ashley Hannah Cosing'
           ],
           // ct: []
         },
         {
           name: 'University Relations',
           acronym: 'univrel',
-          vp: 'Ayisha Miara Dytoc', 
-          vpImg: 'VP-UnivRel', 
+          vp: 'Mari Salvador Lapuz', 
+          vpImg: 'VP-UNIVREL', 
           avp: [
-            'Annika Ayesha Capada',
-            'Mari Salvador Lapuz',
-            'Joshua Tan',
-            'Daphne Janelyn Go',
-            'Vince Victor Lim',
-            'Francis Zaccharie De Leon',
-            'Jason Jan Jabanes',
+            'Miko Santos',
+            'Elaine Riz Martin',
             'Jasmine Gayamo',
+            'Marian Ricci Ariaga',
+            'Dana Louise Guillarte'
           ],
-          //ct: [],
+          ct: [
+            'John Isaac Zuñiga',
+            'Wesly Samson'
+          ]
         },
         {
           name: 'Documentation and Logistics',
           acronym: 'doculog',
-          vp: 'Ayiana Louise Romero',
-          vpImg: 'VP-DocuLogi',
+          vp: 'Gwen Kathleen Roco',
+          vpImg: 'VP-DOCULOGI',
           avp: [
-            'Rulet Fulo',
-            'Joseph Thomas Ano',
-            'Kenneth Clark Digno',
-            'Gwen Kathleen Roco',
-            'Antoinne Bryce R Salvador',
-            'Shaun Vincent Ong',
-            'Ethan Angelo Yu',
-            'Daphne Louise Ong',
-            'Matthew Cuaresma',
+            'Tristan Neo Mercado',
+            'Roger Canayon',
+            'Valiant Lance Dionela',
+            'Samantha Erica O\'Neil'
           ],
-          // ct: []
+          ct: [
+              'Manuel Carlos Tanchiao',
+              'Eric Johann Garcia'
+            ]
         },
         {
           name: 'Finance',
           acronym: 'fin',
-          vp: 'Kurt Lewis Chiu',
-          vpImg: 'VP-Fin',
+          vp: 'Hans Martin Rejano',
+          vpImg: 'VP-FIN',
           avp: [
-            'Sophia Lin',
-            'Janielle Shane Enriquez',
-            'Juliana Marie Agulto',
-            'Way We Ngo',
+            'Isiah Reuben Exconde',    
             'Jasmin Chua',
-            'Jan Daniel Ng',
-            'Melanie Aquino',
-            'Patrick James Marcellana',
-            'Hans Martin Rejano',
+            'Nicole Kate Uy',
+            'Samantha Breanne Sanchez',
+            'Kurt Lewis Chiu',
+            'Julianne Chrystel Ong'
           ],
           // ct: [],
         },
@@ -470,12 +441,12 @@ export default {
           {
             position: 'Vice President',
             committee: 'Membership and Training',
-            names: ['Joshua Tipon'],
+            names: [''],
           },
           {
             position: 'Vice President',
             committee: 'Publicity and Creatives',
-            names: ['Maui Lopez'],
+            names: [''],
           },
         ],
         [
