@@ -472,7 +472,7 @@ export default {
           {
             position: 'Vice President',
             committee: 'Externals',
-            names: ['Kathleen Mae Ronblon'],
+            names: ['Kathleen Mae Romblon'],
             vpImg: 'L-VP-EXTERNALS',
           },
           {
