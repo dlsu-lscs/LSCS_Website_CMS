@@ -193,7 +193,7 @@
           <div v-if="laguna" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-L.png"
+              src="~/assets/img/CORE_23-24/EVP-L.png"
             />
             <div class="name">
               Joshua Tipon
