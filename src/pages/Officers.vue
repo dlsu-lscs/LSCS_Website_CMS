@@ -279,7 +279,7 @@ export default {
            ct: [
             'Joel Ethan Batac',
             'Chrysille So',
-            'Lorenzo Aivin Ambrosio',
+            'Lorenzo Alvin Ambrosio',
           ],
         },
         {
