@@ -137,10 +137,10 @@
           <div v-if="operation" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-O.png"
+              src="~/assets/img/CORE_23-24/EVP-OPS-ETHAN.png"
             />
             <div class="name">
-              Nathan Dominick Ngo
+              Ethan Angelo Yu
             </div>
             <div class="description">
               Executive Vice President for Operations
@@ -151,10 +151,10 @@
           <div v-if="internal" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-I.png"
+              src="~/assets/img/CORE_23-24/EVP-INTERNALS-VINNIE.png"
             />
             <div class="name">
-              Gabriel Angelo Gerardino
+              Rey Vincent Inocencio
             </div>
             <div class="description">
               Executive Vice President for Internals
@@ -165,10 +165,10 @@
           <div v-if="president" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/President.png"
+              src="~/assets/img/CORE_23-24/PRESIDENT-MISHI.png"
             />
             <div class="name">
-              Hannah Regine Fong
+              Janina Mishi Bacay 
             </div>
             <div class="description">
               President
@@ -179,10 +179,10 @@
           <div v-if="external" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-E.png"
+              src="~/assets/img/CORE_23-24/EVP-EXTERNALS-JACK.png"
             />
             <div class="name">
-              Criscela Ysabelle Racelis
+              Jack Elinzano
             </div>
             <div class="description">
               Executive Vice President for Externals
@@ -196,7 +196,7 @@
               src="~/assets/img/CORE_22-23/EVP-L.png"
             />
             <div class="name">
-              Leon Pavino
+              Joshua Tipon
             </div>
             <div class="description">
               Executive Vice President for Laguna Campus
