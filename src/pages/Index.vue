@@ -26,7 +26,6 @@
         <div v-if="aboutUs">
           <header>
             <meta
-              http-equiv="Content-Type"
               content="text/html; charset=utf-8"
             />
             <h5 class="ui compact white header">ABOUT</h5>
@@ -34,7 +33,7 @@
           </header>
           <p>
             La Salle Computer Society is the pioneering organization in the
-            College of Computer Studies now on its 35th year of service for the
+            College of Computer Studies now on its 38th year of service for the
             Lasallian community. Developing members to become competent and
             well-rounded Lasallians who are aware of the numerous advances in
             computer technology.
@@ -242,6 +241,15 @@ export default {
   components: {
     Particles,
     EventsCarousel,
+  },
+
+  metaInfo: {
+    meta: [
+      {
+        name: 'description',
+        content: 'La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 38th year of service for the Lasallian community. Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.'
+      }
+    ]
   },
 
   data() {
