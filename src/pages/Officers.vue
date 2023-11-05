@@ -76,7 +76,7 @@
           <div class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-L.png"
+              src="~/assets/img/CORE_23-24/EVP-L.png"
             />
             <div class="name">
               Joshua Tipon
@@ -214,6 +214,17 @@
                   :key="index"
                   class="column officer"
                 >
+                  <div v-if="officer.vpImg">
+                    <g-image
+                      class="ui image centered"
+                      :src="
+                        require(`~/assets/img/EB_23-24/${officer.vpImg}.png`)
+                      "
+                      :style="{
+                        width: '200px',
+                      }"
+                    />
+                  </div>
                   <div class="name">
                     {{ officer.position }} <br />
                     for {{ officer.committee }}
@@ -443,12 +454,32 @@ export default {
           {
             position: 'Vice President',
             committee: 'Membership and Training',
-            names: [''],
+            names: ['Aira Jin Garganera'],
+            vpImg: 'L-VP-MAT',
           },
           {
             position: 'Vice President',
             committee: 'Publicity and Creatives',
-            names: [''],
+            names: ['Mauries Lopez'],
+            vpImg: 'L-VP-PUBS',
+          },
+          {
+            position: 'Vice President',
+            committee: 'Academics',
+            names: ['Gabriel Paulo Rayo'],
+            vpImg: 'L-VP-ACADS',
+          },
+          {
+            position: 'Vice President',
+            committee: 'Externals',
+            names: ['Kathleen Mae Romblon'],
+            vpImg: 'L-VP-EXTERNALS',
+          },
+          {
+            position: 'Vice President',
+            committee: 'Operations',
+            names: ['Johann James del Rosario'],
+            vpImg: 'L-VP-OPS',
           },
         ],
         [
