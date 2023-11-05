@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  dev:
+    build: .
+    container_name: lscswebsite_dev
+    ports:
+      - 8080:8080
+    # NOTE: Bind-mount is meant to aid in hot-reloading gridsome in the container 
+    #       if there are changes to the source code in your local file system.
+    #       For this to work in Windows, clone this project inside the file system
+    #       of the WSL2 Linux distribution you are using, preferrably Ubuntu.  
+    volumes:
+      - type: bind
+        source: ./
+        target: /lscs_website_cms
+    stdin_open: true
+    tty: true

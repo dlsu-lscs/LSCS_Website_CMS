@@ -1,0 +1,24 @@
+# Log files
+*.log
+
+# Cache
+.cache
+
+# Desktop Services Store files
+.DS_Store
+
+# Node modules
+node_modules
+
+# non-yarn lock files
+package-lock.json
+pnpm-lock.yaml
+
+# Compiled files
+dist
+src/.temp
+
+# Local env files
+.env
+.env.*
+

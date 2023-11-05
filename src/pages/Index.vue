@@ -26,7 +26,6 @@
         <div v-if="aboutUs">
           <header>
             <meta
-              http-equiv="Content-Type"
               content="text/html; charset=utf-8"
             />
             <h5 class="ui compact white header">ABOUT</h5>
@@ -34,7 +33,7 @@
           </header>
           <p>
             La Salle Computer Society is the pioneering organization in the
-            College of Computer Studies now on its 35th year of service for the
+            College of Computer Studies now on its 38th year of service for the
             Lasallian community. Developing members to become competent and
             well-rounded Lasallians who are aware of the numerous advances in
             computer technology.
@@ -137,10 +136,10 @@
           <div v-if="operation" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-O.png"
+              src="~/assets/img/CORE_23-24/EVP-OPS-ETHAN.png"
             />
             <div class="name">
-              Nathan Dominick Ngo
+              Ethan Angelo Yu
             </div>
             <div class="description">
               Executive Vice President for Operations
@@ -151,10 +150,10 @@
           <div v-if="internal" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-I.png"
+              src="~/assets/img/CORE_23-24/EVP-INTERNALS-VINNIE.png"
             />
             <div class="name">
-              Gabriel Angelo Gerardino
+              Rey Vincent Inocencio
             </div>
             <div class="description">
               Executive Vice President for Internals
@@ -165,10 +164,10 @@
           <div v-if="president" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/President.png"
+              src="~/assets/img/CORE_23-24/PRESIDENT-MISHI.png"
             />
             <div class="name">
-              Hannah Regine Fong
+              Janina Mishi Bacay 
             </div>
             <div class="description">
               President
@@ -179,10 +178,10 @@
           <div v-if="external" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-E.png"
+              src="~/assets/img/CORE_23-24/EVP-EXTERNALS-JACK.png"
             />
             <div class="name">
-              Criscela Ysabelle Racelis
+              Jack Elinzano
             </div>
             <div class="description">
               Executive Vice President for Externals
@@ -193,10 +192,10 @@
           <div v-if="laguna" class="column officer">
             <g-image
               class="ui image centered"
-              src="~/assets/img/CORE_22-23/EVP-L.png"
+              src="~/assets/img/CORE_23-24/EVP-L.png"
             />
             <div class="name">
-              Leon Pavino
+              Joshua Tipon
             </div>
             <div class="description">
               Executive Vice President for Laguna Campus
@@ -242,6 +241,15 @@ export default {
   components: {
     Particles,
     EventsCarousel,
+  },
+
+  metaInfo: {
+    meta: [
+      {
+        name: 'description',
+        content: 'La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 38th year of service for the Lasallian community. Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.'
+      }
+    ]
   },
 
   data() {
