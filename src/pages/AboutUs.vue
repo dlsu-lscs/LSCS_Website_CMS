@@ -142,8 +142,9 @@
         </div>
         <div class="four wide column">
           <g-image
-            src="https://www.dlsu.edu.ph/wp-content/uploads/2018/02/CCS-logo.jpg"
+            src="~/assets/img/icons/ccs_logo.jpg"
             width="220"
+            height="220"
             alt="image_1"
             class="ui image"
           />
