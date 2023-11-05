@@ -7,7 +7,7 @@
       </h3>
       <p class="information">
         La Salle Computer Society is the pioneering organization in the College
-        of Computer Studies now on its 35th year of service for the Lasallian
+        of Computer Studies now on its 38th year of service for the Lasallian
         community. Developing members to become competent and well-rounded
         Lasallians who are aware of the numerous advances in computer
         technology.
