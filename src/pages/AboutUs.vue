@@ -197,38 +197,12 @@
       >
         <div class="column">
           <g-image
-            src="~/assets/img/sponsors/MSI_Black.png"
-            alt="MSI"
-            class="ui left image"
-            width="200"
-          />
-        </div>
-        <div class="column">
-          <g-image
             src="~/assets/img/sponsors/Accenture.png"
             alt="Accenture"
             class="ui left image"
             width="300"
           />
         </div>
-        <div class="column">
-          <g-image
-            src="~/assets/img/sponsors/clinkit-logo-horiontal-lightbg-sm.png"
-            alt="ClinkIT"
-            class="ui left image"
-            width="300"
-          />
-        </div>
-
-        <div class="column">
-          <g-image
-            src="~/assets/img/sponsors/o&b.png"
-            alt="Orange&amp;Bronze"
-            class="ui left image"
-            width="300"
-          />
-        </div>
-
         <div class="column">
           <g-image
             src="~/assets/img/sponsors/sevenseven.png"
