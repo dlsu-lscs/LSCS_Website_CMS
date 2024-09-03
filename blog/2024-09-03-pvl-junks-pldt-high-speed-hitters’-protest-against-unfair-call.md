@@ -2,7 +2,7 @@
 title: "PVL Junks PLDT High Speed Hitters’ Protest against Unfair Call. "
 subtitle: " "
 featuredImage: /uploads/pvl-2.jpg
-author: "By: Chinyere Cabas"
+author: Chinyere Cabas
 date: 2024-09-03T17:17:19.382Z
 edit: 2024-09-03T17:17:19.390Z
 ---
