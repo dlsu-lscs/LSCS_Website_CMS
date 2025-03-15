@@ -246,7 +246,6 @@ export default {
           avp: [
             'Nicolas Miguel T. Ching',
             'Ana Gabrielle Luis D. Casas',
-            'Hector Francis Seigmund Desamito',
             'Villagarcia, Wilbert Shawn, G.',
             'Policarpio, Joshua Emmanuel',
             'Ronald Dawson R. Catignas',
