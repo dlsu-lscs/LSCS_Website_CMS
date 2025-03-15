@@ -19,15 +19,13 @@
         v-waypoint="{
           active: true,
           callback: aboutUsTrigger,
-          options: intersectionOptions,
+          options: intersectionOptions
         }"
       ></div>
       <transition name="fade-up-2000ms">
         <div v-if="aboutUs">
           <header>
-            <meta
-              content="text/html; charset=utf-8"
-            />
+            <meta content="text/html; charset=utf-8" />
             <h5 class="ui compact white header">ABOUT</h5>
             <h3 class="ui compact lscs_yellow header">LSCS</h3>
           </header>
@@ -59,7 +57,7 @@
         v-waypoint="{
           active: true,
           callback: blogsTrigger,
-          options: intersectionOptions,
+          options: intersectionOptions
         }"
       ></div>
       <div>
@@ -119,7 +117,7 @@
         v-waypoint="{
           active: true,
           callback: officersTrigger,
-          options: intersectionOptions,
+          options: intersectionOptions
         }"
       ></div>
       <h3 class="ui centered lscs_blue header">
@@ -131,74 +129,64 @@
                 - Change arrangement to Operations, Internals, President, Externals, Laguna
                 - Add CORE Photos
             -->
-      <div class="ui five column stackable grid">
+      <div class="ui four column stackable grid">
         <transition name="fade-up-1750ms">
           <div v-if="operation" class="column officer">
-            <g-image
-              class="ui image centered"
-              src="~/assets/img/CORE_23-24/EVP-OPS-ETHAN.png"
+            <img
+              src="https://i.imgur.com/tsH1G0y.jpg"
+              alt="President"
+              class="box"
             />
             <div class="name">
-              Ethan Angelo Yu
+              Roger Canayon
             </div>
-            <div class="description">
+            <div class="position">
               Executive Vice President for Operations
             </div>
           </div>
         </transition>
         <transition name="fade-up-1250ms">
           <div v-if="internal" class="column officer">
-            <g-image
-              class="ui image centered"
-              src="~/assets/img/CORE_23-24/EVP-INTERNALS-VINNIE.png"
+            <img
+              src="https://i.imgur.com/9KOgX2o.jpg"
+              alt="President"
+              class="box"
             />
             <div class="name">
-              Rey Vincent Inocencio
+              Andrea Eliza Duliin
             </div>
-            <div class="description">
+            <div class="position">
               Executive Vice President for Internals
             </div>
           </div>
         </transition>
         <transition name="fade-up-1000ms">
           <div v-if="president" class="column officer">
-            <g-image
-              class="ui image centered"
-              src="~/assets/img/CORE_23-24/PRESIDENT-MISHI.png"
+            <img
+              src="https://i.imgur.com/kNh1SiL.jpg"
+              alt="President"
+              class="box"
             />
             <div class="name">
-              Janina Mishi Bacay 
+              Ma. China Ortiz
             </div>
-            <div class="description">
+            <div class="position">
               President
             </div>
           </div>
         </transition>
         <transition name="fade-up-1500ms">
           <div v-if="external" class="column officer">
-            <g-image
-              class="ui image centered"
-              src="~/assets/img/CORE_23-24/EVP-EXTERNALS-JACK.png"
+            <img
+              src="https://i.imgur.com/obAMdb1.jpg"
+              alt="President"
+              class="box"
             />
             <div class="name">
-              Jack Elinzano
+              Gabrielle Mae Arco
             </div>
-            <div class="description">
+            <div class="position">
               Executive Vice President for Externals
-            </div>
-          </div>
-        </transition>
-        <transition name="fade-up-2000ms">
-          <div v-if="laguna" class="column officer">
-            <g-image
-              class="ui image centered"
-              src="~/assets/img/CORE_23-24/EVP-L.png"
-            />
-            <div class="name">
-              Joshua Tipon
-            </div>
-            <div class="description">
-              Executive Vice President for Laguna Campus
             </div>
           </div>
         </transition>
@@ -232,22 +220,23 @@ query Blogs {
 </page-query>
 
 <script>
-import '~/assets/css/index/welcome.css';
+import '~/assets/css/index/welcome.css'
 
-import Particles from '../components/particles';
-import EventsCarousel from '../components/events-carousel';
+import Particles from '../components/particles'
+import EventsCarousel from '../components/events-carousel'
 
 export default {
   components: {
     Particles,
-    EventsCarousel,
+    EventsCarousel
   },
 
   metaInfo: {
     meta: [
       {
         name: 'description',
-        content: 'La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 38th year of service for the Lasallian community. Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.'
+        content:
+          'La Salle Computer Society is the pioneering organization in the College of Computer Studies now on its 38th year of service for the Lasallian community. Developing members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.'
       }
     ]
   },
@@ -264,31 +253,31 @@ export default {
       intersectionOptions: {
         root: null,
         rootMargin: '0px 0px 0px 0px',
-        threshold: [0.25, 0.75], // [0.25, 0.75] if you want a 25% offset!
+        threshold: [0.25, 0.75] // [0.25, 0.75] if you want a 25% offset!
       },
       events: [
         {
           name: 'Event 1',
-          url: require('@/assets/img/events/1.jpg'),
+          url: require('@/assets/img/events/1.jpg')
         },
         {
           name: 'Event 2',
-          url: require('@/assets/img/events/2.jpg'),
+          url: require('@/assets/img/events/2.jpg')
         },
         {
           name: 'Event 3',
-          url: require('@/assets/img/events/3.jpg'),
+          url: require('@/assets/img/events/3.jpg')
         },
         {
           name: 'Event 4',
-          url: require('@/assets/img/events/4.jpg'),
+          url: require('@/assets/img/events/4.jpg')
         },
         {
           name: 'Event 5',
-          url: require('@/assets/img/events/5.png'),
-        },
-      ],
-    };
+          url: require('@/assets/img/events/5.png')
+        }
+      ]
+    }
   },
 
   methods: {
@@ -297,7 +286,7 @@ export default {
         going === this.$waypointMap.GOING_IN &&
         direction === this.$waypointMap.DIRECTION_TOP
       ) {
-        this.aboutUs = true;
+        this.aboutUs = true
       }
     },
 
@@ -306,7 +295,7 @@ export default {
         going === this.$waypointMap.GOING_IN &&
         direction === this.$waypointMap.DIRECTION_TOP
       ) {
-        this.blogs = true;
+        this.blogs = true
       }
     },
 
@@ -315,15 +304,15 @@ export default {
         going === this.$waypointMap.GOING_IN &&
         direction === this.$waypointMap.DIRECTION_TOP
       ) {
-        this.president = true;
-        this.external = true;
-        this.internal = true;
-        this.operation = true;
-        this.laguna = true;
+        this.president = true
+        this.external = true
+        this.internal = true
+        this.operation = true
+        this.laguna = true
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -372,5 +361,12 @@ export default {
     opacity: 1;
     transform: translateY(0);
   }
+}
+.box {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 0px;
 }
 </style>
